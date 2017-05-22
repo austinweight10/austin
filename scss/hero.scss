@@ -1,0 +1,107 @@
+.AW__hero {
+	position: relative;
+	width: calc(100% + 20px);
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin: -10px;
+	background: $lightGrey;
+	background-image: linear-gradient($lightGrey, $darkBlue);
+
+	// need to fix alignment of overlays as no equal with /
+
+	// make sure developer and designer have slight aniamtion at all times -- via css
+	// glitch for developer
+	// color change designer
+
+	.AW__hero__designer-overlay {
+		position: absolute;
+		transform: rotate(293deg);
+		left: -3151px;
+		width: 4000px;
+		height: 2000px;
+		opacity: 0;
+		transition: 0.7s;
+		&.AW__hero__designer-overlay--active {
+			opacity: 0.8;
+			-webkit-filter: blur(1px) brightness(1.3) contrast(1.6);
+			//drop-shadow(1px 1px 20px black) grayscale(0.1) hue-rotate(120deg) saturate(4.8) sepia(0.5)
+			// filter: url(); // code change num codepen
+			filter: blur(5px);
+			background: blue;
+			transition: 0.7s;
+			z-index: $top;
+		}
+	}
+	.AW__hero__developer-overlay {
+		position: absolute;
+		transform: rotate(203deg);
+		left: 107px;
+		width: 4000px;
+		height: 2000px;
+		top: -146px;
+		opacity: 0;
+		transition: 0.7s;
+		&.AW__hero__developer-overlay--active {
+			opacity: 0.8;
+			filter: url(); // scetch
+			background: red;
+			transition: 0.7s;
+			z-index: $top;
+		}
+	}
+	canvas {
+		display: none;
+	}
+	h1 {
+		padding: 40px;
+		position: relative;
+		align-self: center;
+		width: 100%;
+		color: white;
+		text-transform: none;
+		font-weight: 500;
+		font-family: $sansSerfifStyle;
+	}
+	.AW__hero__designer {
+		font-weight: 200;
+		border-bottom: 1px solid $darkBlue;
+		text-transform: capitalize;
+		font-variant-ligatures: common-ligatures;
+		font-family: $serifStyle;
+		&.AW__hero__designer--active {
+			filter: url(); // scetch
+			z-index: $sky;
+			position: relative;
+		}
+	}
+	.AW__hero__front-end {
+		font-weight: 500;
+		border-bottom: 1px solid $darkBlue;
+		text-transform: uppercase;
+		font-size: 30px;
+		font-family: $sansSerfifStyle;
+		letter-spacing: 1.6px;
+		&.AW__hero__front-end--active {
+			filter: url(); // code change num codepen
+			z-index: $sky;
+			position: relative;
+		}
+	}
+	.AW__hero__show-me-cool {
+		display: none;
+		span {
+			font-size: 16px;
+			margin-top: 70px;
+			position: relative;
+			display: inline-block;
+		}
+		a {
+			font-size: 16px;
+			position: relative;
+			display: inline-block;
+		}
+	}
+}

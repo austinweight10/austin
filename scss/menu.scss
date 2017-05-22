@@ -1,0 +1,67 @@
+.AW__head {
+	transition: 1s;
+    position: fixed;
+    left: 40px;
+    top: 0;
+    background: $darkBlue;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	width: 135px;
+	z-index: $top;
+	box-shadow: 4px 4px 11px rgba(75, 49, 49, 0.41);
+	img {
+		align-self: center;
+		padding-top: 20px;
+	}
+	ul {
+		padding: 0px;
+		li {
+			list-style: none;
+			text-align: center;
+			padding: 5px 0;
+			span {
+				font-size: 14px;
+				color: $white;
+				text-transform: uppercase;
+				letter-spacing: 2px;
+				cursor: pointer;
+				transition: 0.7s;
+				border-bottom: 1px solid $lightGrey;
+				&:hover {
+					color: $lightGrey;
+					transition: 0.5s;
+					border-bottom: 1px solid $darkBlue;
+				}
+			}
+		}
+	}
+	.AW__head__logo {
+		// need to animate open
+
+	}
+
+	// when hidden
+	&.AW__head--hidden {
+		margin-top: -150px;
+		transition: 1s;
+		margin-bottom: 30px;
+		&:after {
+			content: 'open menu';
+			position: absolute;
+			bottom: -23px;
+			color: white;
+			text-align: center;
+			left: calc(50% - 29px);
+			font-size: 13px;
+			letter-spacing: 1px;
+			cursor: pointer;
+		}
+		.AW__head__logo {
+			// need to animate close
+
+		}
+	}
+}

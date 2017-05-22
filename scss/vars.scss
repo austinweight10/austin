@@ -1,0 +1,105 @@
+// use colors and styling form cv
+
+// colours
+$green: green;
+$darkBlue: #1a1a2b;
+$white: white;
+$lightGrey: #939393;
+$orange: #ff3b00;
+$red: #ff3d53;
+
+$project1: #939393;
+$project2: #939393;
+$project3: #939393;
+$project4: #939393;
+$project5: #939393;
+$project6: #939393;
+$project7: #939393;
+$project8: #939393;
+
+// z-index
+$sky: 2000;
+$top: 1000;
+$middle: 100;
+$bottom: 1;
+$underground: -10;
+
+$mianBody: 'EB Garamond', monospace;
+$serifStyle: 'Playfair Display', serif;
+$sansSerfifStyle: 'Sansita', sans-serif;
+
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: $mianBody;
+	color: #edecf2;
+	background: $darkBlue;
+    font-weight: 200!important;
+}
+
+a {
+	text-decoration: none;
+	color: $red;
+	outline: none;
+	transition: color 0.2s;
+}
+
+a:hover,
+a:focus {
+	color: $white;
+}
+
+h1, h2, h3, h4 {
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+h1 {
+	// create responcise font size & line height
+	// never smaller than 25px
+	letter-spacing: 1.2px;
+	font-family: $sansSerfifStyle;
+}
+
+h2 {
+	font-size: 25px;
+	line-height: 25px;
+	letter-spacing: 2.4px;
+	text-align: center;
+	font-family: $sansSerfifStyle;
+}
+
+h3 {
+	font-size: 20px;
+	line-height: 23px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-family: $sansSerfifStyle;
+	text-transform: none;
+}
+
+h4 {
+	font-size: 15px;
+	line-height: 17px;
+	letter-spacing: 1.6px;
+	font-family: $sansSerfifStyle;
+}
+
+p {
+	font-size: 14px;
+	line-height: 17px;
+	color: white;
+	margin: 0;
+	letter-spacing: 1px;
+	font-family: $mianBody;
+}
+
+span {
+	letter-spacing: 1px;
+	font-family: $mianBody;
+}

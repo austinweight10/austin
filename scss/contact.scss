@@ -1,0 +1,28 @@
+.AW__contact {
+	bottom: 10px;
+    height: 100px;
+    background: $orange;
+    position: fixed;
+    margin: 0 -10px -10px -10px;
+    width: calc(100% + 20px);
+	z-index: $underground;
+	.AW__contact__det {
+		padding: 20px;
+		display: flex;
+	    width: 100%;
+	    justify-content: center;
+		flex-wrap: wrap;
+		span {
+			display: block;
+			width: 100%;
+			text-align: center;
+		}
+	}
+	.AW__contact__social {
+		a {
+			img {
+
+			}
+		}
+	}
+}

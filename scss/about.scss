@@ -1,0 +1,108 @@
+.AW__about {
+	width: calc(100% + 20px);
+    margin: 0 -10px 200px;
+	background: $darkBlue;
+	.AW__about__title {
+		h2 {
+			margin: auto;
+			width: 100%;
+			padding: 35px 0 5px;
+		}
+		div {
+			text-align: center;
+		}
+	}
+	.AW__about__title__read-more {
+		text-align: center;
+	    margin: auto;
+	    width: 100%;
+	    display: block;
+		padding: 20px 10px 30px 10px;
+	}
+	.AW__about__clients {
+		display: none;
+		div {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			width: 100%;
+			img {
+				z-index: $sky;
+				transition: 0.5s;
+				flex-basis: 14%;
+				height: 70px;
+				opacity: 1;
+				flex-grow: 9;
+				flex-shrink: 3;
+				// add keyframe to rotate
+				&.client--open {
+					flex-basis: 25%;
+					height: 100px;
+					opacity: 0;
+					transition: 0.5s;
+				}
+			}
+			span {
+				margin-left: -20%;
+				width: 20%;
+				opacity: 0;
+				transition: 0.5s;
+				text-align: center;
+				&.client--open--text {
+					width: 20%;
+					opacity: 1;
+					transition: 0.5s;
+				}
+			}
+		}
+	}
+	.AW__about__about {
+		display: none;
+		padding-top: 35px;
+		h3 {
+
+		}
+		p {
+			margin: 20px 40px;
+			text-align: center;
+		}
+		.AW__about__about__skills {
+			margin: 0 40px;
+			text-align: center;
+			padding-top: 25px;
+			label {
+				font-size: 16px;
+				line-height: 16px;
+				letter-spacing: 1.6px;
+				text-align: center;
+				font-family: $sansSerfifStyle;
+			}
+			li {
+				list-style: none;
+				padding: 5px 0;
+				text-align: left;
+				span {
+					margin-top: 5px;
+					width: 0%;
+					transition: 4s;
+					position: relative;
+    				display: flex;
+					background: $white;
+				}
+			}
+		}
+		.AW__about__about__cv {
+			text-align: center;
+			padding: 10px 10px 30px 10px;
+		}
+	}
+	// about visable
+	&.AW__about--open{
+		.AW__about__clients {
+			display: block;
+		}
+		.AW__about__about {
+			display: block;
+		}
+	}
+}

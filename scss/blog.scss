@@ -1,0 +1,38 @@
+.AW__blog {
+	background: $lightGrey;
+	margin: 0 -10px;
+	padding: 20px 0;
+	margin-bottom: 100px;
+	.AW__blog__cont {
+		display: flex;
+		flex-wrap: wrap;
+		.AW__blog__cont__blogPost {
+			flex: 1 2;
+			margin: 10px;
+			p {
+				display: none;
+			}
+			img {
+				display: none;
+			}
+			span {
+				text-align: center;
+				display: block;
+				width: 100%;
+			}
+			&.AW__blog__cont__blogPost--open {
+				flex-basis: 100%;
+				p {
+					display: block;
+					padding: 20px 40px;
+				}
+				img {
+					display: block;
+				}
+				span {
+					display: none;
+				}
+			}
+		}
+	}
+}
