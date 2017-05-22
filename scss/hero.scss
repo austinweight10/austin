@@ -8,7 +8,7 @@
 	justify-content: center;
 	margin: -10px;
 	background: $lightGrey;
-	background-image: linear-gradient($lightGrey, $darkBlue);
+	background-image: linear-gradient($veryLightGreen, $white);
 
 	// need to fix alignment of overlays as no equal with /
 
@@ -60,7 +60,7 @@
 		position: relative;
 		align-self: center;
 		width: 100%;
-		color: white;
+		color: $dark;
 		text-transform: none;
 		font-weight: 500;
 		font-family: $sansSerfifStyle;
@@ -68,9 +68,10 @@
 	.AW__hero__designer {
 		font-weight: 200;
 		border-bottom: 1px solid $darkBlue;
-		text-transform: capitalize;
+		text-transform: uppercase;
 		font-variant-ligatures: common-ligatures;
 		font-family: $serifStyle;
+		font-size: 28px;
 		&.AW__hero__designer--active {
 			filter: url(); // scetch
 			z-index: $sky;

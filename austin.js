@@ -215,22 +215,28 @@
             }
         };
 
+        var logo = $(".AW__head__logo");
+
         this.coolLogo = function() {
             if ($(window).width() >= 768) {
                 $(window).on("scroll", function() {
                     AWHead.addClass("AW__head--hidden");
+                    logo.removeClass("AW__head__logo-open");
                     var scrollTop = documentJQ.scrollTop();
                     if (scrollTop === 0 || scrollTop < 0) {
                         AWHead.removeClass("AW__head--hidden");
+                        logo.addClass("AW__head__logo-open");
                     }
                 });
             } else {
                 AWHead.addClass("AW__head--hidden");
+                logo.removeClass("AW__head__logo-open");
             }
 
             AWHead.on("click", function() {
                 if (AWHead.hasClass("AW__head--hidden")) {
                     AWHead.removeClass("AW__head--hidden");
+                    logo.addClass("AW__head__logo-open");
                 }
             });
         };

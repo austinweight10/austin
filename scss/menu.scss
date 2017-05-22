@@ -3,7 +3,7 @@
     position: fixed;
     left: 40px;
     top: 0;
-    background: $darkBlue;
+    background: $white;
 	display: flex;
 	align-content: center;
 	justify-content: center;
@@ -15,6 +15,8 @@
 	img {
 		align-self: center;
 		padding-top: 20px;
+		width: 100px;
+		height: auto;
 	}
 	ul {
 		padding: 0px;
@@ -24,35 +26,60 @@
 			padding: 5px 0;
 			span {
 				font-size: 14px;
-				color: $white;
+				color: $dark;
 				text-transform: uppercase;
 				letter-spacing: 2px;
 				cursor: pointer;
 				transition: 0.7s;
 				border-bottom: 1px solid $lightGrey;
 				&:hover {
-					color: $lightGrey;
+					color: $darkBlue;
 					transition: 0.5s;
 					border-bottom: 1px solid $darkBlue;
 				}
 			}
 		}
 	}
-	.AW__head__logo {
+	.AW__head__logo-open {
 		// need to animate open
+		-webkit-animation-name: spinner;
+		-webkit-animation-timing-function: linear;
+		-webkit-animation-iteration-count: 1;
+		-webkit-animation-duration: 0.7s;
 
+		animation-name: spinner;
+		animation-timing-function: linear;
+		animation-iteration-count: 1;
+		animation-duration: 0.7s;
+
+		-webkit-transform-style: preserve-3d;
+		-moz-transform-style: preserve-3d;
+		-ms-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+		@keyframes spinner {
+	    from {
+	      -moz-transform: rotateY(270deg);
+	      -ms-transform: rotateY(270deg);
+	      transform: rotateY(270deg);
+	    }
+	    to {
+	      -moz-transform: rotateY(360deg);
+	      -ms-transform: rotateY(360deg);
+	      transform: rotateY(360deg);
+	    }
+		}
 	}
 
 	// when hidden
 	&.AW__head--hidden {
-		margin-top: -150px;
+		margin-top: -210px;
 		transition: 1s;
 		margin-bottom: 30px;
 		&:after {
 			content: 'open menu';
 			position: absolute;
 			bottom: -23px;
-			color: white;
+			color: $dark;
 			text-align: center;
 			left: calc(50% - 29px);
 			font-size: 13px;

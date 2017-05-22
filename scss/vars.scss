@@ -3,12 +3,14 @@
 // colours
 $green: green;
 $darkBlue: #1a1a2b;
-$white: white;
+$white: #ffffff;
 $lightGrey: #939393;
 $orange: #ff3b00;
 $red: #ff3d53;
-
-// hello
+$lighterGrey: #dedede;
+$dark: #00234a;
+$veryLightGreen: #deedeb;
+$lightishGrey: #4c4c4c;
 
 $project1: #939345;
 $project2: #939393;
@@ -26,7 +28,7 @@ $middle: 100;
 $bottom: 1;
 $underground: -10;
 
-$mianBody: 'EB Garamond', monospace;
+$mianBody: 'Open Sans', sans-serif;
 $serifStyle: 'Playfair Display', serif;
 $sansSerfifStyle: 'Sansita', sans-serif;
 
@@ -99,9 +101,14 @@ p {
 	margin: 0;
 	letter-spacing: 1px;
 	font-family: $mianBody;
+	widows: 3;
+	orphans: 3;
+	color: $lightishGrey;
+	font-weight: bold;
 }
 
 span {
 	letter-spacing: 1px;
 	font-family: $mianBody;
+	font-weight: bold;
 }
