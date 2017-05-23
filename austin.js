@@ -4,7 +4,7 @@
 
 (function() {
     function AW() {
-        var windowURL = window.location.href;
+        var windowURL = window.location.href; // need to remove the file
         // main data
         // need mamp for loading images aswell
         var AWprojectDat = [
@@ -182,8 +182,8 @@
 
         // resuseable scroll function
         var scrollNicly = function(select) {
-            var selector = select,
-                topScroll = selector.offset().top;
+            var selector = select;
+            var topScroll = selector.offset().top;
             $(document.body).animate({
                 'scrollTop': topScroll
             }, 1000);
@@ -191,33 +191,38 @@
 
         // show something interesting if visited
         // need to set up mamp and then can do browser sync
-        this.coockie = function() {
-            var setCookie = Cookies.get('beenHere');
-            if (setCookie === undefined) {
-                Cookies.set('beenHere', 'Yes', { expires: 7, path: '' });
-            } else {
-                AWHeroShowMeCool.css("display", "block");
-                var link = "",
-                    href = ""; // set to link ending i.e grid__item--c1
-                $(".grid__item--c1, .grid__item--c2, .grid__item--c3, .grid__item--c4, .grid__item--c5, .grid__item--c6, .grid__item--c7, .grid__item--c8").on("click", function() {
-                    var that = $(this);
-                    Cookies.set(that, that, { expires: 7, path: '' });
-                })
-                var cookies = Cookies.get(),
-                    selectors = ''; // this needs to be clicked slectors filter out chosen might be better with for loop
-                if (cookies === "") {
-                    link = windowURL + ""; // grid__item--c1
-                }
-                AWHeroShowMeCool.find("a").attr("href", link);
-                AWHeroShowMeCool.trigger("click");
-                // add nice scroll use other function
-                scrollNicly(link);
-            }
-        };
+        // this.coockie = function() {
+        //     var setCookie = Cookies.get('beenHere');
+        //     if (setCookie === undefined) {
+        //         Cookies.set('beenHere', 'Yes', { expires: 7, path: '' });
+        //     } else {
+        //         AWHeroShowMeCool.css("display", "block");
+        //         var link = "",
+        //             href = ""; // set to link ending i.e grid__item--c1
+        //         $(".grid__item--c1, .grid__item--c2, .grid__item--c3, .grid__item--c4, .grid__item--c5, .grid__item--c6, .grid__item--c7, .grid__item--c8").on("click", function() {
+        //             var that = $(this);
+        //             Cookies.set(that, that, { expires: 7, path: '' });
+        //         })
+        //         var cookies = Cookies.get(),
+        //             selectors = ''; // this needs to be clicked slectors filter out chosen might be better with for loop
+        //         if (cookies === "") {
+        //             link = windowURL + ""; // grid__item--c1
+        //         }
+        //         AWHeroShowMeCool.find("a").attr("href", link);
+        //         AWHeroShowMeCool.trigger("click");
+        //         // add nice scroll use other function
+        //         scrollNicly(link);
+        //     }
+        // };
 
         var logo = $(".AW__head__logo");
 
         this.coolLogo = function() {
+            logo.attr('src', windowURL + '/images/logo/AustinWeightLOGO-1.gif');
+            logo.on('hover', function() {
+                // hover gif
+                logo.attr('src', windowURL + '/images/logo/AustinWeightLOGO-1.gif');
+            });
             if ($(window).width() >= 768) {
                 $(window).on("scroll", function() {
                     AWHead.addClass("AW__head--hidden");
@@ -500,7 +505,7 @@
     }
 
     var austiin = new AW();
-    austiin.coockie();
+    // austiin.coockie();
     austiin.coolLogo();
     austiin.niceScroll();
     austiin.hero();
