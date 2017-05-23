@@ -4,7 +4,9 @@
 
 (function() {
     function AW() {
-        var windowURL = window.location.href; // need to remove the file
+
+      var url = document.URL,
+          windowURL = url.substring(0,url.lastIndexOf("/"));
         // main data
         // need mamp for loading images aswell
         var AWprojectDat = [
@@ -219,10 +221,16 @@
 
         this.coolLogo = function() {
             logo.attr('src', windowURL + '/images/logo/AustinWeightLOGO-1.gif');
-            logo.on('hover', function() {
-                // hover gif
-                logo.attr('src', windowURL + '/images/logo/AustinWeightLOGO-1.gif');
-            });
+            $('.AW__head').mouseenter(
+              function() {
+                logo.attr('src', windowURL + '/images/logo/AustinWeightLogo.gif')
+              }
+            ).mouseleave(
+              function() {
+                logo.attr('src', windowURL + '/images/logo/AustinWeightLOGO-1.gif')
+              }
+            );
+
             if ($(window).width() >= 768) {
                 $(window).on("scroll", function() {
                     AWHead.addClass("AW__head--hidden");

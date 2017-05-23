@@ -47,6 +47,13 @@ things to do prior to go live
                 <div class="AW__hero__designer-overlay"></div>
                 <div class="AW__hero__developer-overlay"></div>
                 <!-- content for spinning logo -->
+
+                <div class="AW__hero__main-logo">
+                    <img alt="background" src="/images/1.png" width="30px" style="width: 30px !important"/>
+                    <img alt="ui" src="/images/2.png" width="30px" style="width: 30px !important"/>
+                    <img alt="ui-2" src="/images/3.png" width="30px" style="width: 30px !important"/>
+                </div>
+
                 <canvas></canvas>
                 <h1>Hi there, I am Austin Weight<br>a
                     <span class="AW__hero__designer AW__hero__designer--active">designer</span> /
@@ -353,4 +360,12 @@ things to do prior to go live
     <script src="/js.cookie.js"></script>
     <script src="/anime.min.js"></script>
     <script src="/austin.js"></script>
+    <script src="/jquery.particleground.min.js"></script>
+    <link href="/perspectiveRules.css" rel="stylesheet" />
+    <script src="/jquery.logosDistort.js"></script>
+
+    <script>
+        $(".AW__hero__main-logo").logosDistort();
+    </script>
+
 </html>
