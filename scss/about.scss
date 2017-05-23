@@ -1,26 +1,40 @@
 .AW__about {
 	width: calc(100% + 20px);
-    margin: 0 -10px 200px;
-	background: $darkBlue;
+    margin: 0 -10px 100px;
+	background: $veryLightGreen;
+	box-shadow: 0px -60px 150px $veryLightGreen;
+	padding-bottom: 50px;
 	.AW__about__title {
 		h2 {
-			margin: auto;
-			width: 100%;
-			padding: 35px 0 5px;
+			width: 120px;
+			text-align: left;
+			margin: 0 0 0 15%;
+			padding: 35px 0 15px;
 		}
 		div {
 			text-align: center;
 		}
 	}
 	.AW__about__title__read-more {
-		text-align: center;
-	    margin: auto;
-	    width: 100%;
-	    display: block;
-		padding: 20px 10px 30px 10px;
+		text-align: left;
+		width: 98px;
+		margin: 0 0 0 15%;
+		padding: 20px 0px 0px 0px;
+		font-size: 14px;
+		color: $dark;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		cursor: pointer;
+		transition: 0.7s;
+		border-bottom: 1px solid $lightGrey;
 	}
 	.AW__about__clients {
 		display: none;
+		h3 {
+			width: 260px;
+		    text-align: left;
+		    margin: 20px 0 30px 15%;
+		}
 		div {
 			display: flex;
 			justify-content: center;
@@ -60,11 +74,14 @@
 		display: none;
 		padding-top: 35px;
 		h3 {
-
+			width: 160px;
+		    text-align: left;
+		    margin: 15px 0 15px 29%;
 		}
 		p {
-			margin: 20px 40px;
-			text-align: center;
+			width: 160px;
+		    text-align: left;
+		    margin: 10px 0 10px 29%;
 		}
 		.AW__about__about__skills {
 			margin: 0 40px;
@@ -88,6 +105,15 @@
 					position: relative;
     				display: flex;
 					background: $white;
+				}
+				// transforms need to finish normal create animation key frames
+				&:first-child {
+					span {
+						// transform: skew(100deg);
+					}
+				}
+				&:nth-child(2) {
+					// transform: scale(20);
 				}
 			}
 		}

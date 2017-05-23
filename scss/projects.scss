@@ -1,5 +1,5 @@
 .AW__projects {
-	background: rgba(255, 59, 0, 1);
+	background: $white;
 	// add gradiant
 	width: calc(100% + 20px);
     margin: 0 -10px;
@@ -218,13 +218,24 @@
 			overflow: hidden;
 			.grid__item-title {
 				width: 100%;
-				margin: 10px 0;
+				margin: 18px 0 15px 0;
+				font-size: 18px;
 				text-align: left;
-				color: $white;
+				font-size: 16px;
+				color: $dark;
+			}
+			p {
+				color: $dark;
+				padding-bottom: 10px;
 			}
 			span {
-				color: $white;
-				font-size: 13px;
+				font-size: 14px;
+			    color: $dark;
+			    text-transform: uppercase;
+			    letter-spacing: 2px;
+			    cursor: pointer;
+			    transition: 0.7s;
+			    border-bottom: 1px solid $lightGrey;
 			}
 		}
 	}

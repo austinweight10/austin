@@ -1,20 +1,24 @@
 .AW__project {
 	position: relative;
 	padding: 0 40px;
-	box-shadow: -2px -3px 11px black;
+	box-shadow: 0px -60px 150px $veryLightGreen;
 	margin: 10px -10px 0px -10px;
 	width: calc(100% + 20px);
-	background: $darkBlue;
+	background: $veryLightGreen;
 	.AW__project__title {
 		display: flex;
 		justify-content: center;
 		align-content: center;
 		flex-direction: column;
 		h2 {
-			margin: 35px 0 5px;
+			width: 260px;
+		    text-align: left;
+		    margin: 35px 0 5px calc(25% + 25px);
 		}
 		h3 {
-			margin: 15px 0 35px;
+			width: 60%;
+		    text-align: left;
+		    margin: 15px 0 35px calc(25% + 25px);
 		}
 	}
 	.AW__project__main-img {
@@ -45,6 +49,13 @@
 			// columns: 3;
 		}
 		.AW__project__read-more {
+			font-size: 14px;
+			color: $dark;
+			text-transform: uppercase;
+			letter-spacing: 2px;
+			cursor: pointer;
+			transition: 0.7s;
+			border-bottom: 1px solid $lightGrey;
 			margin: 10px auto;
 		}
 	}

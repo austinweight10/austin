@@ -42,7 +42,7 @@ $sansSerfifStyle: 'Sansita', sans-serif;
 body {
 	font-family: $mianBody;
 	color: #edecf2;
-	background: $darkBlue;
+	background: $white;
     font-weight: 200!important;
 }
 
@@ -61,6 +61,7 @@ a:focus {
 h1, h2, h3, h4 {
 	text-transform: uppercase;
 	text-decoration: none;
+	color: $dark;
 }
 
 h1 {
