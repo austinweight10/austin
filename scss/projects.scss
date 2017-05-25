@@ -1,3 +1,5 @@
+// make responsive
+
 .AW__projects {
 	background: $white;
 	// add gradiant
@@ -219,9 +221,9 @@
 			.grid__item-title {
 				width: 100%;
 				margin: 18px 0 15px 0;
-				font-size: 18px;
+				font-size: 20px;
 				text-align: left;
-				font-size: 16px;
+				line-height: 20px;
 				color: $dark;
 			}
 			p {

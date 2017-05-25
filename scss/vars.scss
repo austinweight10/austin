@@ -1,11 +1,8 @@
-// use colors and styling form cv
+// not sure on colour choice
 
 // colours
-$green: green;
-$darkBlue: #1a1a2b;
-$white: #ffffff;
+$white: #f2f2f2;
 $lightGrey: #939393;
-$orange: #ff3b00;
 $red: #ff3d53;
 $lighterGrey: #dedede;
 $dark: #00234a;
@@ -48,14 +45,14 @@ body {
 
 a {
 	text-decoration: none;
-	color: $red;
+	color: $dark;
 	outline: none;
 	transition: color 0.2s;
-}
-
-a:hover,
-a:focus {
-	color: $white;
+	&:hover {
+		color: $lightishGrey;
+		transition: 0.5s;
+		border-color: $lightishGrey;
+	}
 }
 
 h1, h2, h3, h4 {
@@ -65,8 +62,6 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	// create responcise font size & line height
-	// never smaller than 25px
 	letter-spacing: 1.2px;
 	font-family: $sansSerfifStyle;
 }
@@ -112,4 +107,9 @@ span {
 	letter-spacing: 1px;
 	font-family: $mianBody;
 	font-weight: bold;
+	&:hover {
+		color: $lightishGrey;
+		transition: 0.5s;
+		border-color: $lightishGrey;
+	}
 }

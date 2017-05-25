@@ -1,3 +1,5 @@
+// make responsive
+
 .AW__project {
 	position: relative;
 	padding: 0 40px;
@@ -38,27 +40,30 @@
 		position: relative;
 		width: 100%;
 		text-align: center;
-		//height: 200px;
+		height: 150px;
+		overflow: hidden;
 		// add text clamp and elipsis
 		p {
 			width: 100%;
-		    margin: 30px auto;
+		    margin: 30px auto 0;
 		    text-align: left;
 			height: auto;
 			padding: 20px 0;
+
 			// will need a media query query and styling so align at tp
 			// columns: 3;
 		}
-		.AW__project__read-more {
-			font-size: 14px;
-			color: $dark;
-			text-transform: uppercase;
-			letter-spacing: 2px;
-			cursor: pointer;
-			transition: 0.7s;
-			border-bottom: 1px solid $lightGrey;
-			margin: 10px auto;
-		}
+	}
+	.AW__project__read-more {
+		font-size: 14px;
+		color: $dark;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		cursor: pointer;
+		transition: 0.7s;
+		border-bottom: 1px solid $lightGrey;
+		margin: 20px auto 40px;
+		display: table;
 	}
 	.AW__project__images--mash {
 
@@ -69,6 +74,8 @@
 	.AW__project__images--expand {
 		img {
 			padding: 0 20px;
+			width: 33.3%;
+			height: auto;
 		}
 	}
 	.AW__project__quote {

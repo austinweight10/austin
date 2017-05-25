@@ -2,15 +2,23 @@
 
 things to do prior to go live
 
-- set up so all links look the same as menu read more and view project
-- make skills progress bars different colours and not strait
-- update all details - projects and about
-- finish main haed section - hover alignment with paint paterns in the sections add logo behing with paind splash, mouse move and smashed section
-- update c.v and upload some work react app and yawp to git and add link
+- add css json file
+
 - add doctype and clean up js
+- finish main haed section - hover alignment with paint paterns in the sections add logo behing with paind splash, mouse move and smashed section
+- update all details - projects and about - add content
+- make fully responcive no hovers on mobile and remove effects
+- and styling for projects mash maze and expand and update js accordingly
+    // V&A  homemade slider just div in div overflow-x scroll
+    // emergence image change at top of page add class visable all else hidden   some thumbs
+
+- add social links twitter/linked in/git hub
+- make skills progress bars different colours and fun (not strait)
 - and web app features - manifesto etc..
-- finish individual styling for indervidual projects
-- make fully responcive no hovers on mobile
+    // update images in contact and logso for clients and json data
+
+
+- update c.v and upload some work react app and yawp to git and this
 
 -->
 
@@ -18,18 +26,20 @@ things to do prior to go live
     <head>
         <meta charset="utf-8">
         <title>Austin Weight Designer and Front End Developer</title>
-        <style> @import "normalize.css"; </style>
+        <link href="/normalize.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-        <!-- dont use import -->
-        <style> @import "austin.min.css"; </style>
+        <link href="/perspectiveRules.css" rel="stylesheet" />
+        <link href="/austin.min.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head>
     <body>
+
         <header>
             <div class="AW__head">
-                <!-- use js to animate this -->
                 <img class="AW__head__logo" src="file:///Applications/MAMP/htdocs/wordpress/wp-content/plugins/austin/images/logo/AustinWeightLOGO-1.gif">
+
                 <div>
                     <ul>
                         <li><span class="AW__head__work">Work</span></li>
@@ -37,16 +47,16 @@ things to do prior to go live
                         <!-- <li><span class="AW__head__blog">Blog</span></li> -->
                     </ul>
                 </div>
+
             </div>
         </header>
+
         <main>
             <!-- main content-->
-            <!-- add a background image which chnages with a nice filter prehaps colour overlay -->
             <div class="AW__hero">
-                <!-- at 600px font needs to shrink or remove hover no one can hover on mobile -->
+
                 <div class="AW__hero__designer-overlay"></div>
                 <div class="AW__hero__developer-overlay"></div>
-                <!-- content for spinning logo -->
 
                 <div class="AW__hero__main-logo">
                     <img alt="background" src="/images/1.png" width="30px" style="width: 30px !important"/>
@@ -54,33 +64,31 @@ things to do prior to go live
                     <img alt="ui-2" src="/images/3.png" width="30px" style="width: 30px !important"/>
                 </div>
 
-                <canvas></canvas>
                 <h1>Hi there, I am Austin Weight<br>a
                     <span class="AW__hero__designer AW__hero__designer--active">designer</span> /
                     <span class="AW__hero__front-end AW__hero__front-end--active">front end developer.</span> <br>I live and work in london.
+                    <!-- add cookie welcome back -->
                     <!-- <div class="AW__hero__show-me-cool">
                         <span>now you have seen all the boring stuff let me show you something cool <a href="#">show me</a></span>
                     </div> -->
                 </h1>
+
                 <!-- not sure if want a help section? -->
                 <!-- <p>what do you want to know?</p>
                 <span>what exactly I do?<span>
                 <span>How I can be creative?<span>
                 <span>what kind of code I write?</span> -->
 
-                <!-- add cookie welcome back --  now you have seen all the boring stuff let me show you something cool -->
             </div>
         </main>
 
-        <!-- V&A  homemade slider just div in div overflow-x scroll-->
-        <!-- emergence image change at top of page add class visable all else hidden   some thumbs -->
-        <!-- projects -->
-
         <section id="AW__projects" class="content AW__projects">
+
+            <!-- projects -->
             <div class="AW__projects__title">
                 <h2>Selected Projects</h2>
             </div>
-            <!-- when click on project Ajax in and scroll up to give sneak preview -->
+
             <div class="grid grid--effect-rigel">
                 <a class="grid__item grid__item--c1 AW__projects__thumb">
                     <div class="stack">
@@ -219,20 +227,20 @@ things to do prior to go live
                 </a>
 
             </div>
-
         </section>
 
-        <!-- all hidden until want to know about me  -->
         <aside>
             <div id="AW__about" class="AW__about">
+
                 <div class="AW__about__title">
                     <h2>About</h2>
                     <span class="AW__about__title__read-more">read more</span>
                 </div>
+
                 <div class="AW__about__clients">
                     <h3>Clients I have been lucky enought to work with:</h3>
                     <div>
-                        <!-- prehaps do as svg -->
+                        <!-- add images and info -->
                         <img src=""><span>info about</span>
                         <img src=""><span>info about</span>
                         <img src=""><span>info about</span>
@@ -253,16 +261,15 @@ things to do prior to go live
                 </div>
                 <div class="AW__about__about">
                     <h3>About Me</h3>
-                    <p>a bit about me ...</p>
+                    <p>a bit about me ... magento, wordpress, woocommerce, php, mysqtl, HTML email, </p>
                     <div class="AW__about__about__skills">
-                        <!-- cool graph of skills -->
                         <label>Practical Skills</label>
                         <ul>
-                            <li>HTML<span>95%</span></li>
-                            <li>CSS<span>95%</span></li>
-                            <li>Javascript<span>85%</span></li>
+                            <li>HTML<span>93%</span></li>
+                            <li>CSS <span class="AW__about__about__skills__small">(SASS & LESS)</span><span>92%</span></li>
                             <li>Photoshop<span>90%</span></li>
-                            <li>Illustrator<span>90%</span></li>
+                            <li>Javascript <span class="AW__about__about__skills__small">(jQuery, React, Grunt, Gulp, webpack)</span><span>86%</span></li>
+                            <li>Illustrator<span>83%</span></li>
                             <li>InDesign<span>80%</span></li>
                         </ul>
                     </div>
@@ -333,7 +340,6 @@ things to do prior to go live
             </div> -->
         <!-- </aside> -->
 
-        <!-- Do a fixed footer that scrool to reveall -->
         <footer>
             <div class="AW__contact">
                 <div class="AW__contact__det">
@@ -356,16 +362,10 @@ things to do prior to go live
     </body>
 
     <script src="/jquery-3.2.0.min.js"></script>
-    <!-- <script src="/jqueryinview.min.js"></script> -->
     <script src="/js.cookie.js"></script>
     <script src="/anime.min.js"></script>
-    <script src="/austin.js"></script>
     <script src="/jquery.particleground.min.js"></script>
-    <link href="/perspectiveRules.css" rel="stylesheet" />
     <script src="/jquery.logosDistort.js"></script>
-
-    <script>
-        $(".AW__hero__main-logo").logosDistort();
-    </script>
+    <script src="/austin.js"></script>
 
 </html>

@@ -1,3 +1,6 @@
+// make responcive
+// need a media query that looks at heaight of the screen
+
 .AW__hero {
 	position: relative;
 	width: calc(100% + 20px);
@@ -85,7 +88,7 @@
 	}
 	.AW__hero__designer {
 		font-weight: 200;
-		border-bottom: 1px solid $darkBlue;
+		border-bottom: 1px solid $dark;
 		text-transform: uppercase;
 		font-variant-ligatures: common-ligatures;
 		font-family: $serifStyle;
@@ -98,7 +101,7 @@
 	}
 	.AW__hero__front-end {
 		font-weight: 500;
-		border-bottom: 1px solid $darkBlue;
+		border-bottom: 1px solid $dark;
 		text-transform: uppercase;
 		font-size: 30px;
 		font-family: $sansSerfifStyle;

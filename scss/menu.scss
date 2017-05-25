@@ -33,40 +33,37 @@
 				transition: 0.7s;
 				border-bottom: 1px solid $lightGrey;
 				&:hover {
-					color: $darkBlue;
+					color: $lightishGrey;
 					transition: 0.5s;
-					border-bottom: 1px solid $darkBlue;
+					border-bottom: 1px solid $lightishGrey;
 				}
 			}
 		}
 	}
 	.AW__head__logo-open {
-		// need to animate open
 		-webkit-animation-name: spinner;
 		-webkit-animation-timing-function: linear;
 		-webkit-animation-iteration-count: 1;
 		-webkit-animation-duration: 0.7s;
-
 		animation-name: spinner;
 		animation-timing-function: linear;
 		animation-iteration-count: 1;
 		animation-duration: 0.7s;
-
 		-webkit-transform-style: preserve-3d;
 		-moz-transform-style: preserve-3d;
 		-ms-transform-style: preserve-3d;
 		transform-style: preserve-3d;
 		@keyframes spinner {
-	    from {
-	      -moz-transform: rotateY(270deg);
-	      -ms-transform: rotateY(270deg);
-	      transform: rotateY(270deg);
-	    }
-	    to {
-	      -moz-transform: rotateY(360deg);
-	      -ms-transform: rotateY(360deg);
-	      transform: rotateY(360deg);
-	    }
+		    from {
+		      -moz-transform: rotateY(270deg);
+		      -ms-transform: rotateY(270deg);
+		      transform: rotateY(270deg);
+		    }
+		    to {
+		      -moz-transform: rotateY(360deg);
+		      -ms-transform: rotateY(360deg);
+		      transform: rotateY(360deg);
+		    }
 		}
 	}
 
@@ -82,13 +79,35 @@
 			color: $dark;
 			text-align: center;
 			left: calc(50% - 37px);
-    	font-size: 12px;
+    		font-size: 12px;
 			letter-spacing: 1px;
 			cursor: pointer;
 		}
 		.AW__head__logo {
-			// need to animate close
-
+			-webkit-animation-name: spinner;
+			-webkit-animation-timing-function: linear;
+			-webkit-animation-iteration-count: 1;
+			-webkit-animation-duration: 0.7s;
+			animation-name: spinner;
+			animation-timing-function: linear;
+			animation-iteration-count: 1;
+			animation-duration: 0.7s;
+			-webkit-transform-style: preserve-3d;
+			-moz-transform-style: preserve-3d;
+			-ms-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+			@keyframes spinner {
+			    from {
+			      -moz-transform: rotateY(360deg);
+			      -ms-transform: rotateY(360deg);
+			      transform: rotateY(360deg);
+			    }
+			    to {
+			      -moz-transform: rotateY(270deg);
+			      -ms-transform: rotateY(270deg);
+			      transform: rotateY(270deg);
+			    }
+			}
 		}
 	}
 }

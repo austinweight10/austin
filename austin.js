@@ -1,14 +1,13 @@
-// download in-view replacement or remove
-// ad react to the project
-// split js like scss
+// make responsive
+// if ($(window).width() >= 768) {}
 
 (function() {
     function AW() {
 
       var url = document.URL,
           windowURL = url.substring(0,url.lastIndexOf("/"));
+
         // main data
-        // need mamp for loading images aswell
         var AWprojectDat = [
                 [ //project1 BannerAds
                     "Banner Ads", // titles
@@ -154,7 +153,9 @@
             AWAboutAboutSkillsLiSpan = $(".AW__about__about__skills li span"),
             AWBlogCont = $(".AW__blog__cont"),
             AWBlogBlogPost = $(".AW__blog__cont__blogPost"),
-            AWContactSocialA = $(".AW__contact__social a");
+            AWContactSocialA = $(".AW__contact__social a"),
+            AWHeadLogo = $(".AW__head__logo"),
+            AWHeroMainLogo = $(".AW__hero__main-logo");
 
         // selectors that need to be reset
         function resetVariables() {
@@ -172,10 +173,10 @@
         // reusable read more function
         var readMore = function(selector) {
             selector.one("click", function() {
-                $(this).parent().prev().css("height", "auto");
+                $(this).prev().css("height", "auto");
                 $(this).text("hide");
                 $(this).one("click", function() {
-                    $(this).parent().prev().css("height", "400px");
+                    $(this).prev().css("height", "150px");
                     $(this).text("Read more");
                     readMore(selector);
                 });
@@ -190,6 +191,14 @@
                 'scrollTop': topScroll
             }, 1000);
         };
+
+        // build a cool hover effect
+        function titleHover(element) {
+            element.on("hover", function() {
+                element.css();
+                element.addClass();
+            });
+        }
 
         // show something interesting if visited
         // need to set up mamp and then can do browser sync
@@ -217,41 +226,44 @@
         //     }
         // };
 
-        var logo = $(".AW__head__logo");
-
         this.coolLogo = function() {
-            logo.attr('src', windowURL + '/images/logo/AustinWeightLOGO-1.gif');
+
+            // hover for logo
+            AWHeadLogo.attr('src', windowURL + '/images/logo/AustinWeightLOGO-1.gif');
             $('.AW__head').mouseenter(
               function() {
-                logo.attr('src', windowURL + '/images/logo/AustinWeightLogo.gif')
+                AWHeadLogo.attr('src', windowURL + '/images/logo/AustinWeightLogo.gif');
               }
             ).mouseleave(
               function() {
-                logo.attr('src', windowURL + '/images/logo/AustinWeightLOGO-1.gif')
+                AWHeadLogo.attr('src', windowURL + '/images/logo/AustinWeightLOGO-1.gif');
               }
             );
 
+            // window size show menu and on scroll hide
             if ($(window).width() >= 768) {
                 $(window).on("scroll", function() {
                     AWHead.addClass("AW__head--hidden");
-                    logo.removeClass("AW__head__logo-open");
+                    AWHeadLogo.removeClass("AW__head__logo-open");
                     var scrollTop = documentJQ.scrollTop();
                     if (scrollTop === 0 || scrollTop < 0) {
                         AWHead.removeClass("AW__head--hidden");
-                        logo.addClass("AW__head__logo-open");
+                        AWHeadLogo.addClass("AW__head__logo-open");
                     }
                 });
             } else {
                 AWHead.addClass("AW__head--hidden");
-                logo.removeClass("AW__head__logo-open");
+                AWHeadLogo.removeClass("AW__head__logo-open");
             }
 
+            // open menu on click
             AWHead.on("click", function() {
                 if (AWHead.hasClass("AW__head--hidden")) {
                     AWHead.removeClass("AW__head--hidden");
-                    logo.addClass("AW__head__logo-open");
+                    AWHeadLogo.addClass("AW__head__logo-open");
                 }
             });
+
         };
 
         // menu scroll
@@ -273,32 +285,40 @@
         };
 
         this.hero = function() {
-            // designer hover state
+
+            // 3d logo effect
+            AWHeroMainLogo.logosDistort();
+
             var top = AWHeroDesigner.scrollTop();
+
+            // ------------------------------------------------- duplicate code below -------------------------------------------------------------
+
+            // designer hover state
             AWHeroDesignerOverlay.css('top', top);
-            AWHeroDeveloperOverlay.css('top', top);
             AWHeroDesigner.on("mouseover", function() {
                 AWHeroDesigner.addClass("AW__hero__designer--active");
                 AWHeroDesignerOverlay.addClass("AW__hero__designer-overlay--active");
             });
+
             AWHeroDesignerOverlay.on("mouseout", function() {
                     AWHeroDesigner.removeClass("AW__hero__designer--active");
                     AWHeroDesignerOverlay.removeClass("AW__hero__designer-overlay--active");
             });
+
             // developer hover state
+            AWHeroDeveloperOverlay.css('top', top);
             AWHeroFrontEnd.on("mouseover", function() {
                 AWHeroFrontEnd.addClass("AW__hero__front-end--active");
                 AWHeroDeveloperOverlay.addClass("AW__hero__developer-overlay--active");
             });
+
             AWHeroDeveloperOverlay.on("mouseout", function() {
                     AWHeroFrontEnd.removeClass("AW__hero__front-end--active");
                     AWHeroDeveloperOverlay.removeClass("AW__hero__developer-overlay--active");
             });
 
-            // add canvas logo spin
-            // AWHeroCanvas // add canvas element
 
-            // background that changes and overlay it on spinning logo change zindex and opacity to fade in and out
+            // background that changes and maybe add cool paint effects in the background of main hero
             setInterval( function() {
                 var changeBackground = function() {
                     // list of images to chage background
@@ -315,21 +335,16 @@
                             AWHero.css("background", background[i]);
                         }, 2000);
                     }
-                    // might need to hide canvas element - AWHeroCanvas
                 };
                 changeBackground();
             }, 10000);
+
         };
 
         this.project = function() {
-            // on load add add the reveal from color code drops
-            // $(".AW__project__title")  AWProjectTitle
-            // and same effect get to
-            // $(".AW__project__quote")
-            // add a bolding effect on hover
-            AWProjectTitle.on("hover", function() {
-                AWProjectTitle.addClass();
-            });
+
+            titleHover(AWProjectTitle);
+            titleHover(AWProjectQuote);
 
             // need to build better paralax function
             var pralaxImage = function (element) {
@@ -354,6 +369,8 @@
             AWProjectQuote.on("hover", function() {
                 AWProjectTitle.addClass();
             });
+
+            // ------------------------------------------------- duplicate code below -------------------------------------------------------------
 
             // build a nice image hover
             // different for each
@@ -414,7 +431,7 @@
                                 // function for loading projects
                                 title = '<div class="AW__project__title"><h2>' + AWprojectDat[i][0] + '</h2><h3>' + AWprojectDat[i][1] + '</h3></div>';
                                 mainImg = '<div class="AW__project__main-img"><img src="'+ AWprojectDat[i][2] +'"></div>';
-                                paragraph = '<div class="AW__project__para"><p>' + AWprojectDat[i][3] + '<p><span class="AW__project__read-more">read more</span></div>';
+                                paragraph = '<div class="AW__project__para"><p>' + AWprojectDat[i][3] + '</p></div><span class="AW__project__read-more">read more</span>';
                                 image = '<div class="' + imageStyle + '"><img src="' + AWprojectDat[i][4] + '"><img src="' + AWprojectDat[i][5] + '"><img src="' + AWprojectDat[i][6] + '"></div>';
                                 quote = '<div class="AW__project__quote"><blockquote>' + AWprojectDat[i][7] + '</blockquote></div>';
                                 image2 = '<div class="' + imageStyle + '"><img src="' + AWprojectDat[i][8] + '"><img src="' + AWprojectDat[i][9] + '"><img src="' + AWprojectDat[i][10] + '"></div>';
@@ -635,14 +652,14 @@ RigelFx.prototype._in = function() {
     });
 
     anime({
-        targets: this.DOM.title,
+        targets: [this.DOM.title, this.DOM.caption],
         translateY: {
-            value: [200,0],
+            value: [20, 0],
             duration: 800,
             easing: 'easeOutExpo',
         },
         opacity: {
-            value: [0,1],
+            value: [0.4,1],
             duration: 400,
             delay: 200,
             easing: 'linear'
@@ -688,7 +705,7 @@ RigelFx.prototype._out = function() {
     });
 
     anime({
-        targets: this.DOM.title,
+        targets: [this.DOM.title, this.DOM.caption],
         duration: 800,
         // easing: 'easeOutExpo',
         translateY: 0,
