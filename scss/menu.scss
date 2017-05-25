@@ -84,11 +84,11 @@
 			cursor: pointer;
 		}
 		.AW__head__logo {
-			-webkit-animation-name: spinner;
+			-webkit-animation-name: spin;
 			-webkit-animation-timing-function: linear;
 			-webkit-animation-iteration-count: 1;
 			-webkit-animation-duration: 0.7s;
-			animation-name: spinner;
+			animation-name: spin;
 			animation-timing-function: linear;
 			animation-iteration-count: 1;
 			animation-duration: 0.7s;
@@ -96,7 +96,7 @@
 			-moz-transform-style: preserve-3d;
 			-ms-transform-style: preserve-3d;
 			transform-style: preserve-3d;
-			@keyframes spinner {
+			@keyframes spin {
 			    from {
 			      -moz-transform: rotateY(360deg);
 			      -ms-transform: rotateY(360deg);
