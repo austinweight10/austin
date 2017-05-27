@@ -32,6 +32,7 @@
 			margin: 20px;
 			cursor: default;
 			transform-style: preserve-3d;
+			max-height: 380px;
 			// overflow: hidden;
 			&:hover,
 			&:focus {
@@ -39,7 +40,7 @@
 			}
 		}
 		.grid__item--c1 {
-			margin-right: calc(25% + 25px);
+			margin-top: 12%;
 			&:hover,
 			&:focus {
 				transition: 0.1s;
@@ -82,7 +83,8 @@
 			}
 		}
 		.grid__item--c3 {
-			margin-top: 13%;
+			margin-top: 12%;
+			margin-right: calc(25% + 25px);
 			&:hover,
 			&:focus {
 				transition: 0.1s;
@@ -104,6 +106,7 @@
 			}
 		}
 		.grid__item--c4 {
+			margin-top: 12%;
 			&:hover,
 			&:focus {
 				transition: 0.1s;
@@ -125,7 +128,6 @@
 			}
 		}
 		.grid__item--c5 {
-			margin-top: -12%;
 			&:hover,
 			&:focus {
 				transition: 0.1s;
@@ -147,6 +149,7 @@
 			}
 		}
 		.grid__item--c6 {
+			margin-top: 12%;
 			&:hover,
 			&:focus {
 				transition: 0.1s;
@@ -168,7 +171,7 @@
 			}
 		}
 		.grid__item--c7 {
-			margin-top: 12%;
+			margin-top: 24%;
 			&:hover,
 			&:focus {
 				transition: 0.1s;

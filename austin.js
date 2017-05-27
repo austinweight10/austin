@@ -7,13 +7,15 @@
       var url = document.URL,
           windowURL = url.substring(0,url.lastIndexOf("/"));
 
+        // this is goign to be hard ask grace and use profecional quotes about advertising development
+
         // main data
         var AWprojectDat = [
                 [ //project1 BannerAds
                     "Banner Ads", // titles
-                    "Here are a selection of  banner ads I worked on.", //subtitle
+                    "Wen I wo", //subtitle
                     windowURL + "/img/1.png", // mainImage
-                    "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.", //moreInfo
+                    "", //moreInfo
                     windowURL + "/img/1.png", //imageOfWork1 // campaign bost clicks and roi
                     windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png", //imageOfWork1
@@ -21,9 +23,17 @@
                     windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry."
+                    [
+                        [windowURL + "/img/1.mov"], // add vidios
+                        [windowURL + "/img/1.mov"], // add vidios
+                        [windowURL + "/img/1.mov"], // add vidios
+                        [windowURL + "/img/1.mov"], // add vidios
+                        [windowURL + "/img/1.mov"], // add vidios
+                        [windowURL + "/img/1.mov"], // add vidios
+                        [windowURL + "/img/1.mov"], // add vidios
+                        [windowURL + "/img/1.mov"], // add vidios
+                        [windowURL + "/img/1.mov"], // add vidios
+                    ],
                 ],
                 [ //project2 End Clothing
                     "End Clothing", // title
@@ -34,6 +44,7 @@
                     windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png", //imageOfWork1
                     "quote about work", //quote
+                    windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png" //imageOfWork1
                 ],
@@ -47,6 +58,7 @@
                     windowURL + "/img/1.png", //imageOfWork1
                     "quote about work", //quote
                     windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png" //imageOfWork1
                 ],
                 [ //project4 Quantcast Posters and Icon
@@ -58,6 +70,7 @@
                     windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png", //imageOfWork1
                     "quote about work", //quote
+                    windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png" //imageOfWork1
                 ],
@@ -71,7 +84,9 @@
                     windowURL + "/img/1.png", //imageOfWork1
                     "quote about work", //quote
                     windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png" //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/full-image.png" //imageOfWork1
                 ],
                 [ //project6 Yawp Jewllery
                     "Yawp Jewllery", // title
@@ -82,6 +97,7 @@
                     windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png", //imageOfWork1
                     "quote about work", //quote
+                    windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png" //imageOfWork1
                 ],
@@ -95,31 +111,8 @@
                     windowURL + "/img/1.png", //imageOfWork1
                     "quote about work", //quote
                     windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
                     windowURL + "/img/1.png" //imageOfWork1
-                ],
-                [ //project8 Emergence
-                    "Emergence", // title
-                    "This project was more of a personal research project looking at how you can influence masses with naturallly occering patterns and why these patterns are built into our dna. It expored the use of fractals and the golden ratio to influence peoples movements and how these underlying stuctures are evolved in the natural world and how now we are using these in all sorts of tecnological solutions from the interent to city structures.", //subtitle
-                    windowURL + "/img/1.png", // mainImage
-                    "text", //moreInfo
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    "quote about work", //quote
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    [
-                        windowURL + "/img/1.png",
-                        windowURL + "imageur2",
-                        windowURL + "imageur3",
-                        windowURL + "imageur4",
-                        windowURL + "imageur5",
-                        windowURL + "imageur6",
-                        windowURL + "imageur7",
-                        windowURL + "imageur8",
-                        windowURL + "imageur9",
-                        windowURL + "imageurl0"
-                    ]
                 ],
            ];
 
@@ -192,7 +185,7 @@
             }, 1000);
         };
 
-        // build a cool hover effect
+        // reusable hover effect
         function titleHover(element) {
             element.on("hover", function() {
                 element.css();
@@ -226,8 +219,8 @@
         //     }
         // };
 
+        // complete
         this.coolLogo = function() {
-
             // hover for logo
             AWHeadLogo.attr('src', windowURL + '/images/logo/AustinWeightLOGO-1.gif');
             $('.AW__head').mouseenter(
@@ -266,7 +259,7 @@
 
         };
 
-        // menu scroll
+        // complete menu scroll
         this.niceScroll = function() {
             AWHeadUlLiSpan.on("click", function(e) {
                 var IDtoScroll = '';
@@ -276,6 +269,7 @@
                     IDtoScroll = $('#AW__about');
                     if (AWAboutTitleReadMore.text() === "Read more" || AWAboutTitleReadMore.text() === "read more") {
                         AWAboutTitleReadMore.trigger("click");
+                        AWAboutTitleReadMore.remove();
                     }
                 } else {
                     IDtoScroll = $('#AW__blog');
@@ -289,55 +283,56 @@
             // 3d logo effect
             AWHeroMainLogo.logosDistort();
 
-            var top = AWHeroDesigner.scrollTop();
+            // hover effect
+            function heroHover(elements, classes) {
+                var top = elements[1].scrollTop();
+                titleHover(elements[1]);
+                if ($(document).scrollTop() >= 1) {
+                    elements[1].unbind("mouseover");
+                } else {
+                    elements[0].css('top', top);
+                    elements[1].on("mouseover", function() {
+                        elements[1].addClass(classes[0]);
+                        elements[0].addClass(classes[1]);
+                    });
+                    elements[0].on("mouseout", function() {
+                            elements[1].removeClass(classes[0]);
+                            elements[0].removeClass(classes[1]);
+                    });
+                }
+            }
 
-            // ------------------------------------------------- duplicate code below -------------------------------------------------------------
+            function createHovers() {
+                heroHover([AWHeroDesignerOverlay, AWHeroDesigner], ["AW__hero__designer--active", "AW__hero__designer-overlay--active"]);
+                heroHover([AWHeroDeveloperOverlay, AWHeroFrontEnd], ["AW__hero__front-end--active", "AW__hero__developer-overlay--active"]);
+            }
 
-            // designer hover state
-            AWHeroDesignerOverlay.css('top', top);
-            AWHeroDesigner.on("mouseover", function() {
-                AWHeroDesigner.addClass("AW__hero__designer--active");
-                AWHeroDesignerOverlay.addClass("AW__hero__designer-overlay--active");
+            createHovers();
+
+            $(document).on('scroll', function() {
+                createHovers();
             });
-
-            AWHeroDesignerOverlay.on("mouseout", function() {
-                    AWHeroDesigner.removeClass("AW__hero__designer--active");
-                    AWHeroDesignerOverlay.removeClass("AW__hero__designer-overlay--active");
-            });
-
-            // developer hover state
-            AWHeroDeveloperOverlay.css('top', top);
-            AWHeroFrontEnd.on("mouseover", function() {
-                AWHeroFrontEnd.addClass("AW__hero__front-end--active");
-                AWHeroDeveloperOverlay.addClass("AW__hero__developer-overlay--active");
-            });
-
-            AWHeroDeveloperOverlay.on("mouseout", function() {
-                    AWHeroFrontEnd.removeClass("AW__hero__front-end--active");
-                    AWHeroDeveloperOverlay.removeClass("AW__hero__developer-overlay--active");
-            });
-
 
             // background that changes and maybe add cool paint effects in the background of main hero
-            setInterval( function() {
-                var changeBackground = function() {
-                    // list of images to chage background
-                    var background = [
-                        windowURL + "/img/1.png", // 1
-                        windowURL + "/img/1.png", // 2
-                        windowURL + "/img/1.png", // 3
-                        windowURL + "/img/1.png", // 4
-                        windowURL + "/img/1.png", // 5
-                        windowURL + "/img/1.png" // 6
-                    ];
-                    for (var i = 0; i < background.length; i++) {
-                        setTimeout( function() {
-                            AWHero.css("background", background[i]);
-                        }, 2000);
-                    }
-                };
-                changeBackground();
-            }, 10000);
+            // setInterval( function() {
+            //     var changeBackground = function() {
+            //         // list of images to chage background
+            //         var background = [
+            //             windowURL + "/img/1.png", // 1
+            //             windowURL + "/img/1.png", // 2
+            //             windowURL + "/img/1.png", // 3
+            //             windowURL + "/img/1.png", // 4
+            //             windowURL + "/img/1.png", // 5
+            //             windowURL + "/img/1.png" // 6
+            //         ];
+            //         for (var i = 0; i < background.length; i++) {
+            //             setTimeout( function() {
+            //                 AWHero.css("background", background[i]);
+            //             }, 2000);
+            //         }
+            //     };
+            //     changeBackground();
+            // }, 10000);
 
         };
 
@@ -405,18 +400,22 @@
                         for (var i = 0; i < AWprojectDat.length; i++) {
 
                             if (projectName == AWprojectDat[i][0]) {
-                                var selectedPro = ["Banner Ads", "proname", "proname", "proname"];
+                                var special = '';
+                                var selectedPro = ["Banner Ads", "V&A D&AD Entry"];
                                 var specialCont = "";
-                                if (AWprojectDat[i][0] === selectedPro[0] || AWprojectDat[i] === selectedPro[1]) {
+                                if (AWprojectDat[i][0] === selectedPro[1]) {
                                     // add functionallity special projects
-                                    var special = function(parse) {
-                                        specialCont = '<div class="scroller"><img src="' + parse + '"></div>';
+                                    special = function(parse) {
+                                        // add scroll for V&A
+                                        specialCont = '<div class="AW__project__scroller"><div><img src="' + parse + '"></div></div>';
                                     }; // special = ""; // some coll slider V&A
-                                } else if (AWprojectDat[i] === selectedPro[2] || AWprojectDat[i] === selectedPro[3]) {
+                                } else if (AWprojectDat[i][0] === selectedPro[0]) {
                                     // add functionallity special projects
-                                    var special = function(parse) {
-                                        specialCont = '<div class="imageswap"><div class="sideOne"><img src="' + parse[1] + '"><img src="' + parse[2] + '"><img src="' + parse[3] + '"><img src="' + parse[4] + '"><img src="' + parse[5] + '"></div><div class="sideTwo"><img src="' + parse[6] + '"><img src="' + parse[7] + '"><img src="' + parse[8] + '"><img src="' + parse[9] + '"><img src="' + parse[10] + '"></div></div>';
-                                    }; // some cool image switcher emergence // this will nedd to be a three dimentional array
+                                    special = function(parse) {
+                                        console.log(parse[0])
+                                        // functionallity for videos of banner ads
+                                        specialCont = '<div class="AW__project__vidios"><img src="' + parse[0] + '"><img src="' + parse[1] + '"><img src="' + parse[2] + '"><img src="' + parse[4] + '"><img src="' + parse[5] + '"><img src="' + parse[6] + '"><img src="' + parse[7] + '"><img src="' + parse[8] + '"><img src="' + parse[9] + '"></div>';
+                                    };
                                 }
                                 var imageStyle = "";
                                 // chose image solution
@@ -435,18 +434,19 @@
                                 image = '<div class="' + imageStyle + '"><img src="' + AWprojectDat[i][4] + '"><img src="' + AWprojectDat[i][5] + '"><img src="' + AWprojectDat[i][6] + '"></div>';
                                 quote = '<div class="AW__project__quote"><blockquote>' + AWprojectDat[i][7] + '</blockquote></div>';
                                 image2 = '<div class="' + imageStyle + '"><img src="' + AWprojectDat[i][8] + '"><img src="' + AWprojectDat[i][9] + '"><img src="' + AWprojectDat[i][10] + '"></div>';
+                                spacial = isSpecial();
+
+                                function isSpecial() {
+                                    var node = "";
+                                    if (AWprojectDat[i][11] && special) {
+                                        special(AWprojectDat[i][11]);
+                                    }
+                                    return specialCont;
+                                }
 
                             }
 
-                            function isSpecial() {
-                                var node = "";
-                                if (AWprojectDat[i][11] && special) {
-                                    special(AWprojectDat[i][11]);
-                                }
-                                return specialCont;
-                            };
-
-                            contentToAppend = '<div class="AW__project">' + title + mainImg + paragraph + isSpecial() + image + quote + image2 + '</div>';
+                            contentToAppend = '<div class="AW__project">' + title + mainImg + paragraph + spacial + image + quote + image2 + '</div>';
                         }
                     })();
 
@@ -458,9 +458,6 @@
                     function appendContentComplete() {
                         // need to inisiate appended content
                         // image scroller sroll nicely can be done with css
-                        $(".scroller")
-                        // create image swap
-                        $(".imageswap")
 
                         readMore($(".AW__project__read-more"));
                         scrollNicly(AWProject);
@@ -477,14 +474,15 @@
                 AWAboutTitleReadMore.on("click", function() {
                     AWAbout.addClass("AW__about--open");
                     $(this).text("hide");
-                    AWAbout.append($(this))
+                    AWAboutTitleReadMore.remove();
+                    // AWAbout.append($(this))
                     $(this).one("click", function() {
                         AWAbout.removeClass("AW__about--open");
                         $(this).text("Read more");
                         readMoreAbout();
-                    })
+                    });
                 });
-            };
+            }
             readMoreAbout();
 
             // on client image hover rotate image to reveal a little more about what I did for each and a link
@@ -514,18 +512,16 @@
             });
         };
 
-        this.blog = function() {
-            AWBlogBlogPost.on("click", function() {
-                AWBlogBlogPost.removeClass("AW__blog__cont__blogPost--open");
-                AWBlogCont.prepend($(this))
-                $(this).addClass("AW__blog__cont__blogPost--open");
-            });
-        };
+        // this.blog = function() {
+        //     AWBlogBlogPost.on("click", function() {
+        //         AWBlogBlogPost.removeClass("AW__blog__cont__blogPost--open");
+        //         AWBlogCont.prepend($(this));
+        //         $(this).addClass("AW__blog__cont__blogPost--open");
+        //     });
+        // };
 
         this.contact = function() {
-            AWContactSocialA.on("hover", function() {
-                $(this).addClass("rollover");
-            });
+
         };
     }
 
@@ -537,7 +533,7 @@
     austiin.project();
     austiin.projects();
     austiin.about();
-    austiin.blog();
+    // austiin.blog();
     austiin.contact();
 
 })();
