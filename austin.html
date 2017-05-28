@@ -1,20 +1,31 @@
+<!DOCTYPE html>
+<title>Austin Weight folio</title>
+<meta charset="UTF-8">
+<meta name="description" content="Austin Weight designer and developer">
+<meta name="keywords" content="HTML, CSS, XML, JavaScript">
+<meta name="author" content="Austin Weight">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <!--
 
 things to do prior to go live
 
-- add css json file
+- work way down page
+  // manu done
+  // hero // text hover
+  // project
+  // projects
+  // about done
+  // contact done
 
-- add doctype and clean up js
-- finish main haed section - hover alignment with paint paterns in the sections add logo behing with paind splash, mouse move and smashed section
+
 - update all details - projects and about - add content
 - make fully responcive no hovers on mobile and remove effects
-- and styling for projects mash maze and expand and update js accordingly mouse over zoom 
+- and styling for projects mash maze and expand and update js accordingly mouse over zoom
 - add lightbox for project
     // V&A  homemade slider just div in div overflow-x scroll
     // emergence image change at top of page add class visable all else hidden   some thumbs
 
-- add social links twitter/linked in/git hub
-- make skills progress bars different colours and fun (not strait)
 - and web app features - manifesto etc..
     // update images in contact and logso for clients and json data
 
@@ -33,321 +44,350 @@ things to do prior to go live
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <link href="/perspectiveRules.css" rel="stylesheet" />
         <link href="/austin.min.css" rel="stylesheet" />
+        <link href="/animate.css" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     </head>
     <body>
 
-        <header>
-            <div class="AW__head">
-                <img class="AW__head__logo" src="file:///Applications/MAMP/htdocs/wordpress/wp-content/plugins/austin/images/logo/AustinWeightLOGO-1.gif">
+      <div class="main">
 
-                <div>
-                    <ul>
-                        <li><span class="AW__head__work">Work</span></li>
-                        <li><span class="AW__head__about">About</span></li>
-                        <!-- <li><span class="AW__head__blog">Blog</span></li> -->
-                    </ul>
-                </div>
+          <header>
+              <div class="AW__head">
+                  <img class="AW__head__logo" src="file:///Applications/MAMP/htdocs/wordpress/wp-content/plugins/austin/images/logo/AustinWeightLOGO-1.gif">
 
-            </div>
-        </header>
+                  <div>
+                      <ul>
+                          <li><span class="AW__head__work">Work</span></li>
+                          <li><span class="AW__head__about">About</span></li>
+                          <!-- <li><span class="AW__head__blog">Blog</span></li> -->
+                      </ul>
+                  </div>
 
-        <main>
-            <!-- main content-->
-            <div class="AW__hero">
+              </div>
+          </header>
 
-                <div class="AW__hero__designer-overlay"></div>
-                <div class="AW__hero__developer-overlay"></div>
+          <main>
+              <!-- main content-->
+              <div class="AW__hero">
 
-                <div class="AW__hero__main-logo">
-                    <img alt="background" src="/images/1.png" width="30px" style="width: 30px !important"/>
-                    <img alt="ui" src="/images/2.png" width="30px" style="width: 30px !important"/>
-                    <img alt="ui-2" src="/images/3.png" width="30px" style="width: 30px !important"/>
-                </div>
+                  <div class="AW__hero__designer-overlay"></div>
+                  <div class="AW__hero__developer-overlay"></div>
 
-                <h1>Hi there, I am Austin Weight<br>a
-                    <span class="AW__hero__designer AW__hero__designer--active">designer</span> /
-                    <span class="AW__hero__front-end AW__hero__front-end--active">front end developer.</span> <br>I live and work in london.
-                    <!-- add cookie welcome back -->
-                    <!-- <div class="AW__hero__show-me-cool">
-                        <span>now you have seen all the boring stuff let me show you something cool <a href="#">show me</a></span>
-                    </div> -->
-                </h1>
+                  <div class="AW__hero__main-logo">
+                      <img alt="background" src="/images/logo1.png" width="30px" style="width: 30px !important"/>
+                      <img alt="ui" src="/images/logo2.png" width="30px" style="width: 30px !important"/>
+                      <img alt="ui-2" src="/images/logo3.png" width="30px" style="width: 30px !important"/>
+                  </div>
 
-                <!-- not sure if want a help section? -->
-                <!-- <p>what do you want to know?</p>
-                <span>what exactly I do?<span>
-                <span>How I can be creative?<span>
-                <span>what kind of code I write?</span> -->
+                  <h1>Hi there, I am Austin Weight<br>a
+                      <span class="AW__hero__designer AW__hero__designer--active">designer</span> /
+                      <span class="AW__hero__front-end AW__hero__front-end--active">front end developer.</span> <br>I live and work in london.
+                      <!-- add cookie welcome back -->
+                      <!-- <div class="AW__hero__show-me-cool">
+                          <span>now you have seen all the boring stuff let me show you something cool <a href="#">show me</a></span>
+                      </div> -->
+                  </h1>
 
-            </div>
-        </main>
+                  <!-- not sure if want a help section? -->
+                  <!-- <p>what do you want to know?</p>
+                  <span>what exactly I do?<span>
+                  <span>How I can be creative?<span>
+                  <span>what kind of code I write?</span> -->
 
-        <section id="AW__projects" class="content AW__projects">
+              </div>
+          </main>
 
-            <!-- projects -->
-            <div class="AW__projects__title">
-                <h2>Selected Projects</h2>
-            </div>
+          <section id="AW__projects" class="content AW__projects">
 
-            <div class="grid grid--effect-rigel">
-                <a class="grid__item grid__item--c1 AW__projects__thumb">
-                    <div class="stack">
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__figure">
-                            <img class="stack__img" src="img/1.png" alt="Image"/>
-                        </div>
-                    </div>
-                    <div class="grid__item-caption">
-                        <h4 class="grid__item-title">Banner Ads</h4>
-                        <p>a lttle about the project</p>
-                        <span>view more</span>
-                    </div>
-                </a>
+              <!-- projects -->
+              <div class="AW__projects__title">
+                  <h2>Selected Projects</h2>
+              </div>
 
-                <a class="grid__item grid__item--c2 AW__projects__thumb">
-                    <div class="stack">
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__figure">
-                            <img class="stack__img" src="img/1.png" alt="Image"/>
-                        </div>
-                    </div>
-                    <div class="grid__item-caption">
-                        <h4 class="grid__item-title">End Clothing</h4>
-                        <p>a lttle about the project</p>
-                        <span>view more</span>
-                    </div>
-                </a>
+              <div class="grid grid--effect-rigel">
+                  <a class="grid__item grid__item--c1 AW__projects__thumb">
+                      <div class="stack">
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__figure">
+                              <img class="stack__img" src="images/projects/bannerAds/coverImage.png" alt="Image"/>
+                          </div>
+                      </div>
+                      <div class="grid__item-caption">
+                          <h4 class="grid__item-title">Banner Ads</h4>
+                          <p>A selection of banner ads</p>
+                          <span>view more</span>
+                      </div>
+                  </a>
 
-                <a class="grid__item grid__item--c3 AW__projects__thumb">
-                    <div class="stack">
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__figure">
-                            <img class="stack__img" src="img/1.png" alt="Image"/>
-                        </div>
-                    </div>
-                    <div class="grid__item-caption">
-                        <h4 class="grid__item-title">Creative Calculator</h4>
-                        <p>a lttle about the project</p>
-                        <span>view more</span>
-                    </div>
-                </a>
+                  <a class="grid__item grid__item--c2 AW__projects__thumb">
+                      <div class="stack">
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__figure">
+                              <img class="stack__img" src="images/projects/endClothing/coverImage.png" alt="Image"/>
+                          </div>
+                      </div>
+                      <div class="grid__item-caption">
+                          <h4 class="grid__item-title">End Clothing</h4>
+                          <p>Redesign and build of site on Magento 2</p>
+                          <span>view more</span>
+                      </div>
+                  </a>
 
-                <a class="grid__item grid__item--c4 AW__projects__thumb">
-                    <div class="stack">
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__figure">
-                            <img class="stack__img" src="img/1.png" alt="Image"/>
-                        </div>
-                    </div>
-                    <div class="grid__item-caption">
-                        <h4 class="grid__item-title">Quantcast Posters and Icons</h4>
-                        <p>a lttle about the project</p>
-                        <span>view more</span>
-                    </div>
-                </a>
+                  <a class="grid__item grid__item--c3 AW__projects__thumb">
+                      <div class="stack">
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__figure">
+                              <img class="stack__img" src="images/projects/creativeCalculator/coverImage.png" alt="Image"/>
+                          </div>
+                      </div>
+                      <div class="grid__item-caption">
+                          <h4 class="grid__item-title">Creative Calculator</h4>
+                          <p>A website that allows judges your creative for perfomance</p>
+                          <span>view more</span>
+                      </div>
+                  </a>
 
-                <a class="grid__item grid__item--c5 AW__projects__thumb">
-                    <div class="stack">
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__figure">
-                            <img class="stack__img" src="img/1.png" alt="Image"/>
-                        </div>
-                    </div>
-                    <div class="grid__item-caption">
-                        <h4 class="grid__item-title">V&A D&AD Entry</h4>
-                        <p>a lttle about the project</p>
-                        <span>view more</span>
-                    </div>
-                </a>
+                  <a class="grid__item grid__item--c4 AW__projects__thumb">
+                      <div class="stack">
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__figure">
+                              <img class="stack__img" src="images/projects/manOverboard/coverImage.png" alt="Image"/>
+                          </div>
+                      </div>
+                      <div class="grid__item-caption">
+                          <h4 class="grid__item-title">Man Overboard - Degree show</h4>
+                          <p>Webiste and booklet for degree show</p>
+                          <span>view more</span>
+                      </div>
+                  </a>
 
-                <a class="grid__item grid__item--c6 AW__projects__thumb">
-                    <div class="stack">
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__figure">
-                            <img class="stack__img" src="img/1.png" alt="Image"/>
-                        </div>
-                    </div>
-                    <div class="grid__item-caption">
-                        <h4 class="grid__item-title">Yawp Jewllery</h4>
-                        <p>a lttle about the project</p>
-                        <span>view more</span>
-                    </div>
-                </a>
+                  <a class="grid__item grid__item--c5 AW__projects__thumb">
+                      <div class="stack">
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__figure">
+                              <img class="stack__img" src="images/projects/vAndA/coverImage.png" alt="Image"/>
+                          </div>
+                      </div>
+                      <div class="grid__item-caption">
+                          <h4 class="grid__item-title">V&A - D&AD Entry</h4>
+                          <p>Billborad design for V&A</p>
+                          <span>view more</span>
+                      </div>
+                  </a>
 
-                <a class="grid__item grid__item--c7 AW__projects__thumb">
-                    <div class="stack">
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__deco"></div>
-                        <div class="stack__figure">
-                            <img class="stack__img" src="img/1.png" alt="Image"/>
-                        </div>
-                    </div>
-                    <div class="grid__item-caption">
-                        <h4 class="grid__item-title">Quantcast Home From Home</h4>
-                        <p>a lttle about the project</p>
-                        <span>view more</span>
-                    </div>
-                </a>
+                  <a class="grid__item grid__item--c6 AW__projects__thumb">
+                      <div class="stack">
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__figure">
+                              <img class="stack__img" src="images/projects/yawp/coverImage.png" alt="Image"/>
+                          </div>
+                      </div>
+                      <div class="grid__item-caption">
+                          <h4 class="grid__item-title">Yawp Jewllery</h4>
+                          <p>Ecomerce site on Woocomerce</p>
+                          <span>view more</span>
+                      </div>
+                  </a>
 
-            </div>
-        </section>
+                  <a class="grid__item grid__item--c7 AW__projects__thumb">
+                      <div class="stack">
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__figure">
+                              <img class="stack__img" src="images/projects/homeFromHome/coverImage.png" alt="Image"/>
+                          </div>
+                      </div>
+                      <div class="grid__item-caption">
+                          <h4 class="grid__item-title">Quantcast Home From Home</h4>
+                          <p>Wordpress site for allowing people within Quantcast to travel</p>
+                          <span>view more</span>
+                      </div>
+                  </a>
 
-        <aside>
-            <div id="AW__about" class="AW__about">
+                  <a class="grid__item grid__item--c8 AW__projects__thumb">
+                      <div class="stack">
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__deco"></div>
+                          <div class="stack__figure">
+                              <img class="stack__img" src="images/projects/matchBetting/coverImage.png" alt="Image"/>
+                          </div>
+                      </div>
+                      <div class="grid__item-caption">
+                          <h4 class="grid__item-title">Match Betting</h4>
+                          <p>A small react app that allows people to match bet</p>
+                          <span>view more</span>
+                      </div>
+                  </a>
 
-                <div class="AW__about__title">
-                    <h2>About</h2>
-                    <span class="AW__about__title__read-more">read more</span>
-                </div>
+              </div>
+          </section>
 
-                <div class="AW__about__clients">
-                    <h3>Clients I have been lucky enought to work with:</h3>
-                    <div>
-                        <!-- add images and info -->
-                        <img src=""><span>info about</span>
-                        <img src=""><span>info about</span>
-                        <img src=""><span>info about</span>
-                        <img src=""><span>info about</span>
-                        <img src=""><span>info about</span>
-                        <img src=""><span>info about</span>
-                        <img src=""><span>info about</span>
-                    </div>
-                    <div>
-                        <img src=""><span>info about</span>
-                        <img src=""><span>info about</span>
-                        <img src=""><span>info about</span>
-                        <img src=""><span>info about</span>
-                        <img src=""><span>info about</span>
-                        <img src=""><span>info about</span>
-                        <img src=""><span>info about</span>
-                    </div>
-                </div>
-                <div class="AW__about__about">
-                    <h3>About Me</h3>
-                    <p>a bit about me ... magento, wordpress, woocommerce, php, mysqtl, HTML email, </p>
-                    <div class="AW__about__about__skills">
-                        <label>Practical Skills</label>
-                        <ul>
-                            <li>HTML<span>93%</span></li>
-                            <li>CSS <span class="AW__about__about__skills__small">(SASS & LESS)</span><span>92%</span></li>
-                            <li>Photoshop<span>90%</span></li>
-                            <li>Javascript <span class="AW__about__about__skills__small">(jQuery, React, Grunt, Gulp, webpack)</span><span>86%</span></li>
-                            <li>Illustrator<span>83%</span></li>
-                            <li>InDesign<span>80%</span></li>
-                        </ul>
-                    </div>
-                    <div class="AW__about__about__cv">
-                        <a href="" target="_blank">Downlod my CV</a>
-                    </div>
-                </div>
-            </div>
-        </aside>
+          <aside>
+              <div id="AW__about" class="AW__about">
 
-        <!-- <aside>
-            <div id="AW__blog" class="AW__blog">
-                <h2>Blog</h2>
-                <div class="AW__blog__cont">
-                    <!-- on click other blog posts to bottom and add class to blog post to fill whole page -->
-                    <!-- <div class="AW__blog__cont__blogPost"> -->
-                        <!-- <h3>Blog Post Title</h3> <!-- whats good about online advertising -->
-                        <!-- <img src=""> -->
-                        <!-- <p>My blog post here....</p>
-                        <p>My blog post here....</p>
-                        <img src="">
-                        <p>My blog post here....</p>
-                        <p>My blog post here....</p> -->
-                        <!-- this update to hide -->
-                        <!-- <span>Read more...</span> -->
-                    <!-- </div>
-                    <div class="AW__blog__cont__blogPost"> -->
-                        <!-- <h3>Blog Post Title</h3> <!-- Emergence in practice -->
-                        <!-- <img src="">
-                        <p>I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.</p>
-                        <p>I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.</p>
-                        <img src="">
-                        <p>I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.</p>
-                        <p>I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.</p>
-                        <span>Read more</span>
-                    </div>
-                    <div class="AW__blog__cont__blogPost"> -->
-                        <!-- <h3>Blog Post Title</h3> <!-- Becoming a Magento 2 front End -->
-                        <!-- <img src="">
-                        <p>My blog post here....</p>
-                        <p>My blog post here....</p>
-                        <img src="">
-                        <p>My blog post here....</p>
-                        <p>My blog post here....</p>
-                        <span>Read more...</span>
-                    </div>
-                    <div class="AW__blog__cont__blogPost"> -->
-                        <!-- <h3>Blog Post Title</h3> <!-- Templating Email with MJML -->
-                        <!-- <img src="">
-                        <p>My blog post here....</p>
-                        <p>My blog post here....</p>
-                        <img src="">
-                        <p>My blog post here....</p>
-                        <p>My blog post here....</p>
-                        <span>Read more...</span>
-                    </div>
-                    <div class="AW__blog__cont__blogPost"> -->
-                        <!-- <h3>Blog Post Title</h3> <!-- Building Yawp -->
-                        <!-- <img src="">
-                        <p>My blog post here....</p>
-                        <p>My blog post here....</p>
-                        <img src="">
-                        <p>My blog post here....</p>
-                        <p>My blog post here....</p>
-                        <span>Read more...</span>
-                    </div>
-                </div>
-            </div> -->
-        <!-- </aside> -->
+                  <div class="AW__about__title">
+                      <h2>About</h2>
+                      <span class="AW__about__title__read-more">read more</span>
+                  </div>
 
-        <footer>
-            <div class="AW__contact">
-                <div class="AW__contact__det">
-                    <span>07780 995979</span> <!-- make href and add tell and below add emailto:austin... title... -->
-                    <span>austinweight10@gmail.com</span> <!-- make a profecional one -->
-                </div>
-                <div class="AW__contact__social">
-                    <a href="twitter">
-                        <img src="">
-                    </a>
-                    <a href="linkedIn">
-                        <img src="">
-                    </a>
-                    <a href="git">
-                        <img src="">
-                    </a>
-                </div>
-            </div>
-        </footer>
+                  <div class="AW__about__clients">
+                      <h3>Clients I have been lucky enought to work with:</h3>
+                      <div>
+                          <!-- add images and info -->
+                          <img src="images/logo/clients/AbercrombieAndFitch.png"><span>info about</span>
+                          <img src="images/logo/clients/aldo.png"><span>info about</span>
+                          <img src="images/logo/clients/AO.com.png"><span>info about</span>
+                          <img src="images/logo/clients/autotrader.png"><span>info about</span>
+                          <img src="images/logo/clients/feelUnique.png"><span>info about</span>
+                          <img src="images/logo/clients/footasylum.png"><span>info about</span>
+                          <img src="images/logo/clients/jigsaw.png"><span>info about</span>
+                        <!-- </div>
+                        <div> -->
+                          <img src="images/logo/clients/jimmyChoo.png"><span>info about</span>
+                          <img src="images/logo/clients/karenMillen.png"><span>info about</span>
+                          <img src="images/logo/clients/matchesFashion.png"><span>info about</span>
+                          <img src="images/logo/clients/missguided.png"><span>info about</span>
+                          <img src="images/logo/clients/monsoon.png"><span>info about</span>
+                          <img src="images/logo/clients/moo.png"><span>info about</span>
+                          <img src="images/logo/clients/whistles.png"><span>info about</span>
+                      </div>
+                  </div>
+                  <div class="AW__about__about">
+                      <h3>About Me</h3>
+                      <p>I am interested and skilled in designing and creating designs to drive performance and goals through user engagement. I relish creating fully tested and intelligent designs for campaigns that significantly uplift engagement. I enjoy analysis and analytics to ensure statistically proven ideas are used to engage and advance business developments. I believe understanding and gaining insights into how designs are interacted with and how these behaviours can be affected and changed to best suit an end goal is more important than creating unjustified decorative forms.
+                      <br><br>I indulge in understanding how emergent behaviour and intelligence within crowds can be controlled and improved through intervention. I have a passion for networks and development, thus enjoy designing digitally. In my free time I constantly evolve my work and creative process within a variety of projects and relish when this allows me to experiment within different media platforms.
+                      <br><br>a bit about me ... magento, wordpress, woocommerce, php, mysqtl, HTML email, </p>
+                      <div class="AW__about__about__cv">
+                          <a href="" target="_blank">Downlod my CV</a>
+                      </div>
+                      <div class="AW__about__about__skills">
+                          <label>Practical Skills</label>
+                          <ul>
+                              <li>HTML<span>93%</span></li>
+                              <li>CSS <span class="AW__about__about__skills__small">(SASS & LESS)</span><span>92%</span></li>
+                              <li>Photoshop<span>90%</span></li>
+                              <li>Javascript <span class="AW__about__about__skills__small">(jQuery, React, Grunt, Gulp, webpack)</span><span>86%</span></li>
+                              <li>Illustrator<span>83%</span></li>
+                              <li>InDesign<span>80%</span></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </aside>
+
+          <!-- <aside>
+              <div id="AW__blog" class="AW__blog">
+                  <h2>Blog</h2>
+                  <div class="AW__blog__cont">
+                      <!-- on click other blog posts to bottom and add class to blog post to fill whole page -->
+                      <!-- <div class="AW__blog__cont__blogPost"> -->
+                          <!-- <h3>Blog Post Title</h3> <!-- whats good about online advertising -->
+                          <!-- <img src=""> -->
+                          <!-- <p>My blog post here....</p>
+                          <p>My blog post here....</p>
+                          <img src="">
+                          <p>My blog post here....</p>
+                          <p>My blog post here....</p> -->
+                          <!-- this update to hide -->
+                          <!-- <span>Read more...</span> -->
+                      <!-- </div>
+                      <div class="AW__blog__cont__blogPost"> -->
+                          <!-- <h3>Blog Post Title</h3> <!-- Emergence in practice -->
+                          <!-- <img src="">
+                          <p>I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.</p>
+                          <p>I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.</p>
+                          <img src="">
+                          <p>I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.</p>
+                          <p>I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.</p>
+                          <span>Read more</span>
+                      </div>
+                      <div class="AW__blog__cont__blogPost"> -->
+                          <!-- <h3>Blog Post Title</h3> <!-- Becoming a Magento 2 front End -->
+                          <!-- <img src="">
+                          <p>My blog post here....</p>
+                          <p>My blog post here....</p>
+                          <img src="">
+                          <p>My blog post here....</p>
+                          <p>My blog post here....</p>
+                          <span>Read more...</span>
+                      </div>
+                      <div class="AW__blog__cont__blogPost"> -->
+                          <!-- <h3>Blog Post Title</h3> <!-- Templating Email with MJML -->
+                          <!-- <img src="">
+                          <p>My blog post here....</p>
+                          <p>My blog post here....</p>
+                          <img src="">
+                          <p>My blog post here....</p>
+                          <p>My blog post here....</p>
+                          <span>Read more...</span>
+                      </div>
+                      <div class="AW__blog__cont__blogPost"> -->
+                          <!-- <h3>Blog Post Title</h3> <!-- Building Yawp -->
+                          <!-- <img src="">
+                          <p>My blog post here....</p>
+                          <p>My blog post here....</p>
+                          <img src="">
+                          <p>My blog post here....</p>
+                          <p>My blog post here....</p>
+                          <span>Read more...</span>
+                      </div>
+                  </div>
+              </div> -->
+          <!-- </aside> -->
+
+          <footer>
+              <div class="AW__footer">
+                  <div class="AW__contact">
+                      <div class="AW__contact__det">
+                          <a href="tel:07780995979">07780 995979</a> <!-- make href and add tell and below add emailto:austin... title... -->
+                          <a href="mailto:austinweight10@gmail.com">austinweight10@gmail.com</a> <!-- make a profecional one -->
+                      </div>
+                      <div class="AW__contact__social">
+                          <a href="https://twitter.com/austinweight" target="_blank">
+                              <img src="images/logo/twitter.png">
+                          </a>
+                          <a href="https://www.linkedin.com/in/austin-weight-bb371983/?ppe=1" target="_blank">
+                              <img src="images/logo/linkedIn.png">
+                          </a>
+                          <a href="https://github.com/austinweight10" target="_blank">
+                              <img src="images/logo/gitHub.png">
+                          </a>
+                      </div>
+                  </div>
+              </div>
+          </footer>
+
+        </div>
+
     </body>
 
     <script src="/jquery-3.2.0.min.js"></script>
+    <script src="/jquery.textillate.js"></script>
     <script src="/js.cookie.js"></script>
     <script src="/anime.min.js"></script>
+    <script src="/jquery.lettering.js"></script>
     <script src="/jquery.particleground.min.js"></script>
     <script src="/jquery.logosDistort.js"></script>
     <script src="/austin.js"></script>

@@ -28,11 +28,12 @@
 			position: relative;
 			display: block;
 			flex: none;
-			width: 20%;
 			margin: 20px;
 			cursor: default;
 			transform-style: preserve-3d;
 			max-height: 380px;
+			width: calc(100% - 80px);
+			color: transparent;
 			// overflow: hidden;
 			&:hover,
 			&:focus {
@@ -40,7 +41,6 @@
 			}
 		}
 		.grid__item--c1 {
-			margin-top: 12%;
 			&:hover,
 			&:focus {
 				transition: 0.1s;
@@ -83,8 +83,6 @@
 			}
 		}
 		.grid__item--c3 {
-			margin-top: 12%;
-			margin-right: calc(25% + 25px);
 			&:hover,
 			&:focus {
 				transition: 0.1s;
@@ -106,7 +104,6 @@
 			}
 		}
 		.grid__item--c4 {
-			margin-top: 12%;
 			&:hover,
 			&:focus {
 				transition: 0.1s;
@@ -149,7 +146,6 @@
 			}
 		}
 		.grid__item--c6 {
-			margin-top: 12%;
 			&:hover,
 			&:focus {
 				transition: 0.1s;
@@ -171,7 +167,6 @@
 			}
 		}
 		.grid__item--c7 {
-			margin-top: 24%;
 			&:hover,
 			&:focus {
 				transition: 0.1s;
@@ -193,7 +188,6 @@
 			}
 		}
 		.grid__item--c8 {
-			margin-right: calc(25% + 25px);
 			&:hover,
 			&:focus {
 				transition: 0.1s;
@@ -286,5 +280,41 @@
 		height: 100%;
 		cursor: pointer;
 		transform-origin: 50% 100%;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+@media (min-width: 868px) {
+	.AW__projects {
+		.grid {
+			.grid__item {
+				width: 20%;
+			}
+			.grid__item--c1 {
+				margin-top: 12%;
+			}
+			.grid__item--c3 {
+				margin-top: 12%;
+				margin-right: calc(25% + 25px);
+			}
+			.grid__item--c4 {
+				margin-top: 12%;
+			}
+			.grid__item--c6 {
+				margin-top: 12%;
+			}
+			.grid__item--c7 {
+				margin-top: 24%;
+			}
+			.grid__item--c8 {
+				margin-right: 25%;
+				margin-top: -10%;
+			}
+		}
+		.stack__figure img {
+			width: auto;
+		}
 	}
 }

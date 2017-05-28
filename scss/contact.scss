@@ -1,29 +1,43 @@
+.AW__footer {
+	max-width: 1500px;
+	margin: auto;
+}
+
 .AW__contact {
 	bottom: 10px;
-    height: 100px;
-    background: $lighterGrey;
-    position: fixed;
-    margin: 0 -10px -10px -10px;
-    width: calc(100% + 20px);
+  height: 170px;
+	background: linear-gradient($lighterGrey, $white);
+  position: fixed;
+  margin: 0 -10px -10px -10px;
+  width: calc(100% + 20px);
 	z-index: $underground;
+	max-width: 1520px;
 	.AW__contact__det {
-		padding: 20px;
+		padding: 30px 10px 20px;
 		display: flex;
 	    width: 100%;
 	    justify-content: center;
 		flex-wrap: wrap;
-		span {
+		a {
 			color: $dark;
 			font-size: 14px;
 			display: block;
 			width: 100%;
 			text-align: center;
+			&:hover {
+				color: $orange;
+			}
 		}
 	}
 	.AW__contact__social {
+		margin: auto;
+		display: block;
+		width: 190px;
 		a {
+			width: 40px;
+			padding: 0 10px;
 			img {
-
+				width: 40px;
 			}
 		}
 	}

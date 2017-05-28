@@ -14,79 +14,79 @@
                 [ //project1 BannerAds
                     "Banner Ads", // titles
                     "Wen I wo", //subtitle
-                    windowURL + "/img/1.png", // mainImage
+                    windowURL + "/images/projects/bannerAds/mainImage.png", // mainImage
                     "", //moreInfo
-                    windowURL + "/img/1.png", //imageOfWork1 // campaign bost clicks and roi
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/images/projects/bannerAds/images/Missguided2-300x250.jpg", //imageOfWork1 // campaign bost clicks and roi
+                    windowURL + "/images/projects/bannerAds/images/Matches-Fashion-300x250.png", //imageOfWork1
+                    windowURL + "/images/projects/bannerAds/images/Abercrombi&Fitch-300x250.png", //imageOfWork1
                     "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.", //quote
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/images/projects/bannerAds/images/Quantcast-300x250.png", //imageOfWork1
+                    windowURL + "/images/projects/bannerAds/images/Toast-300x250.png", //imageOfWork1
+                    windowURL + "/images/projects/bannerAds/images/ToysRUs-300x250.png", //imageOfWork1
                     [
-                        [windowURL + "/img/1.mov"], // add vidios
-                        [windowURL + "/img/1.mov"], // add vidios
-                        [windowURL + "/img/1.mov"], // add vidios
-                        [windowURL + "/img/1.mov"], // add vidios
-                        [windowURL + "/img/1.mov"], // add vidios
-                        [windowURL + "/img/1.mov"], // add vidios
-                        [windowURL + "/img/1.mov"], // add vidios
-                        [windowURL + "/img/1.mov"], // add vidios
-                        [windowURL + "/img/1.mov"], // add vidios
+                        [windowURL + "/images/projects/bannerAds/BackKarewnMillen.mp4"], // add vidios
+                        [windowURL + "/images/projects/bannerAds/FeelUniqueMPu.mp4"], // add vidios
+                        [windowURL + "/images/projects/bannerAds/FootAsylumMPU.mp4"], // add vidios
+                        [windowURL + "/images/projects/bannerAds/RomanMPU.mp4"], // add vidios
+                        [windowURL + "/images/projects/bannerAds/Moo300x250.mp4"], // add vidios
+                        [windowURL + "/images/projects/bannerAds/MyTheresa2prod.mp4"], // add vidios
+                        [windowURL + "/images/projects/bannerAds/Jigsawrollover.mp4"], // add vidios
+                        [windowURL + "/images/projects/bannerAds/warehouse.mp4"], // add vidios
+                        [windowURL + "/images/projects/bannerAds/JimychooMPU.mp4"], // add vidios
                     ],
                 ],
                 [ //project2 End Clothing
                     "End Clothing", // title
                     "In this project my team and I rebuilt End. Clothing on Magento 2 and redesigned the whole front end.", //subtitle
-                    windowURL + "/img/1.png", // mainImage
+                    windowURL + "/images/projects/endClothing/1.png", // mainImage
                     "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.", //moreInfo
-                    windowURL + "/img/1.png", //imageOfWork1 // all the different pages and blocks mobile tablet and desktop
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/images/projects/endClothing/1.png", //imageOfWork1 // all the different pages and blocks mobile tablet and desktop
+                    windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
+                    windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
                     "quote about work", //quote
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png" //imageOfWork1
+                    windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
+                    windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
+                    windowURL + "/images/projects/endClothing/1.png" //imageOfWork1
                 ],
                 [ //project3 Creative Calculator
                     "Creative Calculator", // title
                     "I lead this project and created a fully functioning ad calculator. The premis was that we colated thosands of ads and analised them using a custom grid and then processed this data so that it was usable in the calculator. This was to enable anyone to drop an add into the calaculator and it would tell you the best and worst parts and where it could be imroved", //subtitle
-                    windowURL + "/img/1.png", // mainImage
+                    windowURL + "/images/projects/creativeCalculator/mainImage.png", // mainImage
                     "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.", //moreInfo
-                    windowURL + "/img/1.png", //imageOfWork1 // get some scretches for this project of the grid and overlays
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/images/projects/creativeCalculator/Creative-calculator1.jpg", //imageOfWork1 // get some scretches for this project of the grid and overlays
+                    windowURL + "/images/projects/creativeCalculator/Creative-calculator2.jpg", //imageOfWork1
+                    windowURL + "/images/projects/creativeCalculator/Creative-calculator3.jpg", //imageOfWork1
                     "quote about work", //quote
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png" //imageOfWork1
+                    windowURL + "/images/projects/creativeCalculator/1.png", //imageOfWork1
+                    windowURL + "/images/projects/creativeCalculator/1.png", //imageOfWork1
+                    windowURL + "/images/projects/creativeCalculator/1.png" //imageOfWork1
                 ],
                 [ //project4 Quantcast Posters and Icon
-                    "Quantcast Posters and Icons", // title
+                    "Man Overboard - Degree show", // title
                     "Here are a selection of icons and posters I designed for Quantcast to promote a number of different.", //subtitle
                     windowURL + "/img/1.png", // mainImage
                     "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.", //moreInfo
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/images/projects/manOverboard/ManOverboard_WebSite3.png", //imageOfWork1
+                    windowURL + "/images/projects/manOverboard/ManOverboard_WebSite1.png", //imageOfWork1
+                    windowURL + "/images/projects/manOverboard/ManOverboard_WebSite2.png", //imageOfWork1
                     "quote about work", //quote
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png" //imageOfWork1
+                    windowURL + "/images/projects/manOverboard/ManOverboard_Book_Cover.png", //imageOfWork1
+                    windowURL + "/images/projects/manOverboard/ManOverboard_Book_AustinsWork.png", //imageOfWork1
+                    windowURL + "/images/projects/manOverboard/ManOverboard_Book_Logopage.png" //imageOfWork1
                 ],
                 [ //project5 V&A D&AD Entry
-                    "V&A D&AD Entry", // title
+                    "V&A - D&AD Entry", // title
                     "This was my D&AD entry for a project to redisign a hording that was going to be erected around the V&A prior to building their new courtyard and exhibition area.", //subtitle
                     windowURL + "/img/1.png", // mainImage // create slider as sccrollable area add css touchscroll
                     "text", //moreInfo
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/images/projects/vAndA/w3.jpg", //imageOfWork1
+                    windowURL + "/images/projects/vAndA/w4.jpg", //imageOfWork1
+                    windowURL + "/images/projects/vAndA/w5.jpg", //imageOfWork1
                     "quote about work", //quote
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/full-image.png" //imageOfWork1
+                    windowURL + "/images/projects/vAndA/w6.jpg", //imageOfWork1
+                    windowURL + "/images/projects/vAndA/w7.jpg", //imageOfWork1
+                    windowURL + "/images/projects/vAndA/1.png", //imageOfWork1
+                    windowURL + "/images/projects/vAndA/VA1.png" //imageOfWork1
                 ],
                 [ //project6 Yawp Jewllery
                     "Yawp Jewllery", // title
@@ -186,11 +186,13 @@
         };
 
         // reusable hover effect
-        function titleHover(element) {
-            element.on("hover", function() {
-                element.css();
-                element.addClass();
-            });
+        var titleHover = function(select) {
+          select.one("click", function() {
+            console.log('dsfgdsf')
+          })
+          select.on("hover", function() {
+              select.textillate({  outEffects: [ 'hinge' ], in: { effect: 'fadeInRight' } });
+          });
         }
 
         // show something interesting if visited
@@ -255,6 +257,15 @@
                     AWHead.removeClass("AW__head--hidden");
                     AWHeadLogo.addClass("AW__head__logo-open");
                 }
+                $(window).on("scroll", function() {
+                    AWHead.addClass("AW__head--hidden");
+                    AWHeadLogo.removeClass("AW__head__logo-open");
+                    var scrollTop = documentJQ.scrollTop();
+                    if (scrollTop === 0 || scrollTop < 0) {
+                        AWHead.removeClass("AW__head--hidden");
+                        AWHeadLogo.addClass("AW__head__logo-open");
+                    }
+                });
             });
 
         };
@@ -281,23 +292,63 @@
         this.hero = function() {
 
             // 3d logo effect
-            AWHeroMainLogo.logosDistort();
+            if ($(window).width() >= 768) {
+              AWHeroMainLogo.logosDistort();
+            } else {
+              AWHeroMainLogo.remove();
+            }
 
             // hover effect
             function heroHover(elements, classes) {
                 var top = elements[1].scrollTop();
                 titleHover(elements[1]);
                 if ($(document).scrollTop() >= 1) {
-                    elements[1].unbind("mouseover");
+                    elements[1].unbind("mouseenter");
                 } else {
-                    elements[0].css('top', top);
-                    elements[1].on("mouseover", function() {
+                    elements[1].on("mouseenter", function() {
                         elements[1].addClass(classes[0]);
                         elements[0].addClass(classes[1]);
-                    });
-                    elements[0].on("mouseout", function() {
-                            elements[1].removeClass(classes[0]);
-                            elements[0].removeClass(classes[1]);
+
+                        var elem = '';
+
+                        setTimeout(
+                          function() {
+
+                            if (elements[1] === AWHeroDesigner) {
+                              elm = documentJQ.find(".AW__hero__designer-overlay--active:hover");
+                            } else {
+                              elm = documentJQ.find(".AW__hero__developer-overlay--active:hover");
+                            }
+
+                             if (elm.length) {
+                               elements[0].one("mouseleave", function() {
+                                   elements[1].removeClass(classes[0]);
+                                   elements[0].removeClass(classes[1]);
+                                   if (!$(".AW__hero h1 span:hover").length) {
+                                       var remove = setTimeout( function() {
+                                         elements[1].css("z-index", "0")
+                                         elements[1].css("pointer-events", "auto")
+                                       }, 500)
+                                   }
+                               });
+                           } else {
+                                elements[1].on("mouseleave", function() {
+                                    var remove = setTimeout( function() {
+                                       elements[1].removeClass(classes[0]);
+                                       elements[0].removeClass(classes[1]);
+                                       elements[1].css("z-index", "0")
+                                       elements[1].css("pointer-events", "auto")
+                                     }, 500)
+                                });
+                           }
+
+                         }, 400)
+
+                        setTimeout( function() {
+                          elements[1].css("z-index", "1000")
+                          elements[1].css("pointer-events", "none")
+                        }, 500 )
+
                     });
                 }
             }
@@ -399,9 +450,11 @@
                     (function() {
                         for (var i = 0; i < AWprojectDat.length; i++) {
 
+                          var special = '';
+                          var isSpecial = '';
+
                             if (projectName == AWprojectDat[i][0]) {
-                                var special = '';
-                                var selectedPro = ["Banner Ads", "V&A D&AD Entry"];
+                                var selectedPro = ["Banner Ads", "V&A - D&AD Entry"];
                                 var specialCont = "";
                                 if (AWprojectDat[i][0] === selectedPro[1]) {
                                     // add functionallity special projects
@@ -414,7 +467,7 @@
                                     special = function(parse) {
                                         console.log(parse[0])
                                         // functionallity for videos of banner ads
-                                        specialCont = '<div class="AW__project__vidios"><img src="' + parse[0] + '"><img src="' + parse[1] + '"><img src="' + parse[2] + '"><img src="' + parse[4] + '"><img src="' + parse[5] + '"><img src="' + parse[6] + '"><img src="' + parse[7] + '"><img src="' + parse[8] + '"><img src="' + parse[9] + '"></div>';
+                                        specialCont = '<div class="AW__project__vidios"><video width="300" height="250" src="' + parse[0] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[1] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[2] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[3] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[4] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[5] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[6] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[7] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[8] + '" muted loop autoplay></video></div>';
                                     };
                                 }
                                 var imageStyle = "";
@@ -428,25 +481,27 @@
                                 }
                                 // might need to check if video
                                 // function for loading projects
+                                name = AWprojectDat[i][0].replace(/\s/g,'');
                                 title = '<div class="AW__project__title"><h2>' + AWprojectDat[i][0] + '</h2><h3>' + AWprojectDat[i][1] + '</h3></div>';
-                                mainImg = '<div class="AW__project__main-img"><img src="'+ AWprojectDat[i][2] +'"></div>';
+                                mainImg = '<div class="AW__project__main-img" style="background-image: url(' + AWprojectDat[i][2] + ');"></div>';
                                 paragraph = '<div class="AW__project__para"><p>' + AWprojectDat[i][3] + '</p></div><span class="AW__project__read-more">read more</span>';
                                 image = '<div class="' + imageStyle + '"><img src="' + AWprojectDat[i][4] + '"><img src="' + AWprojectDat[i][5] + '"><img src="' + AWprojectDat[i][6] + '"></div>';
                                 quote = '<div class="AW__project__quote"><blockquote>' + AWprojectDat[i][7] + '</blockquote></div>';
                                 image2 = '<div class="' + imageStyle + '"><img src="' + AWprojectDat[i][8] + '"><img src="' + AWprojectDat[i][9] + '"><img src="' + AWprojectDat[i][10] + '"></div>';
-                                spacial = isSpecial();
-
-                                function isSpecial() {
-                                    var node = "";
-                                    if (AWprojectDat[i][11] && special) {
-                                        special(AWprojectDat[i][11]);
-                                    }
-                                    return specialCont;
-                                }
 
                             }
 
-                            contentToAppend = '<div class="AW__project">' + title + mainImg + paragraph + spacial + image + quote + image2 + '</div>';
+                            isSpecial = function() {
+                                var node = "";
+                                if (AWprojectDat[i][11] && special) {
+                                    special(AWprojectDat[i][11]);
+                                }
+                                return specialCont;
+                            }
+
+                            isSpecial();
+
+                            contentToAppend = '<div class="AW__project AW__project__' + name + '">' + title + mainImg + paragraph + image + quote + image2 + isSpecial() + '</div>';
                         }
                     })();
 
@@ -501,6 +556,7 @@
 
             // skills animation
             AWAboutTitleReadMore.on("click", function() {  // download jquery plugin to check if in view
+              setTimeout( function() {
                 AWAboutAboutSkillsLiSpan.each(function(index, element) {
                     var per = $(this).text();
                     function createLoader(element, aPersentage) {
@@ -509,6 +565,7 @@
                     // create loading bar for each
                     createLoader($(this), per);
                 });
+              }, 2000)
             });
         };
 
@@ -538,189 +595,192 @@
 
 })();
 
-// project animation js
-function StackFx(el) {
-    this.DOM = {};
-    this.DOM.el = el;
-    this.DOM.stack = this.DOM.el.querySelector('.stack');
-    this.DOM.stackItems = [].slice.call(this.DOM.stack.children);
-    this.totalItems = this.DOM.stackItems.length;
-    this.DOM.img = this.DOM.stack.querySelector('.stack__figure > .stack__img');
-    this.DOM.caption = this.DOM.el.querySelector('.grid__item-caption');
-    this.DOM.title = this.DOM.caption.querySelector('.grid__item-title');
-    this.DOM.columns = {left: this.DOM.caption.querySelector('.column--left'), right: this.DOM.caption.querySelector('.column--right')};
+if ($(window).width() >= 768) {
+
+  // project animation js
+  function StackFx(el) {
+      this.DOM = {};
+      this.DOM.el = el;
+      this.DOM.stack = this.DOM.el.querySelector('.stack');
+      this.DOM.stackItems = [].slice.call(this.DOM.stack.children);
+      this.totalItems = this.DOM.stackItems.length;
+      this.DOM.img = this.DOM.stack.querySelector('.stack__figure > .stack__img');
+      this.DOM.caption = this.DOM.el.querySelector('.grid__item-caption');
+      this.DOM.title = this.DOM.caption.querySelector('.grid__item-title');
+      this.DOM.columns = {left: this.DOM.caption.querySelector('.column--left'), right: this.DOM.caption.querySelector('.column--right')};
+  }
+
+  StackFx.prototype._removeAnimeTargets = function() {
+      anime.remove(this.DOM.stackItems);
+      anime.remove(this.DOM.img);
+      anime.remove(this.DOM.title);
+      anime.remove(this.DOM.columns.left);
+      anime.remove(this.DOM.columns.right);
+  };
+
+  // need to update
+  function RigelFx(el) {
+      StackFx.call(this, el);
+      this._initEvents();
+  }
+
+  RigelFx.prototype = Object.create(StackFx.prototype);
+  RigelFx.prototype.constructor = RigelFx;
+
+  RigelFx.prototype._initEvents = function() {
+      var self = this;
+      this._mouseenterFn = function() {
+          self._removeAnimeTargets();
+          self._in();
+      };
+      this._mouseleaveFn = function() {
+          self._removeAnimeTargets();
+          self._out();
+      };
+      this.DOM.stack.addEventListener('mouseenter', this._mouseenterFn);
+      this.DOM.stack.addEventListener('mouseleave', this._mouseleaveFn);
+  };
+
+  RigelFx.prototype._in = function() {
+      var self = this;
+
+      anime({
+          targets: this.DOM.stackItems,
+          translateZ: {
+              value: function(target, index) {
+                  return index*10;
+              },
+              duration: 800,
+              easing: 'easeOutExpo',
+              delay: 200
+          },
+          opacity: {
+              value: function(target, index, cnt) {
+                  return index !== cnt - 1 ? [0,0.1*index+0.1] : 1
+              },
+              duration: 1,
+              easing: 'linear',
+              delay: 200
+          },
+          translateY: [
+              {
+                  value: function(target, index) {
+                      return -1*index*10;
+                  },
+                  duration: 800,
+                  delay: 200,
+                  elasticity: 300
+              },
+          ],
+          scaleY: [
+              {
+                  value: 0.8,
+                  duration: 200,
+                  easing: 'easeOutExpo'
+              },
+              {
+                  value: 1,
+                  duration: 800,
+                  elasticity: 300
+              }
+          ],
+          scaleX: [
+              {
+                  value: 1.1,
+                  duration: 200,
+                  easing: 'easeOutExpo'
+              },
+              {
+                  value: 1,
+                  duration: 800,
+                  elasticity: 300
+              }
+          ]
+      });
+
+      anime({
+          targets: this.DOM.img,
+          duration: 900,
+          easing: 'easeOutExpo',
+          delay: 200,
+          scale: 0.7
+      });
+
+      anime({
+          targets: [this.DOM.title, this.DOM.caption],
+          translateY: {
+              value: [20, 0],
+              duration: 800,
+              easing: 'easeOutExpo',
+          },
+          opacity: {
+              value: [0.4,1],
+              duration: 400,
+              delay: 200,
+              easing: 'linear'
+          }
+      });
+
+      anime({
+          targets: [this.DOM.columns.left, this.DOM.columns.right],
+          translateY: [
+              {
+                  value: [60,0],
+                  duration: 800,
+                  easing: 'easeOutExpo',
+                  delay: 200
+              }
+          ],
+          opacity: [
+              {value: [0,0], duration: 1, easing: 'linear'},
+              {value: 1, delay: 300, duration: 400, easing: 'linear'}
+          ]
+      });
+  };
+
+  RigelFx.prototype._out = function() {
+      var self = this;
+
+      anime({
+          targets: this.DOM.stackItems,
+          duration: 800,
+          easing: 'easeOutElastic',
+          translateZ: 0,
+          opacity: function(target, index, cnt) {
+              return index !== cnt - 1 ? 0 : 1
+          },
+          translateY: 0
+      });
+
+      anime({
+          targets: this.DOM.img,
+          duration: 800,
+          easing: 'easeOutElastic',
+          scale: 1
+      });
+
+      anime({
+          targets: [this.DOM.title, this.DOM.caption],
+          duration: 800,
+          // easing: 'easeOutExpo',
+          translateY: 0,
+          opacity: 1
+      });
+
+      anime({
+          targets: [this.DOM.columns.left, this.DOM.columns.right],
+          duration: 800,
+          easing: 'easeOutExpo',
+          translateY: 0,
+          opacity: 1
+      });
+  };
+
+  window.RigelFx = RigelFx;
+
+  (function() {
+      [].slice.call(document.querySelectorAll('.grid--effect-rigel > .grid__item')).forEach(function(stackEl) {
+          new RigelFx(stackEl);
+      });
+  })();
 }
-
-StackFx.prototype._removeAnimeTargets = function() {
-    anime.remove(this.DOM.stackItems);
-    anime.remove(this.DOM.img);
-    anime.remove(this.DOM.title);
-    anime.remove(this.DOM.columns.left);
-    anime.remove(this.DOM.columns.right);
-};
-
-// need to update
-function RigelFx(el) {
-    StackFx.call(this, el);
-    this._initEvents();
-}
-
-RigelFx.prototype = Object.create(StackFx.prototype);
-RigelFx.prototype.constructor = RigelFx;
-
-RigelFx.prototype._initEvents = function() {
-    var self = this;
-    this._mouseenterFn = function() {
-        self._removeAnimeTargets();
-        self._in();
-    };
-    this._mouseleaveFn = function() {
-        self._removeAnimeTargets();
-        self._out();
-    };
-    this.DOM.stack.addEventListener('mouseenter', this._mouseenterFn);
-    this.DOM.stack.addEventListener('mouseleave', this._mouseleaveFn);
-};
-
-RigelFx.prototype._in = function() {
-    var self = this;
-
-    anime({
-        targets: this.DOM.stackItems,
-        translateZ: {
-            value: function(target, index) {
-                return index*10;
-            },
-            duration: 800,
-            easing: 'easeOutExpo',
-            delay: 200
-        },
-        opacity: {
-            value: function(target, index, cnt) {
-                return index !== cnt - 1 ? [0,0.1*index+0.1] : 1
-            },
-            duration: 1,
-            easing: 'linear',
-            delay: 200
-        },
-        translateY: [
-            {
-                value: function(target, index) {
-                    return -1*index*10;
-                },
-                duration: 800,
-                delay: 200,
-                elasticity: 300
-            },
-        ],
-        scaleY: [
-            {
-                value: 0.8,
-                duration: 200,
-                easing: 'easeOutExpo'
-            },
-            {
-                value: 1,
-                duration: 800,
-                elasticity: 300
-            }
-        ],
-        scaleX: [
-            {
-                value: 1.1,
-                duration: 200,
-                easing: 'easeOutExpo'
-            },
-            {
-                value: 1,
-                duration: 800,
-                elasticity: 300
-            }
-        ]
-    });
-
-    anime({
-        targets: this.DOM.img,
-        duration: 900,
-        easing: 'easeOutExpo',
-        delay: 200,
-        scale: 0.7
-    });
-
-    anime({
-        targets: [this.DOM.title, this.DOM.caption],
-        translateY: {
-            value: [20, 0],
-            duration: 800,
-            easing: 'easeOutExpo',
-        },
-        opacity: {
-            value: [0.4,1],
-            duration: 400,
-            delay: 200,
-            easing: 'linear'
-        }
-    });
-
-    anime({
-        targets: [this.DOM.columns.left, this.DOM.columns.right],
-        translateY: [
-            {
-                value: [60,0],
-                duration: 800,
-                easing: 'easeOutExpo',
-                delay: 200
-            }
-        ],
-        opacity: [
-            {value: [0,0], duration: 1, easing: 'linear'},
-            {value: 1, delay: 300, duration: 400, easing: 'linear'}
-        ]
-    });
-};
-
-RigelFx.prototype._out = function() {
-    var self = this;
-
-    anime({
-        targets: this.DOM.stackItems,
-        duration: 800,
-        easing: 'easeOutElastic',
-        translateZ: 0,
-        opacity: function(target, index, cnt) {
-            return index !== cnt - 1 ? 0 : 1
-        },
-        translateY: 0
-    });
-
-    anime({
-        targets: this.DOM.img,
-        duration: 800,
-        easing: 'easeOutElastic',
-        scale: 1
-    });
-
-    anime({
-        targets: [this.DOM.title, this.DOM.caption],
-        duration: 800,
-        // easing: 'easeOutExpo',
-        translateY: 0,
-        opacity: 1
-    });
-
-    anime({
-        targets: [this.DOM.columns.left, this.DOM.columns.right],
-        duration: 800,
-        easing: 'easeOutExpo',
-        translateY: 0,
-        opacity: 1
-    });
-};
-
-window.RigelFx = RigelFx;
-
-(function() {
-    [].slice.call(document.querySelectorAll('.grid--effect-rigel > .grid__item')).forEach(function(stackEl) {
-        new RigelFx(stackEl);
-    });
-})();

@@ -1,13 +1,15 @@
 // not sure on colour choice
 
 // colours
-$white: #f2f2f2;
+$fff: #ffffff;
+$white: #ffffff;
 $lightGrey: #939393;
 $red: #ff3d53;
 $lighterGrey: #dedede;
 $dark: #00234a;
 $veryLightGreen: #deedeb;
 $lightishGrey: #4c4c4c;
+$orange: #ff5733;
 
 $project1: #581845;
 $project2: #900c3f;
@@ -34,6 +36,12 @@ $sansSerfifStyle: 'Sansita', sans-serif;
 *::before {
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+}
+
+.main {
+	max-width: 1500px;
+	margin: auto;
+	background: $veryLightGreen;
 }
 
 body {

@@ -21,57 +21,90 @@
 
 	.AW__hero__main-logo {
 		position: absolute;
-    top: calc(50% - 90px);
-		left: calc(60% - 90px);
-    width: 600px;
-    height: 600px;
+    top: 0;
+		left: 0;
+    width: 100%;
+    height: 100%;
 		z-index: 0;
 		.ld-overlap-container {
-			width: 500px !important;
-	    height: 500px !important;
-			left: 220px !important;
-			top: 100px !important;
+			width: 100% !important;
+	    height: 100% !important;
+			left: 40% !important;
+			top: 30% !important;
 		}
 		img {
-			width: 300px !important;
+			width: 62% !important;
 			height: auto !important;
 		}
 	}
 
 	.AW__hero__designer-overlay {
+		top: -16%;
 		position: absolute;
-		transform: rotate(293deg);
-		left: -3151px;
-		width: 4000px;
-		height: 2000px;
+		transform: rotate(284deg);
+		left: -42%;
+		width: 100%;
+		height: 75%;
 		opacity: 0;
 		transition: 0.7s;
+		-webkit-clip-path: circle(50% at 50% 50%);
+		clip-path: circle(50% at 50% 50%);
 		&.AW__hero__designer-overlay--active {
 			opacity: 0.8;
-			-webkit-filter: blur(1px) brightness(1.3) contrast(1.6);
-			//drop-shadow(1px 1px 20px black) grayscale(0.1) hue-rotate(120deg) saturate(4.8) sepia(0.5)
-			// filter: url(); // code change num codepen
-			filter: blur(5px);
-			background: blue;
+			background: url(/images/img1.png);
 			transition: 0.7s;
 			z-index: $top;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			-webkit-animation: spinY 100s infinite;
+			animation: spinY 100s infinite;
+			@-webkit-keyframes spinY
+				{
+					0%   {-webkit-transform: rotate(284deg);}
+					100% {-webkit-transform: rotate(10deg);}
+				}
+			@keyframes spinY
+			{
+				0%   {transform: rotate(284deg);}
+				100% {transform: rotate(10deg);}
+			}
 		}
 	}
 	.AW__hero__developer-overlay {
+		top: -10%;
 		position: absolute;
-		transform: rotate(203deg);
-		left: 107px;
-		width: 4000px;
-		height: 2000px;
-		top: -146px;
+		transform: rotate(330deg);
+		left: -4%;
+		width: 100%;
+		height: 100%;
+    top: 26%;
 		opacity: 0;
 		transition: 0.7s;
+		-webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+		clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 		&.AW__hero__developer-overlay--active {
 			opacity: 0.8;
-			filter: url(); // scetch
-			background: red;
+			background: url(/images/img2.png);
 			transition: 0.7s;
 			z-index: $top;
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			-webkit-animation: spinX 20s infinite;
+    	animation: spinX 20s infinite;
+			@-webkit-keyframes spinX
+				{
+					0%   {-webkit-transform: rotate(330deg);}
+					100% {-webkit-transform: rotate(360deg);}
+				}
+			@keyframes spinX
+			{
+				0%   {transform: rotate(330deg);}
+				100% {transform: rotate(360deg);}
+			}
 		}
 	}
 	canvas {
@@ -95,8 +128,7 @@
 		font-family: $serifStyle;
 		font-size: 28px;
 		&.AW__hero__designer--active {
-			filter: url(); // scetch
-			z-index: $sky;
+			// z-index: $sky;
 			position: relative;
 		}
 	}
@@ -108,8 +140,7 @@
 		font-family: $sansSerfifStyle;
 		letter-spacing: 1.6px;
 		&.AW__hero__front-end--active {
-			filter: url(); // code change num codepen
-			z-index: $sky;
+			// z-index: $sky;
 			position: relative;
 		}
 	}
