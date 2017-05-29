@@ -42,13 +42,18 @@
 		top: -16%;
 		position: absolute;
 		transform: rotate(284deg);
-		left: -42%;
+		left: 0%;
 		width: 100%;
-		height: 75%;
+		height: 100%;
 		opacity: 0;
 		transition: 0.7s;
-		-webkit-clip-path: circle(50% at 50% 50%);
-		clip-path: circle(50% at 50% 50%);
+		mask: url(./images/Eye_of_Horus.svg);
+		-webkit-mask: url(./images/Eye_of_Horus.svg) top left / cover;
+		-o-mask: url(./images/Eye_of_Horus.svg) top left / cover;
+		-ms-mask: url(./images/Eye_of_Horus.svg) top left / cover;
+
+		// -webkit-clip-path: circle(50% at 50% 50%);
+		// clip-path: circle(50% at 50% 50%);
 		&.AW__hero__designer-overlay--active {
 			opacity: 0.8;
 			background: url(/images/img1.png);
@@ -82,8 +87,14 @@
     top: 26%;
 		opacity: 0;
 		transition: 0.7s;
-		-webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
-		clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+
+		mask: url(./images/code.svg);
+		-webkit-mask: url(./images/code.svg) top left / cover;
+		-o-mask: url(./images/code.svg) top left / cover;
+		-ms-mask: url(./images/code.svg) top left / cover;
+
+		// -webkit-clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+		// clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 		&.AW__hero__developer-overlay--active {
 			opacity: 0.8;
 			background: url(/images/img2.png);
