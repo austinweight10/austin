@@ -12,27 +12,27 @@
         // main data
         var AWprojectDat = [
                 [ //project1 BannerAds
-                    "Banner Ads", // titles
-                    "Wen I wo", //subtitle
-                    windowURL + "/images/projects/bannerAds/mainImage.png", // mainImage
-                    "", //moreInfo
-                    windowURL + "/images/projects/bannerAds/images/Missguided2-300x250.jpg", //imageOfWork1 // campaign bost clicks and roi
-                    windowURL + "/images/projects/bannerAds/images/Matches-Fashion-300x250.png", //imageOfWork1
-                    windowURL + "/images/projects/bannerAds/images/Abercrombi&Fitch-300x250.png", //imageOfWork1
-                    "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.", //quote
-                    windowURL + "/images/projects/bannerAds/images/Quantcast-300x250.png", //imageOfWork1
-                    windowURL + "/images/projects/bannerAds/images/Toast-300x250.png", //imageOfWork1
-                    windowURL + "/images/projects/bannerAds/images/ToysRUs-300x250.png", //imageOfWork1
+                    "Banner Ads",
+                    "Wen I wo",
+                    windowURL + "/images/projects/bannerAds/mainImage.png",
+                    "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. This is a selection of ads that I have worked on and built for a variety of clients. This showcases a number of different styles of ads from prospecting to category level, specific promotions and retargeting. All of the ads below are designed for performance. Below you can see on the left the dress promotion for Roman pushing the online buzz around the gold/blue/white/black dress. Here are some prospecting ads for Moo using animation to make them jump off the page along with strong hierarchy to drive users through to site. Here is a specific promotion for FootAsylum with half the ad targeted towards a specific product and the other half a personalized retargeting ad. Ad designed to drive performance jumping out a specific customer base. Ads designed for Feel unique highlight how elements including call to action, marketing message, price bubble and layout have been tested and optimized for performance.", // talk about rio all ad tec words
+                    windowURL + "/images/projects/bannerAds/images/Missguided2-300x250.jpg",
+                    windowURL + "/images/projects/bannerAds/images/Matches-Fashion-300x250.png",
+                    windowURL + "/images/projects/bannerAds/images/Abercrombi&Fitch-300x250.png",
+                    "If it doesn't sell, it isn't creative. - David Ogilvy",
+                    windowURL + "/images/projects/bannerAds/images/Quantcast-300x250.png",
+                    windowURL + "/images/projects/bannerAds/images/Toast-300x250.png",
+                    windowURL + "/images/projects/bannerAds/images/ToysRUs-300x250.png",
                     [
-                        [windowURL + "/images/projects/bannerAds/BackKarewnMillen.mp4"], // add vidios
-                        [windowURL + "/images/projects/bannerAds/FeelUniqueMPu.mp4"], // add vidios
-                        [windowURL + "/images/projects/bannerAds/FootAsylumMPU.mp4"], // add vidios
-                        [windowURL + "/images/projects/bannerAds/RomanMPU.mp4"], // add vidios
-                        [windowURL + "/images/projects/bannerAds/Moo300x250.mp4"], // add vidios
-                        [windowURL + "/images/projects/bannerAds/MyTheresa2prod.mp4"], // add vidios
-                        [windowURL + "/images/projects/bannerAds/Jigsawrollover.mp4"], // add vidios
-                        [windowURL + "/images/projects/bannerAds/warehouse.mp4"], // add vidios
-                        [windowURL + "/images/projects/bannerAds/JimychooMPU.mp4"], // add vidios
+                        [windowURL + "/images/projects/bannerAds/BackKarewnMillen.mp4"],
+                        [windowURL + "/images/projects/bannerAds/FeelUniqueMPu.mp4"],
+                        [windowURL + "/images/projects/bannerAds/FootAsylumMPU.mp4"],
+                        [windowURL + "/images/projects/bannerAds/RomanMPU.mp4"],
+                        [windowURL + "/images/projects/bannerAds/Moo300x250.mp4"],
+                        [windowURL + "/images/projects/bannerAds/MyTheresa2prod.mp4"],
+                        [windowURL + "/images/projects/bannerAds/Jigsawrollover.mp4"],
+                        [windowURL + "/images/projects/bannerAds/warehouse.mp4"],
+                        [windowURL + "/images/projects/bannerAds/JimychooMPU.mp4"],
                     ],
                 ],
                 [ //project2 End Clothing
@@ -49,22 +49,22 @@
                     windowURL + "/images/projects/endClothing/1.png" //imageOfWork1
                 ],
                 [ //project3 Creative Calculator
-                    "Creative Calculator", // title
+                    "Creative Calculator",
                     "I lead this project and created a fully functioning ad calculator. The premis was that we colated thosands of ads and analised them using a custom grid and then processed this data so that it was usable in the calculator. This was to enable anyone to drop an add into the calaculator and it would tell you the best and worst parts and where it could be imroved", //subtitle
-                    windowURL + "/images/projects/creativeCalculator/mainImage.png", // mainImage
+                    windowURL + "/images/projects/creativeCalculator/mainImage.gif",
                     "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.", //moreInfo
-                    windowURL + "/images/projects/creativeCalculator/Creative-calculator1.jpg", //imageOfWork1 // get some scretches for this project of the grid and overlays
-                    windowURL + "/images/projects/creativeCalculator/Creative-calculator2.jpg", //imageOfWork1
-                    windowURL + "/images/projects/creativeCalculator/Creative-calculator3.jpg", //imageOfWork1
-                    "quote about work", //quote
-                    windowURL + "/images/projects/creativeCalculator/1.png", //imageOfWork1
-                    windowURL + "/images/projects/creativeCalculator/1.png", //imageOfWork1
-                    windowURL + "/images/projects/creativeCalculator/1.png" //imageOfWork1
+                    windowURL + "/images/projects/creativeCalculator/Creative-calculator1.jpg",
+                    windowURL + "/images/projects/creativeCalculator/Creative-calculator2.jpg",
+                    windowURL + "/images/projects/creativeCalculator/Creative-calculator3.jpg",
+                    "quote about work",
+                    windowURL + "/images/projects/creativeCalculator/1.png",  // get some scretches for this project of the grid and overlays
+                    windowURL + "/images/projects/creativeCalculator/1.png",  // get some scretches for this project of the grid and overlays
+                    windowURL + "/images/projects/creativeCalculator/1.png"  // get some scretches for this project of the grid and overlays
                 ],
-                [ //project4 Quantcast Posters and Icon
+                [ //project4 Man Overboard - Degree show
                     "Man Overboard - Degree show", // title
                     "Here are a selection of icons and posters I designed for Quantcast to promote a number of different.", //subtitle
-                    windowURL + "/img/1.png", // mainImage
+                    windowURL + "/images/projects/manOverboard/mainImage.jpg", // mainImage
                     "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.", //moreInfo
                     windowURL + "/images/projects/manOverboard/ManOverboard_WebSite3.png", //imageOfWork1
                     windowURL + "/images/projects/manOverboard/ManOverboard_WebSite1.png", //imageOfWork1
@@ -77,7 +77,7 @@
                 [ //project5 V&A D&AD Entry
                     "V&A - D&AD Entry", // title
                     "This was my D&AD entry for a project to redisign a hording that was going to be erected around the V&A prior to building their new courtyard and exhibition area.", //subtitle
-                    windowURL + "/img/1.png", // mainImage // create slider as sccrollable area add css touchscroll
+                    windowURL + "/images/projects/vAndA/mainImage.jpg", // mainImage // create slider as sccrollable area add css touchscroll
                     "text", //moreInfo
                     windowURL + "/images/projects/vAndA/w3.jpg", //imageOfWork1
                     windowURL + "/images/projects/vAndA/w4.jpg", //imageOfWork1
@@ -85,7 +85,7 @@
                     "quote about work", //quote
                     windowURL + "/images/projects/vAndA/w6.jpg", //imageOfWork1
                     windowURL + "/images/projects/vAndA/w7.jpg", //imageOfWork1
-                    windowURL + "/images/projects/vAndA/1.png", //imageOfWork1
+                    windowURL + "/images/projects/vAndA/w9.jpg", //imageOfWork1
                     windowURL + "/images/projects/vAndA/VA1.png" //imageOfWork1
                 ],
                 [ //project6 Yawp Jewllery
@@ -167,9 +167,11 @@
         var readMore = function(selector) {
             selector.one("click", function() {
                 $(this).prev().css("height", "auto");
+                $(this).prev().addClass("AW__project__para--open");
                 $(this).text("hide");
                 $(this).one("click", function() {
-                    $(this).prev().css("height", "150px");
+                    $(this).prev().css("height", "87px");
+                    $(this).prev().removeClass("AW__project__para--open");
                     $(this).text("Read more");
                     readMore(selector);
                 });
