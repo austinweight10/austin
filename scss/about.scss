@@ -2,7 +2,7 @@
 
 .AW__about {
 	width: calc(100% + 20px);
-  margin: 0 -10px 170px;
+  	margin: 0 -10px 170px;
 	background: $veryLightGreen;
 	box-shadow: 0px -60px 150px $veryLightGreen;
 	padding-bottom: 50px;
@@ -38,9 +38,9 @@
 	}
 	.AW__about__clients {
 		display: none;
-		padding: 20px 0 30px;
+		padding: 20px 0 15px;
 		background: $fff;
-		margin: 30px 0;
+		margin: 30px 0 0;
 		box-shadow: 0px 60px 100px $fff;
 		h3 {
 			width: 260px;
@@ -89,7 +89,7 @@
 	}
 	.AW__about__about {
 		display: none;
-		padding-top: 35px;
+		// padding-top: 35px;
 		h3 {
 			width: 160px;
 	    text-align: left;
@@ -103,7 +103,7 @@
 		.AW__about__about__skills {
 			margin: 0 40px;
 			text-align: left;
-			padding-top: 25px;
+			padding: 25px 0;
 			label {
 				font-size: 18px;
 				line-height: 18px;
@@ -206,6 +206,8 @@
 				cursor: pointer;
 				transition: 0.7s;
 				border-bottom: 1px solid $lightGrey;
+				display: table;
+				margin-bottom: 10px;
 				&:hover {
 					color: $lightishGrey;
 					transition: 0.5s;

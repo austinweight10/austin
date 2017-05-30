@@ -13,9 +13,9 @@
         var AWprojectDat = [
                 [ //project1 BannerAds
                     "Banner Ads",
-                    "Wen I wo",
+                    "From prospecting to retargeting",
                     windowURL + "/images/projects/bannerAds/mainImage.png",
-                    "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. This is a selection of ads that I have worked on and built for a variety of clients. This showcases a number of different styles of ads from prospecting to category level, specific promotions and retargeting. All of the ads below are designed for performance. Below you can see on the left the dress promotion for Roman pushing the online buzz around the gold/blue/white/black dress. Here are some prospecting ads for Moo using animation to make them jump off the page along with strong hierarchy to drive users through to site. Here is a specific promotion for FootAsylum with half the ad targeted towards a specific product and the other half a personalized retargeting ad. Ad designed to drive performance jumping out a specific customer base. Ads designed for Feel unique highlight how elements including call to action, marketing message, price bubble and layout have been tested and optimized for performance.", // talk about rio all ad tec words
+                    "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. This is a selection of ads that I designed and built. This showcases a number of different styles of ads from prospecting all the way down to retargeting. All of the ads are designed for performance and evaluated against uplift on campaigns. Thera are a couple of projects that where great to work on including #the dress.", // talk about rio all ad tec words
                     windowURL + "/images/projects/bannerAds/images/Missguided2-300x250.jpg",
                     windowURL + "/images/projects/bannerAds/images/Matches-Fashion-300x250.png",
                     windowURL + "/images/projects/bannerAds/images/Abercrombi&Fitch-300x250.png",
@@ -37,9 +37,9 @@
                 ],
                 [ //project2 End Clothing
                     "End Clothing", // title
-                    "In this project my team and I rebuilt End. Clothing on Magento 2 and redesigned the whole front end.", //subtitle
+                    "Rebuild redesigned End. Clothing site on Magento 2", //subtitle
                     windowURL + "/images/projects/endClothing/1.png", // mainImage
-                    "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.", //moreInfo
+                    "I was on the front-end team In this project we moved the existing End. Clothing site built on magento on to magento and rebuil the a fully responcive fontend with progressive web ap features and a style.", //moreInfo
                     windowURL + "/images/projects/endClothing/1.png", //imageOfWork1 // all the different pages and blocks mobile tablet and desktop
                     windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
                     windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
@@ -50,35 +50,35 @@
                 ],
                 [ //project3 Creative Calculator
                     "Creative Calculator",
-                    "I lead this project and created a fully functioning ad calculator. The premis was that we colated thosands of ads and analised them using a custom grid and then processed this data so that it was usable in the calculator. This was to enable anyone to drop an add into the calaculator and it would tell you the best and worst parts and where it could be imroved", //subtitle
+                    "Combining the design teams knowledge into a calculator", //subtitle
                     windowURL + "/images/projects/creativeCalculator/mainImage.gif",
-                    "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry.", //moreInfo
+                    "I lead this project and created a fully functioning ad calculator. The premis was that we colated thosands of ads and analised them using a custom grid and then processed this data so that it was usable in the calculator. This was to enable anyone to drop an add into the calaculator and it would tell you the best and worst parts and where it could be imroved", //moreInfo
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator1.jpg",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator2.jpg",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator3.jpg",
-                    "quote about work",
+                    "quote about work", // machines creative qoute
                     windowURL + "/images/projects/creativeCalculator/1.png",  // get some scretches for this project of the grid and overlays
                     windowURL + "/images/projects/creativeCalculator/1.png",  // get some scretches for this project of the grid and overlays
                     windowURL + "/images/projects/creativeCalculator/1.png"  // get some scretches for this project of the grid and overlays
                 ],
                 [ //project4 Man Overboard - Degree show
                     "Man Overboard - Degree show", // title
-                    "Here are a selection of icons and posters I designed for Quantcast to promote a number of different.", //subtitle
+                    "Getting into the real world", //subtitle
                     windowURL + "/images/projects/manOverboard/mainImage.jpg", // mainImage
                     "My duties for this project were mainly in the design and build of the website; creating a fully functioning site and database for all the work and students contributing. This site was used as the hub for the gallery; hosting all the work summaries and details allowing visitors to find out more about projects and used in marketing the exhibition. I also heavily contributed to the booklet and exhibition design. The website was fully responsive and built through WordPress. The site allowed each student exhibiting to upload images, videos and more of their work along with a description and a site link with contact details. The web design encompassed the nautical, lost at sea theme, a representative of leaving collage to join the industry. The Guide The guide was used as navigation for the exhibition with a map printed in the book’s dust cover. The guide also encompassed student culture and promoted the university discussing lectures and other events that had occurred in during our time there. The Exhibition The exhibition was hosted in Shoreditch with our work displayed across two floors. The exhibition included vinyls and signage on the walls and windows to help visitors navigate and promote to passers-by.", //moreInfo
                     windowURL + "/images/projects/manOverboard/ManOverboard_WebSite3.png", //imageOfWork1
                     windowURL + "/images/projects/manOverboard/ManOverboard_WebSite1.png", //imageOfWork1
                     windowURL + "/images/projects/manOverboard/ManOverboard_WebSite2.png", //imageOfWork1
-                    "quote about work", //quote
+                    "quote about work", // entering the matrix quote sands of the real
                     windowURL + "/images/projects/manOverboard/ManOverboard_Book_Cover.png", //imageOfWork1
                     windowURL + "/images/projects/manOverboard/ManOverboard_Book_AustinsWork.png", //imageOfWork1
                     windowURL + "/images/projects/manOverboard/ManOverboard_Book_Logopage.png" //imageOfWork1
                 ],
                 [ //project5 V&A D&AD Entry
                     "V&A - D&AD Entry", // title
-                    "This was my D&AD entry for a project to redisign a hording that was going to be erected around the V&A prior to building their new courtyard and exhibition area.", //subtitle
+                    "D&AD can suck it -- jokes", //subtitle
                     windowURL + "/images/projects/vAndA/mainImage.jpg", // mainImage // create slider as sccrollable area add css touchscroll
-                    "text", //moreInfo
+                    "This was my D&AD entry for a project to redisign a hording that was going to be erected around the V&A prior to building their new courtyard and exhibition area.", //moreInfo
                     windowURL + "/images/projects/vAndA/w3.jpg", //imageOfWork1
                     windowURL + "/images/projects/vAndA/w4.jpg", //imageOfWork1
                     windowURL + "/images/projects/vAndA/w5.jpg", //imageOfWork1
@@ -103,7 +103,46 @@
                 ],
                 [ //project7 Quantcast Home From Home
                     "Quantcast Home From Home", // title
-                    "An in-house travel website for Quantcast employees to allow them to travel and make money staying with other employees and building company culture across the globe similar to AirBNB. My role in this project was the design and construction of the site along with concepting how the payment and other travel details would be built into the company’s expenses system.", //subtitle
+                    "AirBNB for Quantcast employees", //subtitle
+                    windowURL + "/img/1.png", // mainImage
+                    "An in-house travel website for Quantcast employees to allow them to travel and make money staying with other employees and building company culture across the globe similar to AirBNB. My role in this project was the design and construction of the site along with concepting how the payment and other travel details would be built into the company’s expenses system.", //moreInfo
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
+                    "quote about work", //quote
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png" //imageOfWork1
+                ],
+                [ //project7 Quantcast Home From Home
+                    "Match Betting", // title
+                    "I love money and so does everyone else", //subtitle
+                    windowURL + "/img/1.png", // mainImage
+                    "text", //moreInfo
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
+                    "quote about work", //quote
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png" //imageOfWork1
+                ],
+                [ //project7 Quantcast Home From Home
+                    "Zorokovick Vodka", // title
+                    "", //subtitle
+                    windowURL + "/img/1.png", // mainImage
+                    "lolly pop promotion", //moreInfo
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
+                    "quote about work", //quote
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/img/1.png" //imageOfWork1
+                ],
+                [ //project7 Quantcast Home From Home
+                    "Executive Organisers", // title
+                    "Wordpress site", //subtitle
                     windowURL + "/img/1.png", // mainImage
                     "text", //moreInfo
                     windowURL + "/img/1.png", //imageOfWork1
@@ -459,30 +498,27 @@
                                 var selectedPro = ["Banner Ads", "V&A - D&AD Entry"];
                                 var specialCont = "";
                                 if (AWprojectDat[i][0] === selectedPro[1]) {
-                                    // add functionallity special projects
                                     special = function(parse) {
                                         // add scroll for V&A
                                         specialCont = '<div class="AW__project__scroller"><div><img src="' + parse + '"></div></div>';
                                     }; // special = ""; // some coll slider V&A
                                 } else if (AWprojectDat[i][0] === selectedPro[0]) {
-                                    // add functionallity special projects
                                     special = function(parse) {
                                         console.log(parse[0])
                                         // functionallity for videos of banner ads
                                         specialCont = '<div class="AW__project__vidios"><video width="300" height="250" src="' + parse[0] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[1] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[2] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[3] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[4] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[5] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[6] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[7] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[8] + '" muted loop autoplay></video></div>';
                                     };
                                 }
+
                                 var imageStyle = "";
-                                // chose image solution
-                                if (AWprojectDat[i] === "projectName" || AWprojectDat[i] === "anotherProjectName") {
+                                if (AWprojectDat[i][0] === "Match Betting" || AWprojectDat[i][0] === "Executive Organisers" || AWprojectDat[i][0] === "Quantcast Home From Home") {
                                     imageStyle = "AW__project__images--mash";
-                                } else if (AWprojectDat[i] === "projectName" || AWprojectDat[i] === "anotherProjectName") {
+                                } else if (AWprojectDat[i][0] === "End Clothing" || AWprojectDat[i][0] === "Zorokovich Vodka") {
                                     imageStyle = "AW__project__images--mase";
                                 } else {
                                     imageStyle = "AW__project__images--expand";
                                 }
-                                // might need to check if video
-                                // function for loading projects
+
                                 name = AWprojectDat[i][0].replace(/\s/g,'');
                                 title = '<div class="AW__project__title"><h2>' + AWprojectDat[i][0] + '</h2><h3>' + AWprojectDat[i][1] + '</h3></div>';
                                 mainImg = '<div class="AW__project__main-img" style="background-image: url(' + AWprojectDat[i][2] + ');"></div>';
