@@ -45,10 +45,12 @@
 		-webkit-animation-timing-function: linear;
 		-webkit-animation-iteration-count: 1;
 		-webkit-animation-duration: 0.7s;
+
 		animation-name: spinner;
 		animation-timing-function: linear;
 		animation-iteration-count: 1;
 		animation-duration: 0.7s;
+
 		-webkit-transform-style: preserve-3d;
 		-moz-transform-style: preserve-3d;
 		-ms-transform-style: preserve-3d;
@@ -93,10 +95,12 @@
 			-webkit-animation-timing-function: linear;
 			-webkit-animation-iteration-count: 1;
 			-webkit-animation-duration: 0.7s;
+
 			animation-name: spin;
 			animation-timing-function: linear;
 			animation-iteration-count: 1;
 			animation-duration: 0.7s;
+			
 			-webkit-transform-style: preserve-3d;
 			-moz-transform-style: preserve-3d;
 			-ms-transform-style: preserve-3d;

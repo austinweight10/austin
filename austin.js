@@ -1,13 +1,8 @@
-// make responsive
-// if ($(window).width() >= 768) {}
-
 (function() {
     function AW() {
 
       var url = document.URL,
           windowURL = url.substring(0,url.lastIndexOf("/"));
-
-        // this is goign to be hard ask grace and use profecional quotes about advertising development
 
         // main data
         var AWprojectDat = [
@@ -15,7 +10,7 @@
                     "Banner Ads",
                     "From prospecting to retargeting",
                     windowURL + "/images/projects/bannerAds/mainImage.png",
-                    "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. This is a selection of ads that I designed and built. This showcases a number of different styles of ads from prospecting all the way down to retargeting. All of the ads are designed for performance and evaluated against uplift on campaigns. Thera are a couple of projects that where great to work on including #the dress.", // talk about rio all ad tec words
+                    "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. This is a selection of ads that I designed and built for them. There are a number of different styles of ads from prospecting all the way down the funnel to retargeting. All of the ads are designed for performance and evaluated against uplift on a campaign by campaign level.",
                     windowURL + "/images/projects/bannerAds/images/Missguided2-300x250.jpg",
                     windowURL + "/images/projects/bannerAds/images/Matches-Fashion-300x250.png",
                     windowURL + "/images/projects/bannerAds/images/Abercrombi&Fitch-300x250.png",
@@ -36,23 +31,23 @@
                     ],
                 ],
                 [ //project2 End Clothing
-                    "End Clothing", // title
-                    "Rebuild redesigned End. Clothing site on Magento 2", //subtitle
-                    windowURL + "/images/projects/endClothing/1.png", // mainImage
-                    "I was on the front-end team In this project we moved the existing End. Clothing site built on magento on to magento and rebuil the a fully responcive fontend with progressive web ap features and a style.", //moreInfo
+                    "End Clothing",
+                    "Rebuild redesigned End. Clothing site on Magento 2",
+                    windowURL + "/images/projects/endClothing/mainImage.png", // mainImage
+                    "I was on the front-end team, in this project we moved the existing End. Clothing site built on magento on to magento 2 and rebuilt it with a fully responcive font-end with progressive web app features along with a seperate styleguide, I also retemplated the whole email system with mjml for transactional emails and marketing, extended the saved items for all social sharing and updating cart and prefrences, built a customm help desk and added custome blocks for reuse through the site.",
                     windowURL + "/images/projects/endClothing/1.png", //imageOfWork1 // all the different pages and blocks mobile tablet and desktop
                     windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
                     windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
-                    "quote about work", //quote
+                    "quote about work", // magento quote
                     windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
                     windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
                     windowURL + "/images/projects/endClothing/1.png" //imageOfWork1
                 ],
                 [ //project3 Creative Calculator
                     "Creative Calculator",
-                    "Combining the design teams knowledge into a calculator", //subtitle
+                    "Combining the design teams knowledge into a calculator",
                     windowURL + "/images/projects/creativeCalculator/mainImage.gif",
-                    "I lead this project and created a fully functioning ad calculator. The premis was that we colated thosands of ads and analised them using a custom grid and then processed this data so that it was usable in the calculator. This was to enable anyone to drop an add into the calaculator and it would tell you the best and worst parts and where it could be imroved", //moreInfo
+                    "I lead this project and created a fully functioning ad calculator. The mission was to collect hundreds of ads and analised them using a custom grid and we then processed this data so that it was valid for use in the calculator. This was to enable anyone to drop an add into the calaculator and it would tell you the best and worst parts and where it could be imroved. This tock months of analising ads and comparing campaingns based on roi and click perfomance to provid useful insights. I was responsible for designing the grid and writing the calculator.",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator1.jpg",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator2.jpg",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator3.jpg",
@@ -62,96 +57,96 @@
                     windowURL + "/images/projects/creativeCalculator/1.png"  // get some scretches for this project of the grid and overlays
                 ],
                 [ //project4 Man Overboard - Degree show
-                    "Man Overboard - Degree show", // title
-                    "Getting into the real world", //subtitle
-                    windowURL + "/images/projects/manOverboard/mainImage.jpg", // mainImage
-                    "My duties for this project were mainly in the design and build of the website; creating a fully functioning site and database for all the work and students contributing. This site was used as the hub for the gallery; hosting all the work summaries and details allowing visitors to find out more about projects and used in marketing the exhibition. I also heavily contributed to the booklet and exhibition design. The website was fully responsive and built through WordPress. The site allowed each student exhibiting to upload images, videos and more of their work along with a description and a site link with contact details. The web design encompassed the nautical, lost at sea theme, a representative of leaving collage to join the industry. The Guide The guide was used as navigation for the exhibition with a map printed in the book’s dust cover. The guide also encompassed student culture and promoted the university discussing lectures and other events that had occurred in during our time there. The Exhibition The exhibition was hosted in Shoreditch with our work displayed across two floors. The exhibition included vinyls and signage on the walls and windows to help visitors navigate and promote to passers-by.", //moreInfo
-                    windowURL + "/images/projects/manOverboard/ManOverboard_WebSite3.png", //imageOfWork1
-                    windowURL + "/images/projects/manOverboard/ManOverboard_WebSite1.png", //imageOfWork1
-                    windowURL + "/images/projects/manOverboard/ManOverboard_WebSite2.png", //imageOfWork1
+                    "Man Overboard - Degree show",
+                    "Getting into the real world",
+                    windowURL + "/images/projects/manOverboard/mainImage.jpg",
+                    "My duties for this project were the design and build of the website. Creating a fully functioning site for all the work and students contributing. This site was used as the hub for the gallery - hosting all the work summaries and details allowing visitors to find out more about projects and used in marketing the exhibition. The website was fully responsive and built through WordPress. The site allowed each student exhibiting to upload images, videos and more of their work along with a description and a site link with contact details. The web design encompassed the nautical, lost at sea theme, a representative of leaving collage to join the industry. I also heavily contributed to the booklet design. The Guide The guide was used as navigation for the exhibition with a map printed in the book’s dust cover. The guide also encompassed student culture and promoted the university discussing lectures and other events that had occurred in during our time there. The Exhibition The exhibition was hosted in Shoreditch with our work displayed across two floors. The exhibition included vinyls and signage on the walls and windows to help visitors navigate.", //moreInfo
+                    windowURL + "/images/projects/manOverboard/ManOverboard_WebSite3.png",
+                    windowURL + "/images/projects/manOverboard/ManOverboard_WebSite1.png",
+                    windowURL + "/images/projects/manOverboard/ManOverboard_WebSite2.png",
                     "quote about work", // entering the matrix quote sands of the real
-                    windowURL + "/images/projects/manOverboard/ManOverboard_Book_Cover.png", //imageOfWork1
-                    windowURL + "/images/projects/manOverboard/ManOverboard_Book_AustinsWork.png", //imageOfWork1
-                    windowURL + "/images/projects/manOverboard/ManOverboard_Book_Logopage.png" //imageOfWork1
+                    windowURL + "/images/projects/manOverboard/ManOverboard_Book_Cover.png",
+                    windowURL + "/images/projects/manOverboard/ManOverboard_Book_AustinsWork.png",
+                    windowURL + "/images/projects/manOverboard/ManOverboard_Book_Logopage.png"
                 ],
                 [ //project5 V&A D&AD Entry
-                    "V&A - D&AD Entry", // title
+                    "V&A - D&AD Entry",
                     "D&AD can suck it -- jokes", //subtitle
-                    windowURL + "/images/projects/vAndA/mainImage.jpg", // mainImage // create slider as sccrollable area add css touchscroll
-                    "This was my D&AD entry for a project to redisign a hording that was going to be erected around the V&A prior to building their new courtyard and exhibition area.", //moreInfo
-                    windowURL + "/images/projects/vAndA/w3.jpg", //imageOfWork1
-                    windowURL + "/images/projects/vAndA/w4.jpg", //imageOfWork1
-                    windowURL + "/images/projects/vAndA/w5.jpg", //imageOfWork1
+                    windowURL + "/images/projects/vAndA/mainImage.jpg",
+                    "This was my D&AD entry for a project to redisign a hording that was going to be erected around the V&A prior to building their new courtyard and exhibition area. The breif was to promote the V&A", // have a look at submitted slides
+                    windowURL + "/images/projects/vAndA/w3.jpg",
+                    windowURL + "/images/projects/vAndA/w4.jpg",
+                    windowURL + "/images/projects/vAndA/w5.jpg",
                     "quote about work", //quote
-                    windowURL + "/images/projects/vAndA/w6.jpg", //imageOfWork1
-                    windowURL + "/images/projects/vAndA/w7.jpg", //imageOfWork1
-                    windowURL + "/images/projects/vAndA/w9.jpg", //imageOfWork1
-                    windowURL + "/images/projects/vAndA/VA1.png" //imageOfWork1
+                    windowURL + "/images/projects/vAndA/w6.jpg",
+                    windowURL + "/images/projects/vAndA/w7.jpg",
+                    windowURL + "/images/projects/vAndA/w9.jpg",
+                    windowURL + "/images/projects/vAndA/VA1.png"
                 ],
                 [ //project6 Yawp Jewllery
                     "Yawp Jewllery", // title
-                    "This project ...", //subtitle
-                    windowURL + "/img/1.png", // mainImage
-                    "text", //moreInfo
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
+                    "Ecomerce site built on Wordpress with woocomerce",
+                    windowURL + "/images/projects/yawp/mainImage.png", // mainImage
+                    "I designed and built an eccomerce store on wordpress with woocomerce plugin. The idea was that the shopping expericance would would be more encompcing thus you had to move around the environment to find what you liked. I alos wanted the whole expericnce to be contained in one page. Thus the site relied heavily on ajax requests. This site takes advantage of a lot of new css features to make the whole site responcive. This site also managed the transactional emails.", //moreInfo
+                    windowURL + "/images/projects/yawp/1.png", //imageOfWork1
+                    windowURL + "/images/projects/yawp/1.png", //imageOfWork1
+                    windowURL + "/images/projects/yawp/1.png", //imageOfWork1
                     "quote about work", //quote
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png" //imageOfWork1
+                    windowURL + "/images/projects/yawp/1.png", //imageOfWork1
+                    windowURL + "/images/projects/yawp/1.png", //imageOfWork1
+                    windowURL + "/images/projects/yawp/1.png" //imageOfWork1
                 ],
                 [ //project7 Quantcast Home From Home
                     "Quantcast Home From Home", // title
                     "AirBNB for Quantcast employees", //subtitle
-                    windowURL + "/img/1.png", // mainImage
+                    windowURL + "/images/projects/homeFromHome/mainImage.png", // mainImage
                     "An in-house travel website for Quantcast employees to allow them to travel and make money staying with other employees and building company culture across the globe similar to AirBNB. My role in this project was the design and construction of the site along with concepting how the payment and other travel details would be built into the company’s expenses system.", //moreInfo
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/images/projects/homeFromHome/1.png", //imageOfWork1
+                    windowURL + "/images/projects/homeFromHome/1.png", //imageOfWork1
+                    windowURL + "/images/projects/homeFromHome/1.png", //imageOfWork1
                     "quote about work", //quote
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png" //imageOfWork1
+                    windowURL + "/images/projects/homeFromHome/1.png", //imageOfWork1
+                    windowURL + "/images/projects/homeFromHome/1.png", //imageOfWork1
+                    windowURL + "/images/projects/homeFromHome/1.png" //imageOfWork1
                 ],
                 [ //project7 Quantcast Home From Home
                     "Match Betting", // title
                     "I love money and so does everyone else", //subtitle
-                    windowURL + "/img/1.png", // mainImage
-                    "text", //moreInfo
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/images/projects/matchBetting/mainImage.png", // mainImage
+                    "This project started out as a small app for a frind and developed into a fully functioning site taht allows people to save and chech bets against eachother, whilst offering advice based on splitting the bet for lowest posible losses, whille targeting high scoring bets. This app was built in react as this allowd me to update the constantly changing data on the fly. This was built as a Progressive web app and this all data was stored in the cache meaning the app worked offline.",
+                    windowURL + "/images/projects/matchBetting/1.png", //imageOfWork1
+                    windowURL + "/images/projects/matchBetting/1.png", //imageOfWork1
+                    windowURL + "/images/projects/matchBetting/1.png", //imageOfWork1
                     "quote about work", //quote
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png" //imageOfWork1
+                    windowURL + "/images/projects/matchBetting/1.png", //imageOfWork1
+                    windowURL + "/images/projects/matchBetting/1.png", //imageOfWork1
+                    windowURL + "/images/projects/matchBetting/1.png" //imageOfWork1
                 ],
                 [ //project7 Quantcast Home From Home
                     "Zorokovick Vodka", // title
-                    "", //subtitle
-                    windowURL + "/img/1.png", // mainImage
-                    "lolly pop promotion", //moreInfo
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
+                    "Ice lollies for summer filled with zorokovick vodka", //subtitle
+                    windowURL + "/images/projects/zorokovich/mainImage.png", // mainImage
+                    "Promotion for a anew summer time lolly pop that contained. this was a custom site built from scratch and large format promotional images for the event and used through out the site.", //moreInfo
+                    windowURL + "/images/projects/zorokovich/1.png", //imageOfWork1
+                    windowURL + "/images/projects/zorokovich/1.png", //imageOfWork1
+                    windowURL + "/images/projects/zorokovich/1.png", //imageOfWork1
                     "quote about work", //quote
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png" //imageOfWork1
+                    windowURL + "/images/projects/zorokovich/1.png", //imageOfWork1
+                    windowURL + "/images/projects/zorokovich/1.png", //imageOfWork1
+                    windowURL + "/images/projects/zorokovich/1.png" //imageOfWork1
                 ],
                 [ //project7 Quantcast Home From Home
                     "Executive Organisers", // title
                     "Wordpress site", //subtitle
-                    windowURL + "/img/1.png", // mainImage
-                    "text", //moreInfo
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
+                    windowURL + "/images/projects/executiveOrganisers/mainImage.png", // mainImage
+                    "This was a custom one page wordpress theme for Executive Organisers, this was their main site for advertising and promoting their services. This site was fully responcive. This site reinforced the brand.",
+                    windowURL + "/images/projects/executiveOrganisers/1.png", //imageOfWork1
+                    windowURL + "/images/projects/executiveOrganisers/1.png", //imageOfWork1
+                    windowURL + "/images/projects/executiveOrganisers/1.png", //imageOfWork1
                     "quote about work", //quote
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png", //imageOfWork1
-                    windowURL + "/img/1.png" //imageOfWork1
+                    windowURL + "/images/projects/executiveOrganisers/1.png", //imageOfWork1
+                    windowURL + "/images/projects/executiveOrganisers/1.png", //imageOfWork1
+                    windowURL + "/images/projects/executiveOrganisers/1.png" //imageOfWork1
                 ],
            ];
 
@@ -172,6 +167,7 @@
             AWProjectMainImg = $(".AW__project__main-img"),
             AWProjectReadMore = $(".AW__project__read-more"),
             AWProjectQuote = $(".AW__project__quote"),
+            AWProjectQuoteblockquote = $(".AW__project__quote blockquote"),
             AWProjectImagesMash = $(".AW__project__images--mash"),
             AWProjectImagesMase = $(".AW__project__images--mase"),
             AWProjectImagesExpand = $(".AW__project__images--expand"),
@@ -195,6 +191,7 @@
             AWProjectMainImg = $(".AW__project__main-img");
             AWProjectReadMore = $(".AW__project__read-more");
             AWProjectQuote = $(".AW__project__quote");
+            AWProjectQuoteblockquote = $(".AW__project__quote blockquote");
             AWProjectImagesMash = $(".AW__project__images--mash");
             AWProjectImagesMase = $(".AW__project__images--mase");
             AWProjectImagesExpand = $(".AW__project__images--expand");
@@ -228,13 +225,12 @@
 
         // reusable hover effect
         var titleHover = function(select) {
-          select.one("click", function() {
-            console.log('dsfgdsf')
-          })
-          select.on("hover", function() {
-              select.textillate({  outEffects: [ 'hinge' ], in: { effect: 'fadeInRight' } });
-          });
-        }
+            select.mouseenter(
+                function() {
+                    select.textillate({  in: { effect: 'fadeInRight' } });
+                }
+            );
+        };
 
         // show something interesting if visited
         // need to set up mamp and then can do browser sync
@@ -332,6 +328,9 @@
 
         this.hero = function() {
 
+            titleHover(AWHeroDesigner);
+            titleHover(AWHeroFrontEnd);
+
             // 3d logo effect
             if ($(window).width() >= 768) {
               AWHeroMainLogo.logosDistort();
@@ -341,12 +340,13 @@
 
             // hover effect
             function heroHover(elements, classes) {
+
                 var top = elements[1].scrollTop();
-                titleHover(elements[1]);
-                if ($(document).scrollTop() >= 1) {
-                    elements[1].unbind("mouseenter");
-                } else {
-                    elements[1].on("mouseenter", function() {
+
+                elements[1].on("mouseenter", function shapeHover() {
+                    if ($(document).scrollTop() >= 1) {
+                        elements[1].unbind(shapeHover);
+                    } else {
                         elements[1].addClass(classes[0]);
                         elements[0].addClass(classes[1]);
 
@@ -367,9 +367,9 @@
                                    elements[0].removeClass(classes[1]);
                                    if (!$(".AW__hero h1 span:hover").length) {
                                        var remove = setTimeout( function() {
-                                         elements[1].css("z-index", "0")
-                                         elements[1].css("pointer-events", "auto")
-                                       }, 500)
+                                         elements[1].css("z-index", "0");
+                                         elements[1].css("pointer-events", "auto");
+                                     }, 500);
                                    }
                                });
                            } else {
@@ -377,21 +377,20 @@
                                     var remove = setTimeout( function() {
                                        elements[1].removeClass(classes[0]);
                                        elements[0].removeClass(classes[1]);
-                                       elements[1].css("z-index", "0")
-                                       elements[1].css("pointer-events", "auto")
-                                     }, 500)
+                                       elements[1].css("z-index", "0");
+                                       elements[1].css("pointer-events", "auto");
+                                   }, 500);
                                 });
                            }
 
-                         }, 400)
+                       }, 400);
 
                         setTimeout( function() {
-                          elements[1].css("z-index", "1000")
-                          elements[1].css("pointer-events", "none")
-                        }, 500 )
-
-                    });
-                }
+                          elements[1].css("z-index", "1000");
+                          elements[1].css("pointer-events", "none");
+                      }, 500 );
+                    }
+                });
             }
 
             function createHovers() {
@@ -430,49 +429,42 @@
 
         this.project = function() {
 
-            titleHover(AWProjectTitle);
-            titleHover(AWProjectQuote);
-
-            // need to build better paralax function
-            var pralaxImage = function (element) {
-                var elementInner = element.find("img"),
-                    elementScrolltop = element.scrollTop();
-                    var inc = -element.scrollTop() * 0.2 ;
-                if (elementScrolltop === documentJQ.scrollTop() ) {
-                    documentJQ.on("scroll", function() {
-                        elementInner = elementScrolltop + inc;
-                        inc++;
-                    });
-                }
-            };
-
-            // add a slight pralax as will fill screen
-            documentJQ.on("scroll", function() {
-                pralaxImage(AWProjectMainImg);
-            });
+            // // need to build better paralax function
+            // var pralaxImage = function (element) {
+            //     var elementInner = element.find("img"),
+            //         elementScrolltop = element.scrollTop();
+            //         var inc = -element.scrollTop() * 0.2 ;
+            //     if (elementScrolltop === documentJQ.scrollTop() ) {
+            //         documentJQ.on("scroll", function() {
+            //             elementInner = elementScrolltop + inc;
+            //             inc++;
+            //         });
+            //     }
+            // };
+            //
+            // // add a slight pralax as will fill screen
+            // documentJQ.on("scroll", function() {
+            //     pralaxImage(AWProjectMainImg);
+            // });
 
             readMore(AWProjectReadMore);
 
-            AWProjectQuote.on("hover", function() {
-                AWProjectTitle.addClass();
-            });
-
-            // ------------------------------------------------- duplicate code below -------------------------------------------------------------
-
-            // build a nice image hover
-            // different for each
-            AWProjectImagesMash.on("hover", function() {
-                // arrounf mouse add a filter ulr() like water
-                // $(this).css();
-            });
-            AWProjectImagesMase.on("hover", function() {
-                // make image pop up slihtly and a drop shadow
-                // $(this).css();
-            });
-            AWProjectImagesExpand.on("hover", function() {
-                // paralax scrolling
-                // $(this).css();
-            });
+            // // ------------------------------------------------- duplicate code below -------------------------------------------------------------
+            //
+            // // build a nice image hover
+            // // different for each
+            // AWProjectImagesMash.on("hover", function() {
+            //     // arrounf mouse add a filter ulr() like water
+            //     // $(this).css();
+            // });
+            // AWProjectImagesMase.on("hover", function() {
+            //     // make image pop up slihtly and a drop shadow
+            //     // $(this).css();
+            // });
+            // AWProjectImagesExpand.on("hover", function() {
+            //     // paralax scrolling
+            //     // $(this).css();
+            // });
 
         };
 
@@ -504,7 +496,6 @@
                                     }; // special = ""; // some coll slider V&A
                                 } else if (AWprojectDat[i][0] === selectedPro[0]) {
                                     special = function(parse) {
-                                        console.log(parse[0])
                                         // functionallity for videos of banner ads
                                         specialCont = '<div class="AW__project__vidios"><video width="300" height="250" src="' + parse[0] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[1] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[2] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[3] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[4] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[5] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[6] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[7] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[8] + '" muted loop autoplay></video></div>';
                                     };
@@ -513,7 +504,7 @@
                                 var imageStyle = "";
                                 if (AWprojectDat[i][0] === "Match Betting" || AWprojectDat[i][0] === "Executive Organisers" || AWprojectDat[i][0] === "Quantcast Home From Home") {
                                     imageStyle = "AW__project__images--mash";
-                                } else if (AWprojectDat[i][0] === "End Clothing" || AWprojectDat[i][0] === "Zorokovich Vodka") {
+                                } else if (AWprojectDat[i][0] === "End Clothing" || AWprojectDat[i][0] === "Zorokovick Vodka") {
                                     imageStyle = "AW__project__images--mase";
                                 } else {
                                     imageStyle = "AW__project__images--expand";
@@ -523,9 +514,9 @@
                                 title = '<div class="AW__project__title"><h2>' + AWprojectDat[i][0] + '</h2><h3>' + AWprojectDat[i][1] + '</h3></div>';
                                 mainImg = '<div class="AW__project__main-img" style="background-image: url(' + AWprojectDat[i][2] + ');"></div>';
                                 paragraph = '<div class="AW__project__para"><p>' + AWprojectDat[i][3] + '</p></div><span class="AW__project__read-more">read more</span>';
-                                image = '<div class="' + imageStyle + '"><img src="' + AWprojectDat[i][4] + '"><img src="' + AWprojectDat[i][5] + '"><img src="' + AWprojectDat[i][6] + '"></div>';
+                                image = '<div class="' + imageStyle + '"><div><img src="' + AWprojectDat[i][4] + '"><img src="' + AWprojectDat[i][5] + '"></div><div><img src="' + AWprojectDat[i][6] + '"></div></div>';
                                 quote = '<div class="AW__project__quote"><blockquote>' + AWprojectDat[i][7] + '</blockquote></div>';
-                                image2 = '<div class="' + imageStyle + '"><img src="' + AWprojectDat[i][8] + '"><img src="' + AWprojectDat[i][9] + '"><img src="' + AWprojectDat[i][10] + '"></div>';
+                                image2 = '<div class="' + imageStyle + '"><div><img src="' + AWprojectDat[i][8] + '"><img src="' + AWprojectDat[i][9] + '"></div><div><img src="' + AWprojectDat[i][10] + '"></div></div>';
 
                             }
 
@@ -535,7 +526,7 @@
                                     special(AWprojectDat[i][11]);
                                 }
                                 return specialCont;
-                            }
+                            };
 
                             isSpecial();
 
@@ -553,6 +544,7 @@
                         // image scroller sroll nicely can be done with css
 
                         readMore($(".AW__project__read-more"));
+                        titleHover(AWProjectQuoteblockquote);
                         scrollNicly(AWProject);
                     }
                     appendContentComplete();
@@ -603,7 +595,7 @@
                     // create loading bar for each
                     createLoader($(this), per);
                 });
-              }, 2000)
+            }, 2000);
             });
         };
 

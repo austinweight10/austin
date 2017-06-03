@@ -1,5 +1,3 @@
-// make responsive
-
 .AW__about {
 	width: calc(100% + 20px);
   	margin: 0 -10px 170px;
@@ -63,7 +61,6 @@
 				flex-shrink: 3;
 				width: 50%;
 				padding: 5px 10px 10px;
-				// add keyframe to rotate
 				&.client--open {
 					flex-basis: 50%;
 					opacity: 1;
@@ -89,16 +86,15 @@
 	}
 	.AW__about__about {
 		display: none;
-		// padding-top: 35px;
 		h3 {
 			width: 160px;
-	    text-align: left;
-	    margin: 15px 0 15px calc(15% + 20px);
+		    text-align: left;
+		    margin: 15px 0 15px calc(15% + 20px);
 		}
 		p {
 			width: 70%;
-	    text-align: left;
-	    margin: 10px 0 10px calc(15% + 20px);
+		    text-align: left;
+		    margin: 10px 0 10px calc(15% + 20px);
 		}
 		.AW__about__about__skills {
 			margin: 0 40px;
@@ -136,7 +132,6 @@
 							color: $orange;
 					}
 				}
-				// transforms need to finish normal create animation key frames
 				&:first-child {
 					span {
 						color: transparent;
@@ -216,7 +211,6 @@
 			}
 		}
 	}
-	// about visable
 	&.AW__about--open{
 		.AW__about__clients {
 			display: block;

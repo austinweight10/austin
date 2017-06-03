@@ -1,8 +1,5 @@
-// make responsive
-
 .AW__projects {
 	background: $white;
-	// add gradiant
 	width: calc(100% + 20px);
     margin: 0 -10px;
 	padding-bottom: 20px;
@@ -34,10 +31,31 @@
 			max-height: 380px;
 			width: calc(100% - 80px);
 			color: transparent;
-			// overflow: hidden;
 			&:hover,
 			&:focus {
 				outline: none;
+			}
+			&.grid__item__comming-soon {
+				pointer-events: none;
+				.stack, .grid__item-caption {
+					opacity: 0.5;
+				}
+				&:after {
+					content: 'comming soon';
+					text-transform: uppercase;
+					position: absolute;
+					color: $orange;
+					top: 50%;
+					left: 50%;
+					width: 232px;
+					transform: translateY(-50%) translateX(-50%) rotate(-35deg);
+					letter-spacing: 1px;
+					font-size: 37px;
+					text-align: left;
+					background: rgba(255, 255, 255, 0.84);
+					border: rgba(255, 87, 51, 0.14) solid 1px;
+					padding: 10px;
+				}
 			}
 		}
 		.grid__item--c1 {
@@ -268,6 +286,7 @@
 			p {
 				color: $dark;
 				padding-bottom: 10px;
+				width: 100%;
 			}
 			span {
 				font-size: 14px;
@@ -277,7 +296,7 @@
 			    cursor: pointer;
 			    transition: 0.7s;
 			    border-bottom: 1px solid $lightGrey;
-					position: relative;
+				position: relative;
 			    display: table;
 			    width: auto;
 			    margin-right: 50%;
@@ -331,6 +350,14 @@
 @media (min-width: 868px) {
 	.AW__projects {
 		.grid {
+			.grid__item {
+				&.grid__item__comming-soon {
+					&:after {
+					    font-size: 30px;
+						width: 181px;
+					}
+				}
+			}
 			.grid__item {
 				width: 20%;
 			}
