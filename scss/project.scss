@@ -35,6 +35,9 @@
 	width: calc(100% + 20px);
 	background: $veryLightGreen;
 	padding: 0 40px 60px;
+	img[src="none"] {
+	  display: none;
+	}
 	&.AW__project__BannerAds {
 		.AW__project__images--expand, .AW__project__vidios {
 			display: flex;
@@ -220,6 +223,18 @@
     		padding: 0 8%;
 			}
 		}
+		&.AW__project__QuantcastHomeFromHome {
+			.AW__project__images--mash {
+				img {
+					width: 50%;
+				}
+				div:nth-child(2) {
+					img {
+						margin-top: -22%;
+					}
+				}
+			}
+		}
 		&.AW__project__BannerAds {
 			.AW__project__images--expand {
 				display: flex;
@@ -251,7 +266,7 @@
 					width: 50%;
 					img {
 						vertical-align: top;
-						padding: 0 20px 20px;
+						padding: 0 20px 20px 10px;
 						width: 100%;
 						height: auto;
 						&:nth-child(2) {

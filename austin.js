@@ -97,19 +97,19 @@
                     windowURL + "/images/projects/yawp/1.png" //imageOfWork1
                 ],
                 [ //project7 Quantcast Home From Home
-                    "Quantcast Home From Home", // title
-                    "AirBNB for Quantcast employees", //subtitle
-                    windowURL + "/images/projects/homeFromHome/mainImage.png", // mainImage
+                    "Quantcast Home From Home",
+                    "AirBNB for Quantcast employees",
+                    windowURL + "/images/projects/homeFromHome/mainImage.png",
                     "An in-house travel website for Quantcast employees to allow them to travel and make money staying with other employees and building company culture across the globe similar to AirBNB. My role in this project was the design and construction of the site along with concepting how the payment and other travel details would be built into the company’s expenses system.", //moreInfo
-                    windowURL + "/images/projects/homeFromHome/1.png", //imageOfWork1
-                    windowURL + "/images/projects/homeFromHome/1.png", //imageOfWork1
-                    windowURL + "/images/projects/homeFromHome/1.png", //imageOfWork1
+                    windowURL + "/images/projects/homeFromHome/HomeFromHome.jpg",
+                    windowURL + "/images/projects/homeFromHome/HomeFromHome2.jpg",
+                    windowURL + "/images/projects/homeFromHome/HomeFromHome3.jpg",
                     "quote about work", //quote
-                    windowURL + "/images/projects/homeFromHome/1.png", //imageOfWork1
-                    windowURL + "/images/projects/homeFromHome/1.png", //imageOfWork1
-                    windowURL + "/images/projects/homeFromHome/1.png" //imageOfWork1
+                    windowURL + "/images/projects/homeFromHome/HomeFromHome4.jpg",
+                    windowURL + "/images/projects/homeFromHome/HomeFromHome5.jpg",
+                    "none"
                 ],
-                [ //project7 Quantcast Home From Home
+                [ //project7 Match Betting
                     "Match Betting", // title
                     "I love money and so does everyone else", //subtitle
                     windowURL + "/images/projects/matchBetting/mainImage.png", // mainImage
@@ -122,20 +122,20 @@
                     windowURL + "/images/projects/matchBetting/1.png", //imageOfWork1
                     windowURL + "/images/projects/matchBetting/1.png" //imageOfWork1
                 ],
-                [ //project7 Quantcast Home From Home
+                [ //project7 Zorokovick Vodka
                     "Zorokovick Vodka", // title
-                    "Ice lollies for summer filled with zorokovick vodka", //subtitle
-                    windowURL + "/images/projects/zorokovich/mainImage.png", // mainImage
+                    "Ice lollies for summer filled with zorokovick vodka",
+                    windowURL + "/images/projects/zorokovick/coverImage.jpg",
                     "Promotion for a anew summer time lolly pop that contained. this was a custom site built from scratch and large format promotional images for the event and used through out the site.", //moreInfo
-                    windowURL + "/images/projects/zorokovich/1.png", //imageOfWork1
-                    windowURL + "/images/projects/zorokovich/1.png", //imageOfWork1
-                    windowURL + "/images/projects/zorokovich/1.png", //imageOfWork1
-                    "quote about work", //quote
-                    windowURL + "/images/projects/zorokovich/1.png", //imageOfWork1
-                    windowURL + "/images/projects/zorokovich/1.png", //imageOfWork1
-                    windowURL + "/images/projects/zorokovich/1.png" //imageOfWork1
+                    windowURL + "/images/projects/zorokovick/landingpage.jpg",
+                    windowURL + "/images/projects/zorokovick/home.jpg",
+                    windowURL + "/images/projects/zorokovick/1.jpg",
+                    "quote about work",
+                    windowURL + "/images/projects/zorokovick/film.jpg",
+                    windowURL + "/images/projects/zorokovick/cocktailshover.jpg",
+                    windowURL + "/images/projects/zorokovick/6.jpg"
                 ],
-                [ //project7 Quantcast Home From Home
+                [ //project7 Executive Organisers
                     "Executive Organisers", // title
                     "Wordpress site", //subtitle
                     windowURL + "/images/projects/executiveOrganisers/mainImage.png", // mainImage
