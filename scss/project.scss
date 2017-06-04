@@ -1,3 +1,32 @@
+.swiper-container {
+	position: fixed !important;
+	height: 100vh;
+	width: 100vw;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: $sky !important;
+	background: $white;
+	img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		height: 100vh;
+	}
+	.swiper-pagination-bullet-active {
+		background: $orange;
+	}
+}
+
+.swiper-container--open {
+	display: block;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets {
+	bottom: 25px !important;
+}
+
 .AW__project {
 	position: relative;
 	padding: 0 40px;
@@ -11,6 +40,11 @@
 			display: flex;
 			justify-content: center;
 			flex-direction: column;
+			div {
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+			}
 		}
 		.AW__project__images--expand {
 			img, video {
@@ -18,6 +52,7 @@
 				max-width: 300px;
 				height: auto;
 				padding: 0 !important;
+				pointer-events: none
 			}
 		}
 		video {
@@ -55,7 +90,7 @@
 		position: relative;
 		width: 100%;
 		text-align: center;
-		height: 87px;
+		height: 84px;
 		overflow: hidden;
 		transition: 0.1s;
 		&.AW__project__para--open {
@@ -66,8 +101,8 @@
 		}
 		p {
 			width: 100%;
-		    margin: 30px auto 0;
-		    text-align: left;
+	    margin: 30px auto 0;
+	    text-align: left;
 			height: auto;
 			padding: 20px 0 0;
 			display: -webkit-box;
@@ -171,6 +206,9 @@
 		.AW__project__para {
 			width: 33%;
 			margin: auto;
+			p {
+				-webkit-line-clamp: 3;
+			}
 			&.AW__project__para--open {
 				width: 100%;
 				p {
@@ -179,24 +217,31 @@
 			}
 			p {
 				columns: 2;
-    			padding: 0 8%;
+    		padding: 0 8%;
 			}
 		}
 		&.AW__project__BannerAds {
 			.AW__project__images--expand {
 				display: flex;
 				justify-content: center;
-				flex-direction: row;
+				flex-direction: column;
+				div {
+					flex-direction: column;
+				}
 				img {
 					max-width: 300px;
 					height: 100%;
-					margin: 10px 20px 10px;
 					padding: 0 !important;
+					width: auto;
+					max-height: 250px;
 				}
 			}
 			.AW__project__vidios {
 				justify-content: center;
-				flex-direction: row;
+				flex-direction: columns;
+				video {
+					margin: 20px auto;
+				}
 			}
 		}
 		.AW__project__images--mase {
@@ -242,10 +287,38 @@
 		.AW__project__vidios {
 			display: flex;
 			flex-wrap: wrap;
-			margin-top: 50px;
-			video {
-				margin: 10px 20px 50px;
-		 		width: calc(33.3% - 40px);
+			margin-top: 0;
+		}
+	}
+}
+
+@media (min-width: 1130px) {
+	.AW__project {
+		&.AW__project__BannerAds {
+			.AW__project__images--expand {
+				display: flex;
+				justify-content: center;
+				flex-direction: row;
+				div {
+					flex-direction: row;
+				}
+				img {
+					max-width: 300px;
+					height: 100%;
+					margin: 10px 20px 10px;
+					padding: 0 !important;
+					width: auto;
+					max-height: 250px;
+				}
+			}
+			.AW__project__vidios {
+				justify-content: center;
+				flex-direction: row;
+				max-width: 1020px;
+				margin: 20px auto;
+				video {
+					width: calc(33.3% - 40px);
+				}
 			}
 		}
 	}

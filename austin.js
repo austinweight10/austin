@@ -9,7 +9,7 @@
                 [ //project1 BannerAds
                     "Banner Ads",
                     "From prospecting to retargeting",
-                    windowURL + "/images/projects/bannerAds/mainImage.png",
+                    windowURL + "/images/projects/bannerAds/mainImage.jpg",
                     "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. This is a selection of ads that I designed and built for them. There are a number of different styles of ads from prospecting all the way down the funnel to retargeting. All of the ads are designed for performance and evaluated against uplift on a campaign by campaign level.",
                     windowURL + "/images/projects/bannerAds/images/Missguided2-300x250.jpg",
                     windowURL + "/images/projects/bannerAds/images/Matches-Fashion-300x250.png",
@@ -74,13 +74,13 @@
                     "D&AD can suck it -- jokes", //subtitle
                     windowURL + "/images/projects/vAndA/mainImage.jpg",
                     "This was my D&AD entry for a project to redisign a hording that was going to be erected around the V&A prior to building their new courtyard and exhibition area. The breif was to promote the V&A", // have a look at submitted slides
+                    windowURL + "/images/projects/vAndA/w9.jpg",
                     windowURL + "/images/projects/vAndA/w3.jpg",
                     windowURL + "/images/projects/vAndA/w4.jpg",
-                    windowURL + "/images/projects/vAndA/w5.jpg",
                     "quote about work", //quote
+                    windowURL + "/images/projects/vAndA/w5.jpg",
                     windowURL + "/images/projects/vAndA/w6.jpg",
                     windowURL + "/images/projects/vAndA/w7.jpg",
-                    windowURL + "/images/projects/vAndA/w9.jpg",
                     windowURL + "/images/projects/vAndA/VA1.png"
                 ],
                 [ //project6 Yawp Jewllery
@@ -206,7 +206,7 @@
                 $(this).prev().addClass("AW__project__para--open");
                 $(this).text("hide");
                 $(this).one("click", function() {
-                    $(this).prev().css("height", "87px");
+                    $(this).prev().css("height", "84px");
                     $(this).prev().removeClass("AW__project__para--open");
                     $(this).text("Read more");
                     readMore(selector);
@@ -510,6 +510,13 @@
                                     imageStyle = "AW__project__images--expand";
                                 }
 
+                                $(".swiper-slide-1 img").attr("src", AWprojectDat[i][4])
+                                $(".swiper-slide-2 img").attr("src", AWprojectDat[i][5])
+                                $(".swiper-slide-3 img").attr("src", AWprojectDat[i][6])
+                                $(".swiper-slide-4 img").attr("src", AWprojectDat[i][8])
+                                $(".swiper-slide-5 img").attr("src", AWprojectDat[i][9])
+                                $(".swiper-slide-6 img").attr("src", AWprojectDat[i][10])
+
                                 name = AWprojectDat[i][0].replace(/\s/g,'');
                                 title = '<div class="AW__project__title"><h2>' + AWprojectDat[i][0] + '</h2><h3>' + AWprojectDat[i][1] + '</h3></div>';
                                 mainImg = '<div class="AW__project__main-img" style="background-image: url(' + AWprojectDat[i][2] + ');"></div>';
@@ -546,6 +553,17 @@
                         readMore($(".AW__project__read-more"));
                         titleHover(AWProjectQuoteblockquote);
                         scrollNicly(AWProject);
+
+                        $(".AW__project img").on("click", function() {
+                          $(".swiper-container").addClass('swiper-container--open');
+
+                          var mySwiper = new Swiper('.swiper-container', {
+                              speed: 400,
+                              spaceBetween: 0,
+                              pagination: '.swiper-pagination',
+                              paginationClickable: true
+                          });
+                        })
                     }
                     appendContentComplete();
             });
