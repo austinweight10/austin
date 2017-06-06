@@ -1,6 +1,8 @@
 (function() {
     function AW() {
 
+     var once = 1;
+
       var url = document.URL,
           windowURL = url.substring(0,url.lastIndexOf("/"));
 
@@ -33,15 +35,15 @@
                 [ //project2 End Clothing
                     "End Clothing",
                     "Rebuild redesigned End. Clothing site on Magento 2",
-                    windowURL + "/images/projects/endClothing/mainImage.png", // mainImage
+                    windowURL + "/images/projects/endClothing/mainImage.png", // fashion image
                     "I was on the front-end team, in this project we moved the existing End. Clothing site built on magento on to magento 2 and rebuilt it with a fully responcive font-end with progressive web app features along with a seperate styleguide, I also retemplated the whole email system with mjml for transactional emails and marketing, extended the saved items for all social sharing and updating cart and prefrences, built a customm help desk and added custome blocks for reuse through the site.",
-                    windowURL + "/images/projects/endClothing/1.png", //imageOfWork1 // all the different pages and blocks mobile tablet and desktop
-                    windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
-                    windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
-                    "quote about work", // magento quote
-                    windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
-                    windowURL + "/images/projects/endClothing/1.png", //imageOfWork1
-                    windowURL + "/images/projects/endClothing/1.png" //imageOfWork1
+                    windowURL + "/images/projects/endClothing/1.png", //home page
+                    windowURL + "/images/projects/endClothing/1.png", // plp
+                    windowURL + "/images/projects/endClothing/1.png", // pdp
+                    "For eccomerce trust is the most important thing - Jack Ma",
+                    windowURL + "/images/projects/endClothing/1.png", // saved items
+                    windowURL + "/images/projects/endClothing/1.png", // launches
+                    windowURL + "/images/projects/endClothing/1.png" // the blog
                 ],
                 [ //project3 Creative Calculator
                     "Creative Calculator",
@@ -51,10 +53,10 @@
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator1.jpg",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator2.jpg",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator3.jpg",
-                    "quote about work", // machines creative qoute
-                    windowURL + "/images/projects/creativeCalculator/1.png",  // get some scretches for this project of the grid and overlays
-                    windowURL + "/images/projects/creativeCalculator/1.png",  // get some scretches for this project of the grid and overlays
-                    windowURL + "/images/projects/creativeCalculator/1.png"  // get some scretches for this project of the grid and overlays
+                    "The real question is not weather machines think but wheather men do. The mystery which surrounds a thinking machine already surrounds a thinking man. - B.F.Skinner", // machines creative qoute
+                    windowURL + "/images/projects/creativeCalculator/1.png",  // hand drawn grid
+                    windowURL + "/images/projects/creativeCalculator/1.png",  // workings
+                    windowURL + "/images/projects/creativeCalculator/1.png"  // grid overlay
                 ],
                 [ //project4 Man Overboard - Degree show
                     "Man Overboard - Degree show",
@@ -64,20 +66,20 @@
                     windowURL + "/images/projects/manOverboard/ManOverboard_WebSite3.png",
                     windowURL + "/images/projects/manOverboard/ManOverboard_WebSite1.png",
                     windowURL + "/images/projects/manOverboard/ManOverboard_WebSite2.png",
-                    "quote about work", // entering the matrix quote sands of the real
+                    "sometimes you find out what you are supposed to do by doing the things you are not supposed to do. - Oprah Windfrey",
                     windowURL + "/images/projects/manOverboard/ManOverboard_Book_Cover.png",
                     windowURL + "/images/projects/manOverboard/ManOverboard_Book_AustinsWork.png",
                     windowURL + "/images/projects/manOverboard/ManOverboard_Book_Logopage.png"
                 ],
                 [ //project5 V&A D&AD Entry
                     "V&A - D&AD Entry",
-                    "D&AD can suck it -- jokes", //subtitle
+                    "D&AD can suck it -- jokes",
                     windowURL + "/images/projects/vAndA/mainImage.jpg",
                     "This was my D&AD entry for a project to redisign a hording that was going to be erected around the V&A prior to building their new courtyard and exhibition area. The breif was to promote the V&A", // have a look at submitted slides
                     windowURL + "/images/projects/vAndA/w9.jpg",
                     windowURL + "/images/projects/vAndA/w3.jpg",
                     windowURL + "/images/projects/vAndA/w4.jpg",
-                    "quote about work", //quote
+                    "Every Artist was first an amateur. - Ralph Waldo Emerson",
                     windowURL + "/images/projects/vAndA/w5.jpg",
                     windowURL + "/images/projects/vAndA/w6.jpg",
                     windowURL + "/images/projects/vAndA/w7.jpg",
@@ -88,23 +90,23 @@
                     "Ecomerce site built on Wordpress with woocomerce",
                     windowURL + "/images/projects/yawp/mainImage.png", // mainImage
                     "I designed and built an eccomerce store on wordpress with woocomerce plugin. The idea was that the shopping expericance would would be more encompcing thus you had to move around the environment to find what you liked. I alos wanted the whole expericnce to be contained in one page. Thus the site relied heavily on ajax requests. This site takes advantage of a lot of new css features to make the whole site responcive. This site also managed the transactional emails.", //moreInfo
-                    windowURL + "/images/projects/yawp/1.png", //imageOfWork1
-                    windowURL + "/images/projects/yawp/1.png", //imageOfWork1
-                    windowURL + "/images/projects/yawp/1.png", //imageOfWork1
-                    "quote about work", //quote
-                    windowURL + "/images/projects/yawp/1.png", //imageOfWork1
-                    windowURL + "/images/projects/yawp/1.png", //imageOfWork1
-                    windowURL + "/images/projects/yawp/1.png" //imageOfWork1
+                    windowURL + "/images/projects/yawp/1.png", // homepage
+                    windowURL + "/images/projects/yawp/1.png", // menu
+                    windowURL + "/images/projects/yawp/1.png", // pdp
+                    "Every piece of jewllery tells a story. - Gem Hunt",
+                    windowURL + "/images/projects/yawp/1.png", // cart
+                    windowURL + "/images/projects/yawp/1.png", // checkout
+                    windowURL + "/images/projects/yawp/1.png" // product hover
                 ],
                 [ //project7 Quantcast Home From Home
                     "Quantcast Home From Home",
                     "AirBNB for Quantcast employees",
                     windowURL + "/images/projects/homeFromHome/mainImage.png",
-                    "An in-house travel website for Quantcast employees to allow them to travel and make money staying with other employees and building company culture across the globe similar to AirBNB. My role in this project was the design and construction of the site along with concepting how the payment and other travel details would be built into the company’s expenses system.", //moreInfo
+                    "An in-house travel website for Quantcast employees to allow them to travel and make money staying with other employees and building company culture across the globe similar to AirBNB. My role in this project was the design and construction of the site along with concepting how the payment and other travel details would be built into the company’s expenses system.",
                     windowURL + "/images/projects/homeFromHome/HomeFromHome.jpg",
                     windowURL + "/images/projects/homeFromHome/HomeFromHome2.jpg",
                     windowURL + "/images/projects/homeFromHome/HomeFromHome3.jpg",
-                    "quote about work", //quote
+                    "Not all those who wander are lost. - J.R.R. Tolkien",
                     windowURL + "/images/projects/homeFromHome/HomeFromHome4.jpg",
                     windowURL + "/images/projects/homeFromHome/HomeFromHome5.jpg",
                     "none"
@@ -114,39 +116,39 @@
                     "I love money and so does everyone else", //subtitle
                     windowURL + "/images/projects/matchBetting/mainImage.png", // mainImage
                     "This project started out as a small app for a frind and developed into a fully functioning site taht allows people to save and chech bets against eachother, whilst offering advice based on splitting the bet for lowest posible losses, whille targeting high scoring bets. This app was built in react as this allowd me to update the constantly changing data on the fly. This was built as a Progressive web app and this all data was stored in the cache meaning the app worked offline.",
-                    windowURL + "/images/projects/matchBetting/1.png", //imageOfWork1
-                    windowURL + "/images/projects/matchBetting/1.png", //imageOfWork1
-                    windowURL + "/images/projects/matchBetting/1.png", //imageOfWork1
-                    "quote about work", //quote
-                    windowURL + "/images/projects/matchBetting/1.png", //imageOfWork1
-                    windowURL + "/images/projects/matchBetting/1.png", //imageOfWork1
-                    windowURL + "/images/projects/matchBetting/1.png" //imageOfWork1
+                    windowURL + "/images/projects/matchBetting/1.png", // landing page
+                    windowURL + "/images/projects/matchBetting/1.png", // prev results open
+                    windowURL + "/images/projects/matchBetting/1.png", // filled in form
+                    "I'm not the betting type. Tony Gross",
+                    windowURL + "/images/projects/matchBetting/1.png", // form results
+                    "none",
+                    "none"
                 ],
                 [ //project7 Zorokovick Vodka
-                    "Zorokovick Vodka", // title
+                    "Zorokovick Vodka",
                     "Ice lollies for summer filled with zorokovick vodka",
                     windowURL + "/images/projects/zorokovick/coverImage.jpg",
-                    "Promotion for a anew summer time lolly pop that contained. this was a custom site built from scratch and large format promotional images for the event and used through out the site.", //moreInfo
+                    "Promotion for a anew summer time lolly pop that contained. this was a custom site built from scratch and large format promotional images for the event and used through out the site.",
                     windowURL + "/images/projects/zorokovick/landingpage.jpg",
                     windowURL + "/images/projects/zorokovick/home.jpg",
                     windowURL + "/images/projects/zorokovick/1.jpg",
-                    "quote about work",
+                    "Getting information off the internet is like getting a drink form a fire hydrant. - Mitchel Kapor",
                     windowURL + "/images/projects/zorokovick/film.jpg",
                     windowURL + "/images/projects/zorokovick/cocktailshover.jpg",
                     windowURL + "/images/projects/zorokovick/6.jpg"
                 ],
-                [ //project7 Executive Organisers
-                    "Executive Organisers", // title
-                    "Wordpress site", //subtitle
-                    windowURL + "/images/projects/executiveOrganisers/mainImage.png", // mainImage
+                [ //project7 Wordpress site
+                    "Micro sites",
+                    "Wordpress and micro sites",
+                    windowURL + "/images/projects/executiveOrganisers/mainImage.png", // generic image
                     "This was a custom one page wordpress theme for Executive Organisers, this was their main site for advertising and promoting their services. This site was fully responcive. This site reinforced the brand.",
-                    windowURL + "/images/projects/executiveOrganisers/1.png", //imageOfWork1
-                    windowURL + "/images/projects/executiveOrganisers/1.png", //imageOfWork1
-                    windowURL + "/images/projects/executiveOrganisers/1.png", //imageOfWork1
-                    "quote about work", //quote
-                    windowURL + "/images/projects/executiveOrganisers/1.png", //imageOfWork1
-                    windowURL + "/images/projects/executiveOrganisers/1.png", //imageOfWork1
-                    windowURL + "/images/projects/executiveOrganisers/1.png" //imageOfWork1
+                    windowURL + "/images/projects/executiveOrganisers/1.png", // Executive organisers
+                    windowURL + "/images/projects/executiveOrganisers/1.png", // Star trek
+                    windowURL + "/images/projects/executiveOrganisers/1.png", // 8&4 solar systems
+                    "The internet is becoming the town square for the global village of tommorow. - Bill gates",
+                    windowURL + "/images/projects/executiveOrganisers/1.png", // ad gallery
+                    windowURL + "/images/projects/executiveOrganisers/1.png", // hello hello
+                    windowURL + "/images/projects/executiveOrganisers/1.png" // account 4 it
                 ],
            ];
 
@@ -441,7 +443,7 @@
             //         });
             //     }
             // };
-            //
+
             // // add a slight pralax as will fill screen
             // documentJQ.on("scroll", function() {
             //     pralaxImage(AWProjectMainImg);
@@ -450,7 +452,7 @@
             readMore(AWProjectReadMore);
 
             // // ------------------------------------------------- duplicate code below -------------------------------------------------------------
-            //
+
             // // build a nice image hover
             // // different for each
             // AWProjectImagesMash.on("hover", function() {
@@ -502,7 +504,7 @@
                                 }
 
                                 var imageStyle = "";
-                                if (AWprojectDat[i][0] === "Match Betting" || AWprojectDat[i][0] === "Executive Organisers" || AWprojectDat[i][0] === "Quantcast Home From Home") {
+                                if (AWprojectDat[i][0] === "Match Betting" || AWprojectDat[i][0] === "Micro sites" || AWprojectDat[i][0] === "Quantcast Home From Home") {
                                     imageStyle = "AW__project__images--mash";
                                 } else if (AWprojectDat[i][0] === "End Clothing" || AWprojectDat[i][0] === "Zorokovick Vodka") {
                                     imageStyle = "AW__project__images--mase";
@@ -510,12 +512,14 @@
                                     imageStyle = "AW__project__images--expand";
                                 }
 
-                                $(".swiper-slide-1 img").attr("src", AWprojectDat[i][4])
-                                $(".swiper-slide-2 img").attr("src", AWprojectDat[i][5])
-                                $(".swiper-slide-3 img").attr("src", AWprojectDat[i][6])
-                                $(".swiper-slide-4 img").attr("src", AWprojectDat[i][8])
-                                $(".swiper-slide-5 img").attr("src", AWprojectDat[i][9])
-                                $(".swiper-slide-6 img").attr("src", AWprojectDat[i][10])
+                                $(".swiper-slide-1 img").attr("src", AWprojectDat[i][4]);
+                                $(".swiper-slide-2 img").attr("src", AWprojectDat[i][5]);
+                                $(".swiper-slide-3 img").attr("src", AWprojectDat[i][6]);
+                                $(".swiper-slide-4 img").attr("src", AWprojectDat[i][8]);
+                                $(".swiper-slide-5 img").attr("src", AWprojectDat[i][9]);
+                                $(".swiper-slide-6 img").attr("src", AWprojectDat[i][10]);
+
+                                // swiper back to first slide
 
                                 name = AWprojectDat[i][0].replace(/\s/g,'');
                                 title = '<div class="AW__project__title"><h2>' + AWprojectDat[i][0] + '</h2><h3>' + AWprojectDat[i][1] + '</h3></div>';
@@ -547,23 +551,32 @@
                     resetVariables(); // reset variables for new elements
 
                     function appendContentComplete() {
-                        // need to inisiate appended content
-                        // image scroller sroll nicely can be done with css
 
                         readMore($(".AW__project__read-more"));
                         titleHover(AWProjectQuoteblockquote);
                         scrollNicly(AWProject);
 
                         $(".AW__project img").on("click", function() {
-                          $(".swiper-container").addClass('swiper-container--open');
 
-                          var mySwiper = new Swiper('.swiper-container', {
-                              speed: 400,
-                              spaceBetween: 0,
-                              pagination: '.swiper-pagination',
-                              paginationClickable: true
+                          $(".swiper-container").addClass('swiper-container--open');
+                          $("body").css("overflow", "hidden");
+
+                        if (once === 1) {
+                            var mySwiper = new Swiper('.swiper-container', {
+                                speed: 400,
+                                spaceBetween: 0,
+                                pagination: '.swiper-pagination',
+                                paginationClickable: true
+                            });
+                            once = 0;
+                        }
+
+                          $(".swiper-close").on("click", function() {
+                              $("body").css("overflow", "scroll");
+                              $(".swiper-container").removeClass('swiper-container--open');
                           });
-                        })
+
+                      });
                     }
                     appendContentComplete();
             });
@@ -604,16 +617,16 @@
 
             // skills animation
             AWAboutTitleReadMore.on("click", function() {  // download jquery plugin to check if in view
-              setTimeout( function() {
-                AWAboutAboutSkillsLiSpan.each(function(index, element) {
-                    var per = $(this).text();
-                    function createLoader(element, aPersentage) {
-                        element.width(aPersentage);
-                    }
-                    // create loading bar for each
-                    createLoader($(this), per);
-                });
-            }, 2000);
+                setTimeout( function() {
+                    AWAboutAboutSkillsLiSpan.each(function(index, element) {
+                        var per = $(this).text();
+                        function createLoader(element, aPersentage) {
+                            element.width(aPersentage);
+                        }
+                        // create loading bar for each
+                        createLoader($(this), per);
+                    });
+                }, 2000);
             });
         };
 

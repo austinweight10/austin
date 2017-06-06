@@ -17,6 +17,25 @@
 	.swiper-pagination-bullet-active {
 		background: $orange;
 	}
+	.swiper-close {
+		z-index: 100000;
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		top: 10px;
+		right: 10px;
+		cursor: pointer;
+		span {
+			cursor: pointer;
+			color: $dark;
+			position: absolute;
+			top: 0;
+			right: 0;
+			font-size: 27px;
+			font-family: cursive;
+			line-height: 10px;
+		}
+	}
 }
 
 .swiper-container--open {
