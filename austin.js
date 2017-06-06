@@ -54,9 +54,9 @@
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator2.jpg",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator3.jpg",
                     "The real question is not weather machines think but wheather men do. The mystery which surrounds a thinking machine already surrounds a thinking man. - B.F.Skinner", // machines creative qoute
-                    windowURL + "/images/projects/creativeCalculator/1.png",  // hand drawn grid
-                    windowURL + "/images/projects/creativeCalculator/1.png",  // workings
-                    windowURL + "/images/projects/creativeCalculator/1.png"  // grid overlay
+                    "none",  // hand drawn grid
+                    "none",  // workings
+                    "none"  // grid overlay
                 ],
                 [ //project4 Man Overboard - Degree show
                     "Man Overboard - Degree show",
@@ -137,18 +137,18 @@
                     windowURL + "/images/projects/zorokovick/cocktailshover.jpg",
                     windowURL + "/images/projects/zorokovick/6.jpg"
                 ],
-                [ //project7 Wordpress site
+                [ //project7 Micro sites
                     "Micro sites",
                     "Wordpress and micro sites",
-                    windowURL + "/images/projects/executiveOrganisers/mainImage.png", // generic image
+                    windowURL + "/images/projects/MicroSites/mainImage.jpg",
                     "This was a custom one page wordpress theme for Executive Organisers, this was their main site for advertising and promoting their services. This site was fully responcive. This site reinforced the brand.",
-                    windowURL + "/images/projects/executiveOrganisers/1.png", // Executive organisers
-                    windowURL + "/images/projects/executiveOrganisers/1.png", // Star trek
-                    windowURL + "/images/projects/executiveOrganisers/1.png", // 8&4 solar systems
+                    windowURL + "/images/projects/MicroSites/Untitled-3.jpg",
+                    windowURL + "/images/projects/MicroSites/EOwebsitevs2.jpg",
+                    windowURL + "/images/projects/MicroSites/Account4it-website-vs1.jpg",
                     "The internet is becoming the town square for the global village of tommorow. - Bill gates",
-                    windowURL + "/images/projects/executiveOrganisers/1.png", // ad gallery
-                    windowURL + "/images/projects/executiveOrganisers/1.png", // hello hello
-                    windowURL + "/images/projects/executiveOrganisers/1.png" // account 4 it
+                    windowURL + "/images/projects/MicroSites/vc.jpg",
+                    windowURL + "/images/projects/MicroSites/HelloHellositevs1.jpg",
+                    windowURL + "/images/projects/MicroSites/RoyalAscot.jpg"
                 ],
            ];
 
@@ -504,7 +504,7 @@
                                 }
 
                                 var imageStyle = "";
-                                if (AWprojectDat[i][0] === "Match Betting" || AWprojectDat[i][0] === "Micro sites" || AWprojectDat[i][0] === "Quantcast Home From Home") {
+                                if (AWprojectDat[i][0] === "Match Betting" || AWprojectDat[i][0] === "Quantcast Home From Home") {
                                     imageStyle = "AW__project__images--mash";
                                 } else if (AWprojectDat[i][0] === "End Clothing" || AWprojectDat[i][0] === "Zorokovick Vodka") {
                                     imageStyle = "AW__project__images--mase";
