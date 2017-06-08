@@ -37,10 +37,10 @@
 		height: 100%;
 		opacity: 0;
 		transition: 0.7s;
-		mask: url(./images/Eye_of_Horus.svg);
-		-webkit-mask: url(./images/Eye_of_Horus.svg) top left / cover;
-		-o-mask: url(./images/Eye_of_Horus.svg) top left / cover;
-		-ms-mask: url(./images/Eye_of_Horus.svg) top left / cover;
+		mask: url(./images/download.svg);
+		-webkit-mask: url(./images/download.svg) top left / cover;
+		-o-mask: url(./images/download.svg) top left / cover;
+		-ms-mask: url(./images/download.svg) top left / cover;
 		&.AW__hero__designer-overlay--active {
 			opacity: 0.8;
 			background: url(/images/img1.png);
@@ -135,7 +135,7 @@
 		font-family: $sansSerfifStyle;
 		letter-spacing: 1.6px;
 		span {
-			font-family: $sansSerfifStyle;	
+			font-family: $sansSerfifStyle;
 		}
 		&.AW__hero__front-end--active {
 			position: relative;

@@ -182,10 +182,13 @@
 	    margin: 0 -40px;
 	    background-image: linear-gradient($veryLightGreen, $white, $veryLightGreen);
 		blockquote {
-		  	margin: 60px 10px 70px;
+		  margin: 60px 10px 70px;
 			font-size: 40px;
 			font-family: $sansSerfifStyle;
 			color: $dark;
+			span {
+				font-family: "Sansita",sans-serif;
+			}
 		}
 		&:before {
 			position: absolute;
@@ -219,7 +222,25 @@
 		max-width: 100%;
 		overflow: hidden;
 		overflow-x: scroll;
-		padding-top: 40px;
+		padding-top: 80px;
+		div {
+			margin: -5px 0;
+		}
+		&::-webkit-scrollbar-track
+		{
+			background-color: $white;
+		}
+
+		&::-webkit-scrollbar
+		{
+			width: 6px;
+			background-color: $veryLightGreen;
+		}
+
+		&::-webkit-scrollbar-thumb
+		{
+			background-color: $dark;
+		}
 	}
 }
 
@@ -239,6 +260,7 @@
 			}
 			p {
 				columns: 2;
+				column-gap: 30px;
     		padding: 0 8%;
 			}
 		}

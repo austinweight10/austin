@@ -11,7 +11,12 @@
                 [ //project1 BannerAds
                     "Banner Ads",
                     "From prospecting to retargeting",
-                    windowURL + "/images/projects/bannerAds/mainImage.jpg",
+                    [
+                      [windowURL + "/images/projects/bannerAds/mainImage/mainImage_qbr6ab_c_scale,w_1574.jpg"],
+                      [windowURL + "/images/projects/bannerAds/mainImage/mainImage_qbr6ab_c_scale,w_1574.jpg"],
+                      [windowURL + "/images/projects/bannerAds/mainImage/mainImage_qbr6ab_c_scale,w_2472.jpg"],
+                      [windowURL + "/images/projects/bannerAds/mainImage/mainImage_qbr6ab_c_scale,w_2472.jpg"],
+                    ],
                     "I headed up the fashion side of Quantcast's clientle and had the pleaseure of working with some of the most renound retailers in the industry. This is a selection of ads that I designed and built for them. There are a number of different styles of ads from prospecting all the way down the funnel to retargeting. All of the ads are designed for performance and evaluated against uplift on a campaign by campaign level.",
                     windowURL + "/images/projects/bannerAds/images/Missguided2-300x250.jpg",
                     windowURL + "/images/projects/bannerAds/images/Matches-Fashion-300x250.png",
@@ -21,15 +26,15 @@
                     windowURL + "/images/projects/bannerAds/images/Toast-300x250.png",
                     windowURL + "/images/projects/bannerAds/images/ToysRUs-300x250.png",
                     [
-                        [windowURL + "/images/projects/bannerAds/BackKarewnMillen.mp4"],
-                        [windowURL + "/images/projects/bannerAds/FeelUniqueMPu.mp4"],
-                        [windowURL + "/images/projects/bannerAds/FootAsylumMPU.mp4"],
-                        [windowURL + "/images/projects/bannerAds/RomanMPU.mp4"],
-                        [windowURL + "/images/projects/bannerAds/Moo300x250.mp4"],
-                        [windowURL + "/images/projects/bannerAds/MyTheresa2prod.mp4"],
-                        [windowURL + "/images/projects/bannerAds/Jigsawrollover.mp4"],
-                        [windowURL + "/images/projects/bannerAds/warehouse.mp4"],
-                        [windowURL + "/images/projects/bannerAds/JimychooMPU.mp4"],
+                        [windowURL + "/images/projects/bannerAds/karewnMillen300.mp4"],
+                        [windowURL + "/images/projects/bannerAds/feelUnique300.mp4"],
+                        [windowURL + "/images/projects/bannerAds/footAsylum300.mp4"],
+                        [windowURL + "/images/projects/bannerAds/roman300.mp4"],
+                        [windowURL + "/images/projects/bannerAds/moo300.mp4"],
+                        [windowURL + "/images/projects/bannerAds/myTheresa300.mp4"],
+                        [windowURL + "/images/projects/bannerAds/jigsaw300.mp4"],
+                        [windowURL + "/images/projects/bannerAds/warehouse300.mp4"],
+                        [windowURL + "/images/projects/bannerAds/jimyChoo300.mp4"],
                     ],
                 ],
                 [ //project2 End Clothing
@@ -541,7 +546,7 @@
 
                                 name = AWprojectDat[i][0].replace(/\s/g,'');
                                 title = '<div class="AW__project__title"><h2>' + AWprojectDat[i][0] + '</h2><h3>' + AWprojectDat[i][1] + '</h3></div>';
-                                mainImg = '<div class="AW__project__main-img" style="background-image: url(' + AWprojectDat[i][2] + ');"></div>';
+                                mainImg = '<style>.AW__project__main-img {background-image: url(' + AWprojectDat[i][2][0] + ');}@media only screen and (min-width : 600px) {.AW__project__main-img {background-image: url(' + AWprojectDat[i][2][1] + ');}}@media only screen and (min-width : 1200px) {.AW__project__main-img {background-image: url(' + AWprojectDat[i][2][2] + ');}}@media only screen and (min-width : 1200px) {.AW__project__main-img {background-image: url(' + AWprojectDat[i][2][3] + ');}}</style><div class="AW__project__main-img"></div>';
                                 paragraph = '<div class="AW__project__para"><p>' + AWprojectDat[i][3] + '</p></div><span class="AW__project__read-more">read more</span>';
                                 image = '<div class="' + imageStyle + '"><div><img src="' + AWprojectDat[i][4] + '"><img src="' + AWprojectDat[i][5] + '"></div><div><img src="' + AWprojectDat[i][6] + '"></div></div>';
                                 quote = '<div class="AW__project__quote"><blockquote>' + AWprojectDat[i][7] + '</blockquote></div>';
