@@ -101,7 +101,8 @@
 		}
 	}
 	.AW__project__main-img {
-		width: 100%;
+		width: calc(100% + 80px);
+		margin: 0 -40px;
 		min-height: 400px;
 		background-attachment: fixed;
 		background-position: center;

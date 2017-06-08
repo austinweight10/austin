@@ -41,7 +41,7 @@
                     "End Clothing",
                     "Rebuild redesigned End. Clothing site on Magento 2",
                     windowURL + "/images/projects/endClothing/mainImage.png", // fashion image
-                    "In this project we moved the existing End. Clothing site built on magento on to magento 2.We rebuilt it with a fully responcive font-end with progressive web app features along with a seperate styleguide, I also retemplated the whole email system with mjml for transactional emails and marketing and built this into magento core. We extended the saved items for all social sharing and updating of item prefrences within saved items. I also built a customm help desk and added custom blocks for reuse through the site. We built a seperate site for launching unique items built in angular and I built a seperate blog on wordpress.",
+                    "In this project we moved the existing End. Clothing site built on magento on to magento 2. We rebuilt it with a fully responcive font-end with progressive web app features along with a seperate styleguide, I also retemplated the whole email system with mjml for transactional emails and marketing and built this into magento core. We extended the saved items for all social sharing and updating of item prefrences within saved items. I also built a customm help desk and added custom blocks for reuse through the site. We built a seperate site for launching unique items built in angular and I built a seperate blog on wordpress.",
                     windowURL + "/images/projects/endClothing/1.png", //home page
                     windowURL + "/images/projects/endClothing/1.png", //home cart
                     windowURL + "/images/projects/endClothing/1.png", //home country select
@@ -67,7 +67,12 @@
                 [ //project3 Creative Calculator
                     "Creative Calculator",
                     "Combining the design teams knowledge into a calculator",
-                    windowURL + "/images/projects/creativeCalculator/mainImage.gif",
+                    [
+                      [windowURL + "/images/projects/creativeCalculator/mainImage_dlk0az/mainImage_dlk0az_c_scale,w_853.png"],
+                      [windowURL + "/images/projects/creativeCalculator/mainImage_dlk0az/mainImage_dlk0az_c_scale,w_853.png"],
+                      [windowURL + "/images/projects/creativeCalculator/mainImage_dlk0az/mainImage_dlk0az_c_scale,w_1220.png"],
+                      [windowURL + "/images/projects/creativeCalculator/mainImage_dlk0az/mainImage_dlk0az_c_scale,w_1500.png"],
+                    ],
                     "I lead this project and created a fully functioning ad calculator. The mission was to collect hundreds of ads and analise them using a custom grid and my team then processed this data so that it was valid for use in the calculator. This was to enable anyone to drop an ad into the calaculator and it would tell you the best and worst parts and where it could be imroved. This tock months of analising ads and comparing campaingns based on roi and click perfomance and splitting the results accross the funnel to provid useful insights. I was responsible for designing the grid and building the calculator.",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator1.jpg",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator2.jpg",
@@ -80,7 +85,12 @@
                 [ //project4 Man Overboard - Degree show
                     "Man Overboard - Degree show",
                     "Getting into the real world",
-                    windowURL + "/images/projects/manOverboard/mainImage.jpg",
+                    [
+                      [windowURL + "/images/projects/manOverboard/background-1_ksllls/background-1_ksllls_c_scale,w_1183.jpg",],
+                      [windowURL + "/images/projects/manOverboard/background-1_ksllls/background-1_ksllls_c_scale,w_1183.jpg",],
+                      [windowURL + "/images/projects/manOverboard/background-1_ksllls/background-1_ksllls_c_scale,w_1652.jpg",],
+                      [windowURL + "/images/projects/manOverboard/background-1_ksllls/background-1_ksllls_c_scale,w_1920.jpg",],
+                    ],
                     "My duties for this project were the design and build of the website. Creating a fully functioning site for all the work and students contributing. This site was used as the hub for the gallery - hosting all the work summaries and details allowing visitors to find out more about projects and used in marketing the exhibition. The website was fully responsive and built through WordPress. The site allowed each student exhibiting to upload images, videos and more of their work along with a description and a site link with contact details. The web design encompassed the nautical, lost at sea theme, a representative of leaving collage to join the industry. I also heavily contributed to the booklet design. The Guide The guide was used as navigation for the exhibition with a map printed in the book’s dust cover. The guide also encompassed student culture and promoted the university discussing lectures and other events that had occurred in during our time there. The Exhibition The exhibition was hosted in Shoreditch with our work displayed across two floors. The exhibition included vinyls and signage on the walls and windows to help visitors navigate.", //moreInfo
                     windowURL + "/images/projects/manOverboard/ManOverboard_WebSite3.png",
                     windowURL + "/images/projects/manOverboard/ManOverboard_WebSite1.png",
@@ -146,7 +156,13 @@
                 [ //project7 Zorokovick Vodka
                     "Zorokovick Vodka",
                     "Ice lollies for summer filled with zorokovick vodka",
-                    windowURL + "/images/projects/zorokovick/coverImage.jpg",
+                    [
+                      [windowURL + "/images/projects/zorokovick/mainImage_qucnme/mainImage_qucnme_c_scale,w_1128.tiff"],
+                      [windowURL + "/images/projects/zorokovick/mainImage_qucnme/mainImage_qucnme_c_scale,w_1128.tiff"],
+                      [windowURL + "/images/projects/zorokovick/mainImage_qucnme/mainImage_qucnme_c_scale,w_1555.tiff"],
+                      [windowURL + "/images/projects/zorokovick/mainImage_qucnme/mainImage_qucnme_c_scale,w_1920.tiff"],
+                    ],
+                    ,
                     "Promotion for a anew summer time lolly pop that contained. this was a custom site built from scratch and large format promotional images for the event and used through out the site.",
                     windowURL + "/images/projects/zorokovick/landingpage.jpg",
                     windowURL + "/images/projects/zorokovick/home.jpg",
@@ -159,15 +175,15 @@
                 [ //project7 Micro sites
                     "Micro sites",
                     "Wordpress and micro sites",
-                    windowURL + "/images/projects/MicroSites/mainImage.jpg",
+                    windowURL + "/images/projects/MicroSites/image.jpg",
                     "This was a custom one page wordpress theme for Executive Organisers, this was their main site for advertising and promoting their services. This site was fully responcive. This site reinforced the brand.",
-                    windowURL + "/images/projects/MicroSites/Untitled-3.jpg",
-                    windowURL + "/images/projects/MicroSites/EOwebsitevs2.jpg",
-                    windowURL + "/images/projects/MicroSites/Account4it-website-vs1.jpg",
+                    windowURL + "/images/projects/MicroSites/adGallery.jpg",
+                    windowURL + "/images/projects/MicroSites/executiveOrganisers.jpg",
+                    windowURL + "/images/projects/MicroSites/accountForIt.jpg",
                     "The internet is becoming the town square for the global village of tommorow. - Bill gates",
-                    windowURL + "/images/projects/MicroSites/HelloHellositevs1.jpg",
-                    windowURL + "/images/projects/MicroSites/vc.jpg", // 8&4
-                    windowURL + "/images/projects/MicroSites/RoyalAscot.jpg" // ?
+                    windowURL + "/images/projects/MicroSites/VisionOptique.jpg",
+                    windowURL + "/images/projects/MicroSites/vestiaireCollective.jpg", // 8&4
+                    windowURL + "/images/projects/MicroSites/royalAscot.jpg" // ?
                 ],
            ];
 
@@ -546,7 +562,7 @@
 
                                 name = AWprojectDat[i][0].replace(/\s/g,'');
                                 title = '<div class="AW__project__title"><h2>' + AWprojectDat[i][0] + '</h2><h3>' + AWprojectDat[i][1] + '</h3></div>';
-                                mainImg = '<style>.AW__project__main-img {background-image: url(' + AWprojectDat[i][2][0] + ');}@media only screen and (min-width : 600px) {.AW__project__main-img {background-image: url(' + AWprojectDat[i][2][1] + ');}}@media only screen and (min-width : 1200px) {.AW__project__main-img {background-image: url(' + AWprojectDat[i][2][2] + ');}}@media only screen and (min-width : 1200px) {.AW__project__main-img {background-image: url(' + AWprojectDat[i][2][3] + ');}}</style><div class="AW__project__main-img"></div>';
+                                mainImg = '<style>.AW__project__main-img {background-image: url(' + AWprojectDat[i][2][0] + ');}@media only screen and (min-width : 700px) {.AW__project__main-img {background-image: url(' + AWprojectDat[i][2][1] + ');}}@media only screen and (min-width : 1400px) {.AW__project__main-img {background-image: url(' + AWprojectDat[i][2][2] + ');}}@media only screen and (min-width : 1600px) {.AW__project__main-img {background-image: url(' + AWprojectDat[i][2][3] + ');}}</style><div class="AW__project__main-img"></div>';
                                 paragraph = '<div class="AW__project__para"><p>' + AWprojectDat[i][3] + '</p></div><span class="AW__project__read-more">read more</span>';
                                 image = '<div class="' + imageStyle + '"><div><img src="' + AWprojectDat[i][4] + '"><img src="' + AWprojectDat[i][5] + '"></div><div><img src="' + AWprojectDat[i][6] + '"></div></div>';
                                 quote = '<div class="AW__project__quote"><blockquote>' + AWprojectDat[i][7] + '</blockquote></div>';
