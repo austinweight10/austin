@@ -12,7 +12,7 @@
                     "Banner Ads",
                     "From prospecting to retargeting",
                     windowURL + "/images/projects/bannerAds/mainImage.jpg",
-                    "I headed up the fashion side of Quantcast's clients and had the pleaseure of working with some of the most renound retailers in the industry. This is a selection of ads that I designed and built for them. There are a number of different styles of ads from prospecting all the way down the funnel to retargeting. All of the ads are designed for performance and evaluated against uplift on a campaign by campaign level.",
+                    "I headed up the fashion side of Quantcast's clientle and had the pleaseure of working with some of the most renound retailers in the industry. This is a selection of ads that I designed and built for them. There are a number of different styles of ads from prospecting all the way down the funnel to retargeting. All of the ads are designed for performance and evaluated against uplift on a campaign by campaign level.",
                     windowURL + "/images/projects/bannerAds/images/Missguided2-300x250.jpg",
                     windowURL + "/images/projects/bannerAds/images/Matches-Fashion-300x250.png",
                     windowURL + "/images/projects/bannerAds/images/Abercrombi&Fitch-300x250.png",
@@ -36,20 +36,34 @@
                     "End Clothing",
                     "Rebuild redesigned End. Clothing site on Magento 2",
                     windowURL + "/images/projects/endClothing/mainImage.png", // fashion image
-                    "I was on the front-end team, in this project we moved the existing End. Clothing site built on magento on to magento 2 and rebuilt it with a fully responcive font-end with progressive web app features along with a seperate styleguide, I also retemplated the whole email system with mjml for transactional emails and marketing, extended the saved items for all social sharing and updating cart and prefrences, built a customm help desk and added custome blocks for reuse through the site.",
+                    "In this project we moved the existing End. Clothing site built on magento on to magento 2.We rebuilt it with a fully responcive font-end with progressive web app features along with a seperate styleguide, I also retemplated the whole email system with mjml for transactional emails and marketing and built this into magento core. We extended the saved items for all social sharing and updating of item prefrences within saved items. I also built a customm help desk and added custom blocks for reuse through the site. We built a seperate site for launching unique items built in angular and I built a seperate blog on wordpress.",
                     windowURL + "/images/projects/endClothing/1.png", //home page
+                    windowURL + "/images/projects/endClothing/1.png", //home cart
+                    windowURL + "/images/projects/endClothing/1.png", //home country select
+                    "For eccomerce trust is the most important thing - Jack Ma",
                     windowURL + "/images/projects/endClothing/1.png", // plp
                     windowURL + "/images/projects/endClothing/1.png", // pdp
-                    "For eccomerce trust is the most important thing - Jack Ma",
-                    windowURL + "/images/projects/endClothing/1.png", // saved items
-                    windowURL + "/images/projects/endClothing/1.png", // launches
-                    windowURL + "/images/projects/endClothing/1.png" // the blog
+                    windowURL + "/images/projects/endClothing/1.png", // careers home
+                    // windowURL + "/images/projects/endClothing/1.png", // careers listing
+                    // windowURL + "/images/projects/endClothing/1.png", // saved items
+                    // windowURL + "/images/projects/endClothing/1.png", // saved email
+                    // windowURL + "/images/projects/endClothing/1.png", // stores
+                    // windowURL + "/images/projects/endClothing/1.png", // store
+                    // windowURL + "/images/projects/endClothing/1.png", // home mobile - short page
+                    // windowURL + "/images/projects/endClothing/1.png", // plp mobile - short page few items
+                    // windowURL + "/images/projects/endClothing/1.png", // pdp mobile - short page
+                    // windowURL + "/images/projects/endClothing/1.png", // saved items mobile - short page few items
+                    // windowURL + "/images/projects/endClothing/1.png", // launches home
+                    // windowURL + "/images/projects/endClothing/1.png", // launches PDP
+                    // windowURL + "/images/projects/endClothing/1.png" // the blog home
+                    // windowURL + "/images/projects/endClothing/1.png" // the blog article
+                    // prehaps buld a seperate js bit for this - like V&A and banner ads
                 ],
                 [ //project3 Creative Calculator
                     "Creative Calculator",
                     "Combining the design teams knowledge into a calculator",
                     windowURL + "/images/projects/creativeCalculator/mainImage.gif",
-                    "I lead this project and created a fully functioning ad calculator. The mission was to collect hundreds of ads and analised them using a custom grid and we then processed this data so that it was valid for use in the calculator. This was to enable anyone to drop an add into the calaculator and it would tell you the best and worst parts and where it could be imroved. This tock months of analising ads and comparing campaingns based on roi and click perfomance to provid useful insights. I was responsible for designing the grid and writing the calculator.",
+                    "I lead this project and created a fully functioning ad calculator. The mission was to collect hundreds of ads and analise them using a custom grid and my team then processed this data so that it was valid for use in the calculator. This was to enable anyone to drop an ad into the calaculator and it would tell you the best and worst parts and where it could be imroved. This tock months of analising ads and comparing campaingns based on roi and click perfomance and splitting the results accross the funnel to provid useful insights. I was responsible for designing the grid and building the calculator.",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator1.jpg",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator2.jpg",
                     windowURL + "/images/projects/creativeCalculator/Creative-calculator3.jpg",
@@ -75,7 +89,7 @@
                     "V&A - D&AD Entry",
                     "D&AD can suck it -- jokes",
                     windowURL + "/images/projects/vAndA/mainImage.jpg",
-                    "This was my D&AD entry for a project to redisign a hording that was going to be erected around the V&A prior to building their new courtyard and exhibition area. The breif was to promote the V&A", // have a look at submitted slides
+                    "This was my D&AD entry for a project to redisign a hording that was going to be erected around the V&A prior to building their new courtyard and exhibition area. The breif was to promote the V&A. This was situated oposite the natural history museum. The aim of this hording was to get people to interact with the V&A vast collection.",
                     windowURL + "/images/projects/vAndA/w9.jpg",
                     windowURL + "/images/projects/vAndA/w3.jpg",
                     windowURL + "/images/projects/vAndA/w4.jpg",
@@ -88,15 +102,15 @@
                 [ //project6 Yawp Jewllery
                     "Yawp Jewllery", // title
                     "Ecomerce site built on Wordpress with woocomerce",
-                    windowURL + "/images/projects/yawp/mainImage.png", // mainImage
+                    windowURL + "/images/projects/yawp/mainImage.png", // mainImage background of site or product photo
                     "I designed and built an eccomerce store on wordpress with woocomerce plugin. The idea was that the shopping expericance would would be more encompcing thus you had to move around the environment to find what you liked. I alos wanted the whole expericnce to be contained in one page. Thus the site relied heavily on ajax requests. This site takes advantage of a lot of new css features to make the whole site responcive. This site also managed the transactional emails.", //moreInfo
                     windowURL + "/images/projects/yawp/1.png", // homepage
                     windowURL + "/images/projects/yawp/1.png", // menu
-                    windowURL + "/images/projects/yawp/1.png", // pdp
+                    windowURL + "/images/projects/yawp/1.png", // product hover
                     "Every piece of jewllery tells a story. - Gem Hunt",
+                    windowURL + "/images/projects/yawp/1.png", // pdp
                     windowURL + "/images/projects/yawp/1.png", // cart
-                    windowURL + "/images/projects/yawp/1.png", // checkout
-                    windowURL + "/images/projects/yawp/1.png" // product hover
+                    windowURL + "/images/projects/yawp/1.png" // checkout
                 ],
                 [ //project7 Quantcast Home From Home
                     "Quantcast Home From Home",
@@ -113,8 +127,8 @@
                 ],
                 [ //project7 Match Betting
                     "Match Betting", // title
-                    "I love money and so does everyone else", //subtitle
-                    windowURL + "/images/projects/matchBetting/mainImage.png", // mainImage
+                    "I love money and so does everyone else",
+                    windowURL + "/images/projects/matchBetting/mainImage.png", // add horse racing image
                     "This project started out as a small app for a frind and developed into a fully functioning site taht allows people to save and chech bets against eachother, whilst offering advice based on splitting the bet for lowest posible losses, whille targeting high scoring bets. This app was built in react as this allowd me to update the constantly changing data on the fly. This was built as a Progressive web app and this all data was stored in the cache meaning the app worked offline.",
                     windowURL + "/images/projects/matchBetting/1.png", // landing page
                     windowURL + "/images/projects/matchBetting/1.png", // prev results open
@@ -146,9 +160,9 @@
                     windowURL + "/images/projects/MicroSites/EOwebsitevs2.jpg",
                     windowURL + "/images/projects/MicroSites/Account4it-website-vs1.jpg",
                     "The internet is becoming the town square for the global village of tommorow. - Bill gates",
-                    windowURL + "/images/projects/MicroSites/vc.jpg",
                     windowURL + "/images/projects/MicroSites/HelloHellositevs1.jpg",
-                    windowURL + "/images/projects/MicroSites/RoyalAscot.jpg"
+                    windowURL + "/images/projects/MicroSites/vc.jpg", // 8&4
+                    windowURL + "/images/projects/MicroSites/RoyalAscot.jpg" // ?
                 ],
            ];
 
@@ -489,7 +503,7 @@
                           var isSpecial = '';
 
                             if (projectName == AWprojectDat[i][0]) {
-                                var selectedPro = ["Banner Ads", "V&A - D&AD Entry"];
+                                var selectedPro = ["Banner Ads", "V&A - D&AD Entry", "End Clothing"];
                                 var specialCont = "";
                                 if (AWprojectDat[i][0] === selectedPro[1]) {
                                     special = function(parse) {
@@ -500,6 +514,10 @@
                                     special = function(parse) {
                                         // functionallity for videos of banner ads
                                         specialCont = '<div class="AW__project__vidios"><video width="300" height="250" src="' + parse[0] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[1] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[2] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[3] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[4] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[5] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[6] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[7] + '" muted loop autoplay></video><video width="300" height="250" src="' + parse[8] + '" muted loop autoplay></video></div>';
+                                    };
+                                } else if (AWprojectDat[i][0] === selectedPro[2]) {
+                                    special = function(parse) {
+                                        specialCont = '<div class="AW__project__images--expand"><div><img src="' + parse[0] + '"><img src="' + parse[1] + '"></div><div><img src="' + parse[2] + '"></div></div><div class="AW__project__images--expand"><div><img src="' + parse[3] + '"><img src="' + parse[4] + '"></div><div><img src="' + parse[5] + '"></div></div><div class="AW__project__images--expand"><div><img src="' + parse[6] + '"><img src="' + parse[7] + '"></div><div><img src="' + parse[8] + '"></div></div><div class="AW__project__images--expand"><div><img src="' + parse[10] + '"><img src="' + parse[11] + '"></div><div><img src="' + parse[12] + '"></div></div>';
                                     };
                                 }
 
