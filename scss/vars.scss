@@ -41,8 +41,15 @@ $sansSerfifStyle: 'Sansita', sans-serif;
 // site container
 .container {
 	max-width: 2000px;
-	margin: auto;
 	background: $veryLightGreen;
+	overflow: hidden;
+  margin: 0 -10px;
+}
+
+@media (min-width: 2000px) {
+	.container {
+		margin: auto;
+	}
 }
 
 body {
