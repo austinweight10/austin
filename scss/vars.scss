@@ -43,12 +43,12 @@ $sansSerfifStyle: 'Sansita', sans-serif;
 	max-width: 2000px;
 	background: $veryLightGreen;
 	overflow: hidden;
-  margin: 0 -10px;
+  margin: -10px -10px;
 }
 
 @media (min-width: 2000px) {
 	.container {
-		margin: auto;
+		margin: -10px auto;
 	}
 }
 
